@@ -1,0 +1,19 @@
+{
+    "OfferListResponse": {
+        "@type": "OfferListResponse",
+        "Result": {
+            "@type": "Result",
+            "Error": [
+                {
+                    "@type": "ErrorDetail",
+                    "category": " ",
+                    "StatusCode": 200,
+                    "Message": "Communication Error",
+                    "SourceID": "EK",
+                    "SourceCode": "2599",
+                    "SourceDescription": "EK : Access denied. Invalid PCC, Agent ID, and/or Password"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,276 @@
+{
+  "OfferQueryBuildFromProductsAtomic": {
+    "@type": "OfferQueryBuildFromProductsAtomic",
+    "RuntimeAccessGroup": {
+      "@type": "RuntimeAccessGroupSummary",
+      "id": "1759743D-AFC3-4D33-B0B6-0D9A901E9AE8",
+      "AccessGroupInternalName": "809F5072-29AB-4DDD-9C59-86274F367552.682J.1G",
+      "AccessGroupCustomerName": "Please Change Me! (682J 1G)",
+      "GlobalCustomerId": "809F5072-29AB-4DDD-9C59-86274F367552",
+      "ConfigurationInfo": [
+        {
+          "name": "AgencyClock",
+          "value": "24"
+        },
+        {
+          "name": "AgencyCountry",
+          "value": "HK"
+        },
+        {
+          "name": "AgencyGroup",
+          "value": "00000007179"
+        },
+        {
+          "name": "AgencyName",
+          "value": "GALILEO HONG KONG B"
+        },
+        {
+          "name": "AgencyPFARActivationIndicator",
+          "value": "1"
+        },
+        {
+          "name": "AgencyRegion",
+          "value": "HKG"
+        },
+        {
+          "name": "AgencyType"
+        },
+        {
+          "name": "AgencyTypeCode",
+          "value": "G"
+        },
+        {
+          "name": "APIAuthCarriers",
+          "value": "AV-AC-EK-KL-AF-EY-QR-CX-SK-AY-WS-BA-LH-OS-LX-SN-QF-SQ-AA-UA-6E-DL-WA-LR-T0-2K-1G-XZ-AG"
+        },
+        {
+          "name": "AuthorizedCarriers",
+          "value": "AA-AC-AF-AI-AM-AR-AT-AV-AY-AZ-BA-BI-BP-BR-BT-CI-CM-CX-CZ-DL-DT-DZ-ET-EY-FI-FJ-GF-GP-GQ-HA-HM-HO-HR-HX-HY-IC-IE-IG-JD-JJ-JL-JQ-KA-KC-KF-KL-KP-KR-LA-LH-LQ-LX-MD-MH-MK-NF-NH-NX-NZ-OD-OK-OS-OU-OZ-PG-PK-PR-PS-PX-QD-QF-QR-RA-RJ-RS-SA-SB-SC-SK-SQ-SU-SW-SZ-TC-TG-TK-TM-TP-TU-TV-TW-TX-UA-UB-UK-UL-UO-UX-VA-VN-VT-WB-WY-XB-ZE-B2-G3-K6-S7-U6-W2-7C-8M-9B-"
+        },
+        {
+          "name": "BSPCode",
+          "value": "031"
+        },
+        {
+          "name": "CIDB",
+          "value": "0000402241"
+        },
+        {
+          "name": "CurrencyCode",
+          "value": "HKD"
+        },
+        {
+          "name": "CustomerCountry",
+          "value": "HK"
+        },
+        {
+          "name": "CustomerName",
+          "value": "GALILEO HONG KONG B"
+        },
+        {
+          "name": "CustomerSegmentCode",
+          "value": "SBR"
+        },
+        {
+          "name": "CustomerTypeCode",
+          "value": "DEV"
+        },
+        {
+          "name": "GDSaffinity",
+          "value": "1G"
+        },
+        {
+          "name": "HCAprofileId",
+          "value": "ODTS_1G_682J_9FAE35"
+        },
+        {
+          "name": "HospitalityAggregators"
+        },
+        {
+          "name": "HospitalityCredentials"
+        },
+        {
+          "name": "IATAnumber",
+          "value": "9999999"
+        },
+        {
+          "name": "MasterGTID",
+          "value": "9FAE35"
+        },
+        {
+          "name": "NDCCode",
+          "value": "HKG"
+        },
+        {
+          "name": "PostalCode",
+          "value": "NA"
+        },
+        {
+          "name": "PriceTierInd",
+          "value": "3"
+        },
+        {
+          "name": "PrinterAddress",
+          "value": "NULL"
+        },
+        {
+          "name": "PseudoCityCode",
+          "value": "682J"
+        },
+        {
+          "name": "TimeZone",
+          "value": "HKG"
+        },
+        {
+          "name": "WHPS",
+          "value": "CTP"
+        }
+      ],
+      "CustomerName": "Galileo Hong Kong B",
+      "ProductEntitlement": [
+        {
+          "@type": "ProductEntitlement",
+          "id": "7A0AD73F-CE4D-4A7C-9235-287618E5D4E9",
+          "Code": "AIRK11",
+          "Name": "AirKit_V11"
+        },
+        {
+          "@type": "ProductEntitlement",
+          "id": "B475FED6-B18D-4E1A-8E4A-BA353B99B3FF",
+          "Code": "TRPCK01",
+          "Name": "Exchanges and Refunds"
+        }
+      ]
+    },
+    "CatalogOffering": {
+      "@type": "CatalogOffering",
+      "Identifier": {
+        "authority": "QR",
+        "value": "WDg4NTMzNDg2LTUxRjYtNEFGNS1CNUU2LTF8WDg4NTMzNDg2LTUxRjYtNEFGNS1CNUU2fDIwMjQtMDMtMTRUMTg6MDA6MDJ8QURUOlg4ODUzMzQ4Ni01MUY2LTRBRjUtQjVFNi0xLTF8RU58QVBJSm91cm5leVR5cGU6Sm91cm5leQ=="
+      },
+      "ProductOptions": [
+        {
+          "@type": "ProductOptions",
+          "Identifier": {
+            "authority": "QR",
+            "value": "WDg4NTMzNDg2LTUxRjYtNEFGNS1CNUU2LTF8WDg4NTMzNDg2LTUxRjYtNEFGNS1CNUU2fDIwMjQtMDMtMTRUMTg6MDA6MDJ8QURUOlg4ODUzMzQ4Ni01MUY2LTRBRjUtQjVFNi0xLTF8RU58QVBJSm91cm5leVR5cGU6Sm91cm5leQ=="
+          },
+          "Product": [
+            {
+              "@type": "ProductAir",
+              "totalDuration": "PT5H10M",
+              "id": "QRp0",
+              "FlightSegment": [
+                {
+                  "@type": "FlightSegment",
+                  "id": "1",
+                  "sequence": 1,
+                  "Flight": {
+                    "@type": "FlightDetail",
+                    "stops": 0,
+                    "duration": "PT5H10M",
+                    "carrier": "QR",
+                    "number": "540",
+                    "operatingCarrier": "QR",
+                    "operatingCarrierName": "QATAR AIRWAYS",
+                    "equipment": "333",
+                    "id": "QRs2",
+                    "Departure": {
+                      "@type": "DepartureDetail",
+                      "location": "DOH",
+                      "date": "2024-05-18",
+                      "time": "18:40:00"
+                    },
+                    "Arrival": {
+                      "@type": "ArrivalDetail",
+                      "location": "CCU",
+                      "date": "2024-05-19",
+                      "time": "02:20:00"
+                    }
+                  }
+                }
+              ],
+              "PassengerFlight": [
+                {
+                  "@type": "PassengerFlight",
+                  "passengerQuantity": 1,
+                  "passengerTypeCode": "ADT",
+                  "FlightProduct": [
+                    {
+                      "@type": "FlightProduct",
+                      "segmentSequence": [
+                        1
+                      ],
+                      "classOfService": "V",
+                      "cabin": "Economy",
+                      "fareBasisCode": "VJQAR1SE",
+                      "fareType": "PublicFare",
+                      "Brand": {
+                        "@type": "Brand",
+                        "name": "ECONOMY CONVENIENCE",
+                        "id": "QRb3"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Price": {
+        "@type": "PriceDetail",
+        "CurrencyCode": {
+          "decimalPlace": 0,
+          "value": "HKD"
+        },
+        "Base": 2420,
+        "TotalTaxes": 769,
+        "TotalFees": 0,
+        "TotalPrice": 3189,
+        "PriceBreakdown": [
+          {
+            "@type": "PriceBreakdownAir",
+            "quantity": 1,
+            "requestedPassengerType": "ADT",
+            "Amount": {
+              "@type": "Amount",
+              "CurrencyCode": {
+                "decimalPlace": 0,
+                "value": "HKD"
+              },
+              "Base": 2420,
+              "Taxes": {
+                "@type": "TaxesDetail",
+                "TotalTaxes": 769
+              },
+              "Fees": {
+                "@type": "FeesDetail",
+                "TotalFees": 0
+              },
+              "Total": 3189
+            }
+          }
+        ]
+      }
+    },
+    "OfferQueryBuildFromProducts": {
+      "returnBrandedFaresInd": true,
+      "BuildFromProductsRequest": {
+        "@type": "BuildFromProductsRequestAir",
+        "PassengerCriteria": [
+          {
+            "@type": "PassengerCriteria",
+            "number": 1,
+            "passengerTypeCode": "ADT"
+          }
+        ],
+        "CustomResponseModifiersAir": {
+          "@type": "CustomResponseModifiersAir",
+          "SearchRepresentation": "Journey"
+        }
+      },
+      "FareRuleType": "ShortText"
+    }
+  }
+}

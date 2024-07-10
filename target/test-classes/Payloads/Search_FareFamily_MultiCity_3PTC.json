@@ -1,0 +1,73 @@
+{
+  "CatalogProductOfferingsQueryRequest" : {
+    "@type" : "CatalogProductOfferingsQueryRequest",
+    "CatalogProductOfferingsRequest" : {
+      "@type" : "CatalogProductOfferingsRequestAir",
+      "PassengerCriteria" : [ {
+        "@type" : "PassengerCriteria",
+        "number" : "${s1stPtcCnt}",
+        "passengerTypeCode" : "${s1stPtcType}"
+      },{
+        "@type" : "PassengerCriteria",
+        "number" : "${s2ndPtcCnt}",
+        "passengerTypeCode" : "${s2ndPtcType}"
+      
+      },{
+        "@type" : "PassengerCriteria",
+        "number" : "${s3rdPtcCnt}",
+        "passengerTypeCode" : "${s3rdPtcType}"
+      
+      } ],
+      "SearchCriteriaFlight" : [ {
+        "@type" : "SearchCriteriaFlight",
+        "departureDate" : "${DeptDate}",
+        "From" : {
+          "cityOrAirport" : "Airport Only",
+          "value" : "${DeptflightFrom}"
+        },
+        "To" : {
+          "cityOrAirport" : "Airport Only",
+          "value" : "${DeptflightTo}"
+        }
+      }, {
+        "@type" : "SearchCriteriaFlight",
+        "departureDate" : "${OnwrdDate}",
+        "From" : {
+          "cityOrAirport" : "Airport Only",
+          "value" : "${OnwrdflightFrom}"
+        },
+        "To" : {
+          "cityOrAirport" : "Airport Only",
+          "value" : "${OnwrdflightTo}"
+        }
+      },{
+        "@type" : "SearchCriteriaFlight",
+        "departureDate" : "${RetnDate}",
+        "From" : {
+          "cityOrAirport" : "Airport Only",
+          "value" : "${RetnflightFrom}"
+        },
+        "To" : {
+          "cityOrAirport" : "Airport Only",
+          "value" : "${RetnflightTo}"
+        }
+      } ],
+      "SearchModifiersAir" : {
+        "@type" : "SearchModifiersAir",
+        "CarrierPreference" : [ {
+          "@type" : "CarrierPreference",
+          "preferenceType" : "Permitted",
+          "carriers" : [ "${Carrier}" ]
+        } ]
+      },
+      "PricingModifiersAir" : {
+        "@type" : "PricingModifiersAir",
+        "currencyCode" : "${CurrencyCode}"	
+      },
+      "CustomResponseModifiersAir" : {
+        "@type" : "CustomResponseModifiersAir",
+        "SearchRepresentation" : "Journey"
+      }
+    }
+  }
+}

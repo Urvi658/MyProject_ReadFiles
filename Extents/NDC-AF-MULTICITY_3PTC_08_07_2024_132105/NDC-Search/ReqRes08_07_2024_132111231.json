@@ -1,0 +1,73 @@
+{
+    "CatalogProductOfferingsQueryRequest": {
+        "@type": "CatalogProductOfferingsQueryRequest",
+        "CatalogProductOfferingsRequest": {
+            "@type": "CatalogProductOfferingsRequestAir",
+            "maxNumberOfOffersToReturn": "50",
+            "maxNumberOfUpsellsToReturn": "4",
+            "PassengerCriteria": [
+                {
+                    "@type": "PassengerCriteria",
+                    "number": 1,
+                    "passengerTypeCode": "INF"
+                },
+                {
+                    "@type": "PassengerCriteria",
+                    "number": 1,
+                    "passengerTypeCode": "ADT"
+                },
+                {
+                    "@type": "PassengerCriteria",
+                    "number": 1,
+                    "passengerTypeCode": "CHD"
+                }
+            ],
+            "SearchCriteriaFlight": [
+                {
+                    "@type": "SearchCriteriaFlight",
+                    "departureDate": "2024-08-07",
+                    "From": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "DEL"
+                    },
+                    "To": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "MEX"
+                    }
+                },
+                {
+                    "@type": "SearchCriteriaFlight",
+                    "departureDate": "2024-08-12",
+                    "From": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "MEX"
+                    },
+                    "To": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "AMS"
+                    }
+                }
+            ],
+            "SearchModifiersAir": {
+                "@type": "SearchModifiersAir",
+                "CarrierPreference": [
+                    {
+                        "@type": "CarrierPreference",
+                        "preferenceType": "Permitted",
+                        "carriers": [
+                            "AF"
+                        ]
+                    }
+                ]
+            },
+            "PricingModifiersAir": {
+                "@type": "PricingModifiersAir",
+                "currencyCode": "EUR"
+            },
+            "CustomResponseModifiersAir": {
+                "@type": "CustomResponseModifiersAir",
+                "SearchRepresentation": "Leg"
+            }
+        }
+    }
+}

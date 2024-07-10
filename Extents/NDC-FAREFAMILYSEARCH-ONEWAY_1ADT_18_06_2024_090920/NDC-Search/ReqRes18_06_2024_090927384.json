@@ -1,0 +1,54 @@
+{
+    "CatalogProductOfferingsQueryRequest": {
+        "@type": "CatalogProductOfferingsQueryRequest",
+        "CatalogProductOfferingsRequest": {
+            "@type": "CatalogProductOfferingsRequestAir",
+            "PassengerCriteria": [
+                {
+                    "@type": "PassengerCriteria",
+                    "number": 1,
+                    "passengerTypeCode": "ADT"
+                },
+                {
+                    "@type": "PassengerCriteria",
+                    "number": "",
+                    "passengerTypeCode": ""
+                }
+            ],
+            "SearchCriteriaFlight": [
+                {
+                    "@type": "SearchCriteriaFlight",
+                    "departureDate": "2024-07-18",
+                    "From": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "DOH"
+                    },
+                    "To": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "HKG"
+                    }
+                }
+            ],
+            "SearchModifiersAir": {
+                "@type": "SearchModifiersAir",
+                "CarrierPreference": [
+                    {
+                        "@type": "CarrierPreference",
+                        "preferenceType": "Permitted",
+                        "carriers": [
+                            "QR"
+                        ]
+                    }
+                ]
+            },
+            "PricingModifiersAir": {
+                "@type": "PricingModifiersAir",
+                "currencyCode": "USD"
+            },
+            "CustomResponseModifiersAir": {
+                "@type": "CustomResponseModifiersAir",
+                "SearchRepresentation": "Leg"
+            }
+        }
+    }
+}

@@ -1,0 +1,529 @@
+{
+    "OfferListResponse": {
+        "@type": "OfferListResponse",
+        "OfferID": [
+            {
+                "@type": "Offer",
+                "id": "o0",
+                "Identifier": {
+                    "authority": "QR",
+                    "value": "MUYyUVJaX2owcktRcmtOWXRqa1VKVmZsaVI1a2J1SVlScHl8MUYyUVJaX2owcktRcmtOWXRqa1VKVmZsaVI1a2J1SVlScHl8b3JnLmlhdGEuaWF0YS5fMjAxNS5fMDAuXzIwMThfMS5vZmZlcnByaWNlcnMuRGF0ZVRpbWVUeXBlQDUzOTI3MjJhfEFEVDoxRjJRUlpfajByS1Fya05ZdGprVUpWZmxpUjVrYnVJWVJweS0xfFFSfHAwX3MyLVNFRzJ8QURUOlBBWDF8Q3VycmVuY3lDb2RlOlVTRA=="
+                },
+                "Product": [
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT8H20M",
+                        "id": "p0",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "s2",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "Flight",
+                                    "stops": 0,
+                                    "duration": "PT8H20M",
+                                    "carrier": "QR",
+                                    "number": "818",
+                                    "operatingCarrier": "QR",
+                                    "operatingCarrierName": "QATAR AIRWAYS",
+                                    "equipment": "77W",
+                                    "id": "f1",
+                                    "Identifier": {
+                                        "value": "SEG2"
+                                    },
+                                    "Departure": {
+                                        "@type": "DepartureDetail",
+                                        "location": "DOH",
+                                        "date": "2024-07-19",
+                                        "time": "01:45:00"
+                                    },
+                                    "Arrival": {
+                                        "@type": "ArrivalDetail",
+                                        "terminal": "1",
+                                        "location": "HKG",
+                                        "date": "2024-07-19",
+                                        "time": "15:05:00"
+                                    }
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1
+                                        ],
+                                        "classOfService": "N",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "NLQAR1RI",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "Brand",
+                                            "name": "ECONOMY CLASSIC"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "Price": {
+                    "@type": "PriceDetail",
+                    "CurrencyCode": {
+                        "decimalPlace": 2,
+                        "value": "USD"
+                    },
+                    "Base": 656.00,
+                    "TotalTaxes": 117.45,
+                    "TotalFees": 0.00,
+                    "TotalPrice": 773.45,
+                    "PriceBreakdown": [
+                        {
+                            "@type": "PriceBreakdownAir",
+                            "quantity": 1,
+                            "requestedPassengerType": "ADT",
+                            "Amount": {
+                                "@type": "Amount",
+                                "CurrencyCode": {
+                                    "value": "USD"
+                                },
+                                "Base": 656.00,
+                                "Taxes": {
+                                    "@type": "TaxesDetail",
+                                    "TotalTaxes": 117.45,
+                                    "Tax": [
+                                        {
+                                            "taxCode": "YQ",
+                                            "value": 63.20
+                                        },
+                                        {
+                                            "taxCode": "YR",
+                                            "value": 16.50
+                                        },
+                                        {
+                                            "taxCode": "G4",
+                                            "value": 16.50
+                                        },
+                                        {
+                                            "taxCode": "PZ",
+                                            "value": 2.05
+                                        },
+                                        {
+                                            "taxCode": "QA",
+                                            "value": 16.50
+                                        },
+                                        {
+                                            "taxCode": "R9",
+                                            "value": 2.70
+                                        }
+                                    ]
+                                },
+                                "Total": 773.45
+                            }
+                        }
+                    ]
+                },
+                "TermsAndConditionsFull": [
+                    {
+                        "@type": "TermsAndConditionsFullAir",
+                        "ExpiryDate": "2024-06-19T22:00:36Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "p0"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "Measurement": [
+                                            {
+                                                "measurementType": "Weight",
+                                                "unit": "Kilograms",
+                                                "value": 30
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "30K"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "s2"
+                                ],
+                                "TextFareRule": [
+                                    {
+                                        "name": "AWARD_ACCRUAL",
+                                        "value": "ADT:50% Qmiles accumulation"
+                                    },
+                                    {
+                                        "name": "AWARD_UPGRADE",
+                                        "value": "ADT:Upgrade with Qmiles"
+                                    },
+                                    {
+                                        "name": "BAGGAGEALLOWANCE_CARRYON",
+                                        "value": "ADT:Carry on 7kg (1 piece)"
+                                    },
+                                    {
+                                        "name": "BAGGAGEALLOWANCE_CHECKED",
+                                        "value": "ADT:25kg checked baggage / Piece(s) 2, per piece 23 Kg checked baggage"
+                                    },
+                                    {
+                                        "name": "CANCEL_BEFOREDEPARTURE",
+                                        "value": "ADT:Charges will apply"
+                                    },
+                                    {
+                                        "name": "CHANGE_BEFOREDEPARTURE",
+                                        "value": "ADT:1 free change, charge will apply to further changes"
+                                    },
+                                    {
+                                        "name": "DISCLAIMER",
+                                        "value": "ADT:Remember to check your immigration and health requirements before you travel and ensure you carry the required travel documents. Please note that if the flight is operated by another airline then the on-board product or service maybe different to that described."
+                                    },
+                                    {
+                                        "name": "LOUNGEACCESS",
+                                        "value": "ADT:Charges will apply"
+                                    },
+                                    {
+                                        "name": "MIXEDFARETYPE",
+                                        "value": "ADT:When a ticket is booked with a combination of fares, the most restrictive cancellation rule will apply."
+                                    },
+                                    {
+                                        "name": "SEATSELECTION",
+                                        "value": "ADT:Charges will apply"
+                                    }
+                                ]
+                            }
+                        ],
+                        "PaymentTimeLimit": "2024-06-25T20:59:00Z",
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangeNotPermitted",
+                                        "ProductRefs": [
+                                            "p0"
+                                        ]
+                                    },
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "AfterDeparture",
+                                            "ExchangeNotRequired"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "AfterDeparture",
+                                            "ExchangeRequired"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture",
+                                            "NoShow",
+                                            "ExchangeNotRequired"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture",
+                                            "ExchangeRequired"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ]
+                                    },
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture",
+                                            "NoShow",
+                                            "ExchangeRequired"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ]
+                                    },
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture",
+                                            "ExchangeRequired"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 215.00
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture",
+                                            "ExchangeNotRequired"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "AfterDeparture",
+                                            "NoShow",
+                                            "ExchangeRequired"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture",
+                                            "NoShow",
+                                            "ExchangeRequired"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 215.00
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "AfterDeparture",
+                                            "NoShow",
+                                            "ExchangeNotRequired"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ]
+                                    },
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture",
+                                            "NoShow"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ]
+                                    },
+                                    {
+                                        "@type": "CancelNotPermitted",
+                                        "ProductRefs": [
+                                            "p0"
+                                        ]
+                                    },
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "penaltyTypes": [
+                                            "AfterDeparture",
+                                            "NoShow"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "penaltyTypes": [
+                                            "AfterDeparture"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture",
+                                            "NoShow"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 215.00
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "USD",
+                                                    "value": 215.00
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Waiver": [
+                                    "DeathOfPassenger",
+                                    "IllnessOfPassenger"
+                                ],
+                                "PassengerTypeCodes": [
+                                    "ADT"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Result": {
+            "@type": "Result",
+            "Warning": [
+                {
+                    "@type": "Warning",
+                    "Message": "Unable to process branding details for this request:java.lang.IllegalStateException: Expected BEGIN_ARRAY but was STRING at line 1 column 2 path $"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+"{Headers=[server=Apache-Coyote/1.1\nContent-Type=application/json\ntransfer-encoding=chunked\ncontent-encoding=gzip\nvary=Accept-Encoding\ndate=Tue, 25 Jun 2024 04:03:15 GMT], Status Code=[200]}"  "Result": {
+            "@type": "Result",
+            "Error": [
+                {
+                    "@type": "ErrorDetail",
+                    "StatusCode": 400,
+                    "Message": "Communication Error",
+                    "SourceID": "QR",
+                    "SourceCode": "2599",
+                    "SourceDescription": "Error calling Carrier:  42|Transport|Temporary network error:unable to reach targeted application"
+                }
+            ]
+        },
+        "NextSteps": {
+            "@type": "NextSteps"
+        }
+    }
+}

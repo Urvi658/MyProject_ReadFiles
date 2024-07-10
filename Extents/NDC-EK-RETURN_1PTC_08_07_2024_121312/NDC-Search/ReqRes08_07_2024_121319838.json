@@ -1,0 +1,2702 @@
+{
+    "CatalogProductOfferingsResponse": {
+        "CatalogProductOfferings": {
+            "@type": "CatalogProductOfferings",
+            "id": "EK_CPOS1",
+            "Identifier": {
+                "authority": "EK",
+                "value": "'9d2c9380-23f7-4a87-849d-6e154c1462bc'"
+            },
+            "CatalogProductOffering": [
+                {
+                    "@type": "CatalogProductOffering",
+                    "sequence": 1,
+                    "id": "EK_CPO0",
+                    "Identifier": {
+                        "authority": "EK",
+                        "value": "WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4fEVLX0NQTzA="
+                    },
+                    "Departure": "HKG",
+                    "Arrival": "DXB",
+                    "Brand": [
+                        {
+                            "@type": "BrandID",
+                            "BrandRef": "EKb0"
+                        },
+                        {
+                            "@type": "BrandID",
+                            "BrandRef": "EKb1"
+                        },
+                        {
+                            "@type": "BrandID",
+                            "BrandRef": "EKb2"
+                        }
+                    ],
+                    "ProductBrandOptions": [
+                        {
+                            "@type": "ProductBrandOptions",
+                            "ProductBrandOffering": [
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "EK",
+                                        "value": "WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4LTF8WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4fDIwMjQtMDctMDhUMTg6MzM6MTZ8QURUOlgxMzI3NDkwQS00REMxLTQxMEMtOEVCOC0xLTF8RUt8QVBJSm91cm5leVR5cGU6TGVnfEFQSUpvdXJuZXlUeXBlOkxlZ0ludGVybmF0aW9uYWw="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 183.00,
+                                        "TotalTaxes": 139.10,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 322.10,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 183.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 139.10,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 20.50
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 94.80
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 322.10
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "EKb0"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "EKp0"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "EKt0"
+                                    },
+                                    "CombinabilityCode": [
+                                        "EK_CC01"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 446.00,
+                                        "TotalTaxes": 269.40,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 715.40,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 446.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 269.40,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "TP",
+                                                                "description": "Psgr Security and Safety Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 189.60
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 2.80
+                                                            },
+                                                            {
+                                                                "taxCode": "AE",
+                                                                "description": "UAE Passenger Service Charge",
+                                                                "value": 20.40
+                                                            },
+                                                            {
+                                                                "taxCode": "G8",
+                                                                "description": "International Dep/Arr Fee",
+                                                                "value": 0.40
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 20.50
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 1.00
+                                                            },
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "F6",
+                                                                "description": "Passenger Facilities Charge",
+                                                                "value": 10.90
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "Fees",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 715.40
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "90a42819-4183-4d67-b53a-ce486e25e419"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "ProductBrandOptions",
+                            "ProductBrandOffering": [
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "EK",
+                                        "value": "WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4LTJ8WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4fDIwMjQtMDctMDhUMTg6MzM6MTZ8QURUOlgxMzI3NDkwQS00REMxLTQxMEMtOEVCOC0yLTF8RUt8QVBJSm91cm5leVR5cGU6TGVnfEFQSUpvdXJuZXlUeXBlOkxlZ0ludGVybmF0aW9uYWw="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 249.00,
+                                        "TotalTaxes": 139.10,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 388.10,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 249.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 139.10,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 20.50
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 94.80
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 388.10
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "EKb0"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "EKp1"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "EKt1"
+                                    },
+                                    "CombinabilityCode": [
+                                        "EK_CC57"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 512.00,
+                                        "TotalTaxes": 269.40,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 781.40,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 512.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 269.40,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "TP",
+                                                                "description": "Psgr Security and Safety Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 189.60
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 2.80
+                                                            },
+                                                            {
+                                                                "taxCode": "AE",
+                                                                "description": "UAE Passenger Service Charge",
+                                                                "value": 20.40
+                                                            },
+                                                            {
+                                                                "taxCode": "G8",
+                                                                "description": "International Dep/Arr Fee",
+                                                                "value": 0.40
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 20.50
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 1.00
+                                                            },
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "F6",
+                                                                "description": "Passenger Facilities Charge",
+                                                                "value": 10.90
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "Fees",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 781.40
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "90a42819-4183-4d67-b53a-ce486e25e419"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "ProductBrandOptions",
+                            "ProductBrandOffering": [
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "EK",
+                                        "value": "WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4LTV8WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4fDIwMjQtMDctMDhUMTg6MzM6MTZ8QURUOlgxMzI3NDkwQS00REMxLTQxMEMtOEVCOC01LTF8RUt8QVBJSm91cm5leVR5cGU6TGVnfEFQSUpvdXJuZXlUeXBlOkxlZ0ludGVybmF0aW9uYWw="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 495.00,
+                                        "TotalTaxes": 131.50,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 626.50,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 495.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 131.50,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 11.50
+                                                            },
+                                                            {
+                                                                "taxCode": "G8",
+                                                                "description": "International Dep/Arr Fee",
+                                                                "value": 0.40
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 1.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 94.80
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 626.50
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "EKb1"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "EKp4"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "EKt2"
+                                    },
+                                    "CombinabilityCode": [
+                                        "EK_CC101"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 758.00,
+                                        "TotalTaxes": 261.80,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 1019.80,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 758.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 261.80,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "TP",
+                                                                "description": "Psgr Security and Safety Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 189.60
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 2.80
+                                                            },
+                                                            {
+                                                                "taxCode": "AE",
+                                                                "description": "UAE Passenger Service Charge",
+                                                                "value": 20.40
+                                                            },
+                                                            {
+                                                                "taxCode": "G8",
+                                                                "description": "International Dep/Arr Fee",
+                                                                "value": 0.80
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 11.50
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 2.00
+                                                            },
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "F6",
+                                                                "description": "Passenger Facilities Charge",
+                                                                "value": 10.90
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "Fees",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 1019.80
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "90a42819-4183-4d67-b53a-ce486e25e419"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "ProductBrandOptions",
+                            "ProductBrandOffering": [
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "EK",
+                                        "value": "WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4LTl8WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4fDIwMjQtMDctMDhUMTg6MzM6MTZ8QURUOlgxMzI3NDkwQS00REMxLTQxMEMtOEVCOC05LTF8RUt8QVBJSm91cm5leVR5cGU6TGVnfEFQSUpvdXJuZXlUeXBlOkxlZ0ludGVybmF0aW9uYWw="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 579.00,
+                                        "TotalTaxes": 131.50,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 710.50,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 579.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 131.50,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 11.50
+                                                            },
+                                                            {
+                                                                "taxCode": "G8",
+                                                                "description": "International Dep/Arr Fee",
+                                                                "value": 0.40
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 1.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 94.80
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 710.50
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "EKb2"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "EKp8"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "EKt3"
+                                    },
+                                    "CombinabilityCode": [
+                                        "EK_CC143"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 842.00,
+                                        "TotalTaxes": 261.80,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 1103.80,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 842.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 261.80,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "TP",
+                                                                "description": "Psgr Security and Safety Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 189.60
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 2.80
+                                                            },
+                                                            {
+                                                                "taxCode": "AE",
+                                                                "description": "UAE Passenger Service Charge",
+                                                                "value": 20.40
+                                                            },
+                                                            {
+                                                                "taxCode": "G8",
+                                                                "description": "International Dep/Arr Fee",
+                                                                "value": 0.80
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 11.50
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 2.00
+                                                            },
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "F6",
+                                                                "description": "Passenger Facilities Charge",
+                                                                "value": 10.90
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "Fees",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 1103.80
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "90a42819-4183-4d67-b53a-ce486e25e419"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "ProductBrandOptions",
+                            "ProductBrandOffering": [
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "EK",
+                                        "value": "WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4LTEwfFgxMzI3NDkwQS00REMxLTQxMEMtOEVCOHwyMDI0LTA3LTA4VDE4OjMzOjE2fEFEVDpYMTMyNzQ5MEEtNERDMS00MTBDLThFQjgtMTAtMXxFS3xBUElKb3VybmV5VHlwZTpMZWd8QVBJSm91cm5leVR5cGU6TGVnSW50ZXJuYXRpb25hbA=="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 787.00,
+                                        "TotalTaxes": 131.50,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 918.50,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 787.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 131.50,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 11.50
+                                                            },
+                                                            {
+                                                                "taxCode": "G8",
+                                                                "description": "International Dep/Arr Fee",
+                                                                "value": 0.40
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 1.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 94.80
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 918.50
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "EKb2"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "EKp9"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "EKt4"
+                                    },
+                                    "CombinabilityCode": [
+                                        "EK_CC170"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 1050.00,
+                                        "TotalTaxes": 261.80,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 1311.80,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 1050.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 261.80,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "TP",
+                                                                "description": "Psgr Security and Safety Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 189.60
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 2.80
+                                                            },
+                                                            {
+                                                                "taxCode": "AE",
+                                                                "description": "UAE Passenger Service Charge",
+                                                                "value": 20.40
+                                                            },
+                                                            {
+                                                                "taxCode": "G8",
+                                                                "description": "International Dep/Arr Fee",
+                                                                "value": 0.80
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 11.50
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 2.00
+                                                            },
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "F6",
+                                                                "description": "Passenger Facilities Charge",
+                                                                "value": 10.90
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "Fees",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 1311.80
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "90a42819-4183-4d67-b53a-ce486e25e419"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "ProductBrandOptions",
+                            "ProductBrandOffering": [
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "EK",
+                                        "value": "WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4LTExfFgxMzI3NDkwQS00REMxLTQxMEMtOEVCOHwyMDI0LTA3LTA4VDE4OjMzOjE2fEFEVDpYMTMyNzQ5MEEtNERDMS00MTBDLThFQjgtMTEtMXxFS3xBUElKb3VybmV5VHlwZTpMZWd8QVBJSm91cm5leVR5cGU6TGVnSW50ZXJuYXRpb25hbA=="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 662.00,
+                                        "TotalTaxes": 140.10,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 802.10,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 662.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 140.10,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 20.50
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 1.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 94.80
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 802.10
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "EKb2"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "EKp10"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "EKt5"
+                                    },
+                                    "CombinabilityCode": [
+                                        "EK_CC197"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 925.00,
+                                        "TotalTaxes": 270.40,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 1195.40,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 925.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 270.40,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "TP",
+                                                                "description": "Psgr Security and Safety Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 189.60
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 2.80
+                                                            },
+                                                            {
+                                                                "taxCode": "AE",
+                                                                "description": "UAE Passenger Service Charge",
+                                                                "value": 20.40
+                                                            },
+                                                            {
+                                                                "taxCode": "G8",
+                                                                "description": "International Dep/Arr Fee",
+                                                                "value": 0.40
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 20.50
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 2.00
+                                                            },
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "F6",
+                                                                "description": "Passenger Facilities Charge",
+                                                                "value": 10.90
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "Fees",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 1195.40
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "90a42819-4183-4d67-b53a-ce486e25e419"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "ProductBrandOptions",
+                            "ProductBrandOffering": [
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "EK",
+                                        "value": "WDEzMjc0OTBBLTREQzEtNDEwQy04RUI4LTEyfFgxMzI3NDkwQS00REMxLTQxMEMtOEVCOHwyMDI0LTA3LTA4VDE4OjMzOjE2fEFEVDpYMTMyNzQ5MEEtNERDMS00MTBDLThFQjgtMTItMXxFS3xBUElKb3VybmV5VHlwZTpMZWd8QVBJSm91cm5leVR5cGU6TGVnSW50ZXJuYXRpb25hbA=="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 787.00,
+                                        "TotalTaxes": 152.40,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 939.40,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 787.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 152.40,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 11.50
+                                                            },
+                                                            {
+                                                                "taxCode": "G8",
+                                                                "description": "International Dep/Arr Fee",
+                                                                "value": 0.40
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 1.00
+                                                            },
+                                                            {
+                                                                "taxCode": "TS",
+                                                                "description": "Passenger Service Charge",
+                                                                "value": 19.90
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 1.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 94.80
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 939.40
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "EKb2"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "EKp11"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "EKt6"
+                                    },
+                                    "CombinabilityCode": [
+                                        "EK_CC224"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "USD"
+                                        },
+                                        "Base": 1050.00,
+                                        "TotalTaxes": 282.70,
+                                        "TotalFees": 0.00,
+                                        "TotalPrice": 1332.70,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "USD"
+                                                    },
+                                                    "Base": 1050.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 282.70,
+                                                        "Tax": [
+                                                            {
+                                                                "taxCode": "TP",
+                                                                "description": "Psgr Security and Safety Fee",
+                                                                "value": 1.40
+                                                            },
+                                                            {
+                                                                "taxCode": "YQ",
+                                                                "description": "Fuel Surcharge",
+                                                                "value": 189.60
+                                                            },
+                                                            {
+                                                                "taxCode": "I5",
+                                                                "description": "Hong Kong Airport Passenger Security Charge",
+                                                                "value": 7.00
+                                                            },
+                                                            {
+                                                                "taxCode": "ZR",
+                                                                "description": "Intl Advanced Psgr Information Fee",
+                                                                "value": 2.80
+                                                            },
+                                                            {
+                                                                "taxCode": "AE",
+                                                                "description": "UAE Passenger Service Charge",
+                                                                "value": 20.40
+                                                            },
+                                                            {
+                                                                "taxCode": "G8",
+                                                                "description": "International Dep/Arr Fee",
+                                                                "value": 0.80
+                                                            },
+                                                            {
+                                                                "taxCode": "G3",
+                                                                "description": "Hong Kong Airport Construction Fee",
+                                                                "value": 11.50
+                                                            },
+                                                            {
+                                                                "taxCode": "TS",
+                                                                "description": "Passenger Service Charge",
+                                                                "value": 19.90
+                                                            },
+                                                            {
+                                                                "taxCode": "E7",
+                                                                "description": "Advance Passenger Processing User Charge",
+                                                                "value": 3.00
+                                                            },
+                                                            {
+                                                                "taxCode": "HK",
+                                                                "description": "Hong Kong Air Passenger Departure Tax",
+                                                                "value": 15.40
+                                                            },
+                                                            {
+                                                                "taxCode": "F6",
+                                                                "description": "Passenger Facilities Charge",
+                                                                "value": 10.90
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "Fees",
+                                                        "TotalFees": 0.00
+                                                    },
+                                                    "Total": 1332.70
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "90a42819-4183-4d67-b53a-ce486e25e419"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "Result": {
+            "@type": "Result",
+            "Warning": [
+                {
+                    "@type": "Warning",
+                    "Message": "EK : Fee May Apply if Credit Card is used as Form of Payment."
+                },
+                {
+                    "@type": "Warning",
+                    "Message": "Unable to process branding details for this request:java.lang.IllegalStateException: Expected BEGIN_ARRAY but was STRING at line 1 column 2 path $"
+                }
+            ]
+        },
+        "NextSteps": {
+            "@type": "NextSteps",
+            "NextStep": [
+                {
+                    "description": "0083RTSM000F0001T5N  3065ON   1   1     0  2913     0                              "
+                }
+            ]
+        },
+        "ReferenceList": [
+            {
+                "@type": "ReferenceListProduct",
+                "Product": [
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT8H10M",
+                        "id": "EKp0",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "EKs1"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1
+                                        ],
+                                        "classOfService": "L",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "L1EFPHK1",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "EKb0"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT7H45M",
+                        "id": "EKp1",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "EKs2"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1
+                                        ],
+                                        "classOfService": "L",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "LEEEPHK1",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "EKb0"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT12H30M",
+                        "id": "EKp4",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "connectionDuration": "PT3H5M",
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "EKs3"
+                                }
+                            },
+                            {
+                                "@type": "FlightSegment",
+                                "id": "2",
+                                "sequence": 2,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "EKs4"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1,
+                                            2
+                                        ],
+                                        "classOfService": "M",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "MEEESHK1",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "EKb1"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT19H30M",
+                        "id": "EKp8",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "connectionDuration": "PT10H10M",
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "EKs3"
+                                }
+                            },
+                            {
+                                "@type": "FlightSegment",
+                                "id": "2",
+                                "sequence": 2,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "EKs5"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1,
+                                            2
+                                        ],
+                                        "classOfService": "X",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "XRRZFHK1",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "EKb2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT13H20M",
+                        "id": "EKp9",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "connectionDuration": "PT3H45M",
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "EKs3"
+                                }
+                            },
+                            {
+                                "@type": "FlightSegment",
+                                "id": "2",
+                                "sequence": 2,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "EKs6"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1,
+                                            2
+                                        ],
+                                        "classOfService": "Y",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "YRRZFHK1",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "EKb2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT11H15M",
+                        "id": "EKp10",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "EKs7"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1
+                                        ],
+                                        "classOfService": "R",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "RRRZFHK1",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "EKb2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "P1DT7H20M",
+                        "id": "EKp11",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "connectionDuration": "PT21H40M",
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "EKs3"
+                                }
+                            },
+                            {
+                                "@type": "FlightSegment",
+                                "id": "2",
+                                "sequence": 2,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "EKs8"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1,
+                                            2
+                                        ],
+                                        "classOfService": "Y",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "YRRZFHK1",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "EKb2"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "ReferenceListFlight",
+                "Flight": [
+                    {
+                        "@type": "FlightDetail",
+                        "distance": 3676,
+                        "stops": 0,
+                        "duration": "PT8H10M",
+                        "carrier": "EK",
+                        "number": "383",
+                        "operatingCarrier": "EK",
+                        "operatingCarrierName": "Emirates",
+                        "equipment": "77W",
+                        "id": "EKs1",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "terminal": "1",
+                            "location": "HKG",
+                            "date": "2024-08-07",
+                            "time": "19:00:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "terminal": "3",
+                            "location": "DXB",
+                            "date": "2024-08-07",
+                            "time": "23:10:00"
+                        }
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "distance": 3676,
+                        "stops": 0,
+                        "duration": "PT7H45M",
+                        "carrier": "EK",
+                        "number": "381",
+                        "operatingCarrier": "EK",
+                        "operatingCarrierName": "Emirates",
+                        "equipment": "388",
+                        "id": "EKs2",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "terminal": "1",
+                            "location": "HKG",
+                            "date": "2024-08-07",
+                            "time": "00:35:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "terminal": "3",
+                            "location": "DXB",
+                            "date": "2024-08-07",
+                            "time": "04:20:00"
+                        }
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "distance": 1048,
+                        "stops": 0,
+                        "duration": "PT3H15M",
+                        "carrier": "EK",
+                        "number": "385",
+                        "operatingCarrier": "EK",
+                        "operatingCarrierName": "Emirates",
+                        "equipment": "388",
+                        "id": "EKs3",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "terminal": "1",
+                            "location": "HKG",
+                            "date": "2024-08-07",
+                            "time": "21:30:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "location": "BKK",
+                            "date": "2024-08-07",
+                            "time": "23:45:00"
+                        }
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "distance": 3045,
+                        "stops": 0,
+                        "duration": "PT6H10M",
+                        "carrier": "EK",
+                        "number": "377",
+                        "operatingCarrier": "EK",
+                        "operatingCarrierName": "Emirates",
+                        "equipment": "388",
+                        "id": "EKs4",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "location": "BKK",
+                            "date": "2024-08-08",
+                            "time": "02:50:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "terminal": "3",
+                            "location": "DXB",
+                            "date": "2024-08-08",
+                            "time": "06:00:00"
+                        }
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "distance": 3045,
+                        "stops": 0,
+                        "duration": "PT6H5M",
+                        "carrier": "EK",
+                        "number": "375",
+                        "operatingCarrier": "EK",
+                        "operatingCarrierName": "Emirates",
+                        "equipment": "388",
+                        "id": "EKs5",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "location": "BKK",
+                            "date": "2024-08-08",
+                            "time": "09:55:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "terminal": "3",
+                            "location": "DXB",
+                            "date": "2024-08-08",
+                            "time": "13:00:00"
+                        }
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "distance": 3045,
+                        "stops": 0,
+                        "duration": "PT6H20M",
+                        "carrier": "EK",
+                        "number": "371",
+                        "operatingCarrier": "EK",
+                        "operatingCarrierName": "Emirates",
+                        "equipment": "77W",
+                        "id": "EKs6",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "location": "BKK",
+                            "date": "2024-08-08",
+                            "time": "03:30:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "terminal": "3",
+                            "location": "DXB",
+                            "date": "2024-08-08",
+                            "time": "06:50:00"
+                        }
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "distance": 3676,
+                        "stops": 1,
+                        "duration": "PT11H15M",
+                        "carrier": "EK",
+                        "number": "385",
+                        "operatingCarrier": "EK",
+                        "operatingCarrierName": "Emirates",
+                        "equipment": "388",
+                        "id": "EKs7",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "terminal": "1",
+                            "location": "HKG",
+                            "date": "2024-08-07",
+                            "time": "21:30:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "terminal": "3",
+                            "location": "DXB",
+                            "date": "2024-08-08",
+                            "time": "04:45:00"
+                        },
+                        "IntermediateStop": [
+                            {
+                                "arrivalDate": "2024-08-07",
+                                "departureDate": "2024-08-08",
+                                "arrivalTime": "23:45:00",
+                                "departurelTime": "01:35:00",
+                                "value": "BKK"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "distance": 3045,
+                        "stops": 0,
+                        "duration": "PT6H25M",
+                        "carrier": "EK",
+                        "number": "373",
+                        "operatingCarrier": "EK",
+                        "operatingCarrierName": "Emirates",
+                        "equipment": "388",
+                        "id": "EKs8",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "location": "BKK",
+                            "date": "2024-08-08",
+                            "time": "21:25:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "terminal": "3",
+                            "location": "DXB",
+                            "date": "2024-08-09",
+                            "time": "00:50:00"
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "ReferenceListBrand",
+                "Brand": [
+                    {
+                        "@type": "Brand",
+                        "name": "Economy Saver",
+                        "id": "EKb0"
+                    },
+                    {
+                        "@type": "Brand",
+                        "name": "Economy Flex",
+                        "id": "EKb1"
+                    },
+                    {
+                        "@type": "Brand",
+                        "name": "Economy Flex Plus",
+                        "id": "EKb2"
+                    }
+                ]
+            },
+            {
+                "@type": "ReferenceListTermsAndConditions",
+                "TermsAndConditions": [
+                    {
+                        "@type": "TermsAndConditionsAir",
+                        "id": "EKt0",
+                        "ExpiryDate": "2024-07-08T18:33:16Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "EKp0"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "Measurement": [
+                                            {
+                                                "measurementType": "Weight",
+                                                "unit": "Kilograms",
+                                                "value": 25
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "CHECKED ALLOWANCE"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "CarryOn",
+                                "ProductRef": [
+                                    "EKp0"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "CARRY7KG 15LB UPTO45LI 115LCM"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "EKs1"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Cancel",
+                                        "value": "ADT:Allowed"
+                                    },
+                                    {
+                                        "name": "Change",
+                                        "value": "ADT:Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "EK"
+                            }
+                        ],
+                        "PaymentTimeLimit": "2024-08-05T23:59:00Z",
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "EKp0"
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "EKp0"
+                                        ]
+                                    }
+                                ],
+                                "PassengerTypeCodes": [
+                                    "ADT"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "TermsAndConditionsAir",
+                        "id": "EKt1",
+                        "ExpiryDate": "2024-07-08T18:33:16Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "EKp1"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "Measurement": [
+                                            {
+                                                "measurementType": "Weight",
+                                                "unit": "Kilograms",
+                                                "value": 25
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "CHECKED ALLOWANCE"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "CarryOn",
+                                "ProductRef": [
+                                    "EKp1"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "CARRY7KG 15LB UPTO45LI 115LCM"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "EKs2"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Cancel",
+                                        "value": "ADT:Allowed"
+                                    },
+                                    {
+                                        "name": "Change",
+                                        "value": "ADT:Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "EK"
+                            }
+                        ],
+                        "PaymentTimeLimit": "2024-08-05T23:59:00Z",
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "EKp1"
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "EKp1"
+                                        ]
+                                    }
+                                ],
+                                "PassengerTypeCodes": [
+                                    "ADT"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "TermsAndConditionsAir",
+                        "id": "EKt2",
+                        "ExpiryDate": "2024-07-08T18:33:16Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "EKp4"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "Measurement": [
+                                            {
+                                                "measurementType": "Weight",
+                                                "unit": "Kilograms",
+                                                "value": 30
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2
+                                ],
+                                "Text": [
+                                    "CHECKED ALLOWANCE"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "CarryOn",
+                                "ProductRef": [
+                                    "EKp4"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2
+                                ],
+                                "Text": [
+                                    "CARRY7KG 15LB UPTO45LI 115LCM"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "EKs3",
+                                    "EKs4"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Cancel",
+                                        "value": "ADT:Allowed"
+                                    },
+                                    {
+                                        "name": "Change",
+                                        "value": "ADT:Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "EK"
+                            }
+                        ],
+                        "PaymentTimeLimit": "2024-08-05T23:59:00Z",
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "EKp4"
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "EKp4"
+                                        ]
+                                    }
+                                ],
+                                "PassengerTypeCodes": [
+                                    "ADT"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "TermsAndConditionsAir",
+                        "id": "EKt3",
+                        "ExpiryDate": "2024-07-08T18:33:16Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "EKp8"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "Measurement": [
+                                            {
+                                                "measurementType": "Weight",
+                                                "unit": "Kilograms",
+                                                "value": 35
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2
+                                ],
+                                "Text": [
+                                    "CHECKED ALLOWANCE"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "CarryOn",
+                                "ProductRef": [
+                                    "EKp8"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2
+                                ],
+                                "Text": [
+                                    "CARRY7KG 15LB UPTO45LI 115LCM"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "EKs3",
+                                    "EKs5"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Cancel",
+                                        "value": "ADT:Allowed"
+                                    },
+                                    {
+                                        "name": "Change",
+                                        "value": "ADT:Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "EK"
+                            }
+                        ],
+                        "PaymentTimeLimit": "2024-08-05T23:59:00Z",
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "EKp8"
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "EKp8"
+                                        ]
+                                    }
+                                ],
+                                "PassengerTypeCodes": [
+                                    "ADT"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "TermsAndConditionsAir",
+                        "id": "EKt4",
+                        "ExpiryDate": "2024-07-08T18:33:16Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "EKp9"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "Measurement": [
+                                            {
+                                                "measurementType": "Weight",
+                                                "unit": "Kilograms",
+                                                "value": 35
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2
+                                ],
+                                "Text": [
+                                    "CHECKED ALLOWANCE"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "CarryOn",
+                                "ProductRef": [
+                                    "EKp9"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2
+                                ],
+                                "Text": [
+                                    "CARRY7KG 15LB UPTO45LI 115LCM"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "EKs3",
+                                    "EKs6"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Cancel",
+                                        "value": "ADT:Allowed"
+                                    },
+                                    {
+                                        "name": "Change",
+                                        "value": "ADT:Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "EK"
+                            }
+                        ],
+                        "PaymentTimeLimit": "2024-08-05T23:59:00Z",
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "EKp9"
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "EKp9"
+                                        ]
+                                    }
+                                ],
+                                "PassengerTypeCodes": [
+                                    "ADT"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "TermsAndConditionsAir",
+                        "id": "EKt5",
+                        "ExpiryDate": "2024-07-08T18:33:16Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "EKp10"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "Measurement": [
+                                            {
+                                                "measurementType": "Weight",
+                                                "unit": "Kilograms",
+                                                "value": 35
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "CHECKED ALLOWANCE"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "CarryOn",
+                                "ProductRef": [
+                                    "EKp10"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "CARRY7KG 15LB UPTO45LI 115LCM"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "EKs7"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Cancel",
+                                        "value": "ADT:Allowed"
+                                    },
+                                    {
+                                        "name": "Change",
+                                        "value": "ADT:Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "EK"
+                            }
+                        ],
+                        "PaymentTimeLimit": "2024-08-05T23:59:00Z",
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "EKp10"
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "EKp10"
+                                        ]
+                                    }
+                                ],
+                                "PassengerTypeCodes": [
+                                    "ADT"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "TermsAndConditionsAir",
+                        "id": "EKt6",
+                        "ExpiryDate": "2024-07-08T18:33:16Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "EKp11"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "Measurement": [
+                                            {
+                                                "measurementType": "Weight",
+                                                "unit": "Kilograms",
+                                                "value": 35
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2
+                                ],
+                                "Text": [
+                                    "CHECKED ALLOWANCE"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "CarryOn",
+                                "ProductRef": [
+                                    "EKp11"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2
+                                ],
+                                "Text": [
+                                    "CARRY7KG 15LB UPTO45LI 115LCM"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "EKs3",
+                                    "EKs8"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Cancel",
+                                        "value": "ADT:Allowed"
+                                    },
+                                    {
+                                        "name": "Change",
+                                        "value": "ADT:Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "EK"
+                            }
+                        ],
+                        "PaymentTimeLimit": "2024-08-05T23:59:00Z",
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "EKp11"
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "EKp11"
+                                        ]
+                                    }
+                                ],
+                                "PassengerTypeCodes": [
+                                    "ADT"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

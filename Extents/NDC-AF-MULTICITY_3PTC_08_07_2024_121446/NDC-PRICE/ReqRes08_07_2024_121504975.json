@@ -1,0 +1,741 @@
+{
+    "OfferQueryBuildFromProductsAtomic": {
+        "@type": "OfferQueryBuildFromProductsAtomic",
+        "RuntimeAccessGroup": {
+            "@type": "RuntimeAccessGroupSummary",
+            "id": "76F0ABA9-9516-4E4D-B3D2-3DAA918B8618",
+            "AccessGroupInternalName": "AF29541C-54F2-4DC0-BA04-08B438290562.680I.1G",
+            "AccessGroupCustomerName": "Please Change Me! (680I 1G)",
+            "GlobalCustomerId": "AF29541C-54F2-4DC0-BA04-08B438290562",
+            "ConfigurationInfo": [
+                {
+                    "name": "AgencyPFARActivationIndicator",
+                    "value": "1"
+                },
+                {
+                    "name": "AgencyPFARPseudoCityCode"
+                },
+                {
+                    "name": "AgencyRegion",
+                    "value": "PAR"
+                },
+                {
+                    "name": "BSPCode",
+                    "value": "016"
+                },
+                {
+                    "name": "CustomerTypeCode",
+                    "value": "TRV"
+                },
+                {
+                    "name": "IATAnumber",
+                    "value": "2026159"
+                },
+                {
+                    "name": "NDCCode",
+                    "value": "PAR"
+                },
+                {
+                    "name": "PriceTierInd",
+                    "value": "1"
+                },
+                {
+                    "name": "TimeZone",
+                    "value": "PAR"
+                },
+                {
+                    "name": "AgencyName",
+                    "value": "MARCO ET VASCO"
+                },
+                {
+                    "name": "AgencyCountry",
+                    "value": ""
+                },
+                {
+                    "name": "AgencyClock",
+                    "value": "24"
+                },
+                {
+                    "name": "WHPS",
+                    "value": "51Y"
+                },
+                {
+                    "name": "TicketingAgency"
+                },
+                {
+                    "name": "PseudoCityCode",
+                    "value": "680I"
+                },
+                {
+                    "name": "PrinterAddress"
+                },
+                {
+                    "name": "PostalCode",
+                    "value": "75017"
+                },
+                {
+                    "name": "MasterGTID",
+                    "value": "B58AEF"
+                },
+                {
+                    "name": "HospitalityAggregators"
+                },
+                {
+                    "name": "HCAprofileId",
+                    "value": "ODTS_1G_680I_B58AEF"
+                },
+                {
+                    "name": "GDSaffinity",
+                    "value": "1G"
+                },
+                {
+                    "name": "CustomerSegmentCode",
+                    "value": "SBR"
+                },
+                {
+                    "name": "CustomerName",
+                    "value": "Marco et Vasco.fr"
+                },
+                {
+                    "name": "CustomerCountry",
+                    "value": "FR"
+                },
+                {
+                    "name": "CurrencyCode",
+                    "value": "EUR"
+                },
+                {
+                    "name": "CIDB",
+                    "value": "0000439202"
+                },
+                {
+                    "name": "AuthorizedCarriers",
+                    "value": "AA-AC-AD-AF-AH-AI-AM-AP-AR-AS-AT-AV-AY-AZ-BA-BE-BF-BG-BI-BJ-BM-BP-BR-BT-BV-BW-CA-CE-CI-CM-CU-CX-CZ-DE-DL-DT-DY-EB-EI-EK-EQ-ET-EY-FB-FI-GA-GF-GL-GP-GQ-HA-HC-HM-HR-HX-HY-IB-IE-IG-IZ-JD-JJ-JL-JP-JU-KC-KE-KF-KK-KM-KP-KQ-KU-LA-LH-LI-LO-LQ-LX-MD-ME-MF-MH-MK-MS-MU-NH-NP-NT-NX-NZ-OA-OB-OK-OM-OS-OU-OY-OZ-PC-PG-PR-PS-PU-PW-PX-PY-QF-QR-QV-RC-RJ-RO-SA-SB-SC-SE-SF-SK-SN-SQ-SS-ST-SU-SW-SZ-TB-TF-TG-TK-TM-TN-TP-TS-TU-TX-UA-UG-UL-UP-UT-UU-UX-VA-VN-VR-VS-VT-VW-VY-WB-WM-WS-WX-WY-XK-XQ-YE-YM-ZH-ZI-A3-A9-G3-J2-K6-L6-O6-P9-S4-T7-U6-V7-W2-W4-Y7-Z8-2I-2J-2L-3O-3S-4B-4O-4Z-5F-5O-6H-7V-8M-8Q-9B-9U-9W-B0-0B-"
+                },
+                {
+                    "name": "APIAuthCarriers",
+                    "value": "SQ-AF-KL-LH-LX-OS-SN"
+                },
+                {
+                    "name": "AgencyTypeCode",
+                    "value": "A"
+                },
+                {
+                    "name": "AgencyPFARGDSaffinity"
+                },
+                {
+                    "name": "AgencyGroup",
+                    "value": "00000044570"
+                },
+                {
+                    "name": "HospitalityCredentials"
+                }
+            ],
+            "CustomerName": "Marco et Vasco.fr",
+            "ProductEntitlement": [
+                {
+                    "@type": "ProductEntitlement",
+                    "id": "07F864CB-F42E-44F8-ADE3-144745D63AD2",
+                    "Code": "AGPY_KL",
+                    "Name": "AGENCY_PAYS_KL"
+                },
+                {
+                    "@type": "ProductEntitlement",
+                    "id": "7A0AD73F-CE4D-4A7C-9235-287618E5D4E9",
+                    "Code": "AIRK11",
+                    "Name": "AirKit_V11"
+                },
+                {
+                    "@type": "ProductEntitlement",
+                    "id": "D0903704-2BBA-4215-8F90-C0C03FEE83C7",
+                    "Code": "AGPY_AF",
+                    "Name": "AGENCY_PAYS_AF"
+                }
+            ]
+        },
+        "CatalogOffering": {
+            "@type": "CatalogOffering",
+            "Identifier": {
+                "authority": "AF",
+                "value": "43e277de-d68e-4590-a2ce-aa257aab7587"
+            },
+            "ProductOptions": [
+                {
+                    "@type": "ProductOptions",
+                    "Identifier": {
+                        "authority": "AF",
+                        "value": "ZDVlZjAwODEtZTEyOC00ZmM0LWFmMDAtODFlMTI4YWYwMDAxfGRiODBhYmIwLTQxMGEtNDg1MS04MGFiLWIwNDEwYTc4NTEwYzpQQVgzLUNIRHxkZDBkZGQ5Yy04NWE0LTQ4OWYtOGRkZC05Yzg1YTRlODlmOGY6UEFYMi1BRFR8YTVlYmY5NGQtNmZhOC00NzAwLWFiZjktNGQ2ZmE4NzcwMDNjOlBBWDEtSU5GfDIwMjQtMDctMDhUMTg6NDQ6NTN8QUZ8QVBJSm91cm5leVR5cGU6Sm91cm5leQ=="
+                    },
+                    "Product": [
+                        {
+                            "@type": "ProductAir",
+                            "totalDuration": "P1DT5H55M",
+                            "id": "AFp0",
+                            "FlightSegment": [
+                                {
+                                    "@type": "FlightSegment",
+                                    "id": "1",
+                                    "sequence": 1,
+                                    "Flight": {
+                                        "@type": "FlightDetail",
+                                        "stops": 0,
+                                        "carrier": "AF",
+                                        "number": "225",
+                                        "operatingCarrier": "AF",
+                                        "equipment": "359",
+                                        "id": "AFs1",
+                                        "Departure": {
+                                            "@type": "DepartureDetail",
+                                            "terminal": "3",
+                                            "location": "DEL",
+                                            "date": "2024-07-27",
+                                            "time": "00:35:00"
+                                        },
+                                        "Arrival": {
+                                            "@type": "ArrivalDetail",
+                                            "terminal": "2E",
+                                            "location": "CDG",
+                                            "date": "2024-07-27",
+                                            "time": "06:35:00"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "FlightSegment",
+                                    "id": "2",
+                                    "sequence": 2,
+                                    "Flight": {
+                                        "@type": "FlightDetail",
+                                        "stops": 0,
+                                        "carrier": "AF",
+                                        "number": "6060",
+                                        "operatingCarrier": "AM",
+                                        "equipment": "789",
+                                        "id": "AFs2",
+                                        "Departure": {
+                                            "@type": "DepartureDetail",
+                                            "location": "CDG",
+                                            "date": "2024-07-27",
+                                            "time": "14:55:00"
+                                        },
+                                        "Arrival": {
+                                            "@type": "ArrivalDetail",
+                                            "location": "MEX",
+                                            "date": "2024-07-27",
+                                            "time": "19:00:00"
+                                        }
+                                    }
+                                }
+                            ],
+                            "PassengerFlight": [
+                                {
+                                    "@type": "PassengerFlight",
+                                    "passengerQuantity": 1,
+                                    "passengerTypeCode": "INF",
+                                    "FlightProduct": [
+                                        {
+                                            "@type": "FlightProduct",
+                                            "segmentSequence": [
+                                                1,
+                                                2
+                                            ],
+                                            "classOfService": "Y",
+                                            "cabin": "Economy",
+                                            "fareBasisCode": "YGS0AFNN",
+                                            "fareType": "PublicFare",
+                                            "Brand": {
+                                                "@type": "Brand",
+                                                "name": "Economy Flex",
+                                                "shelfNumbers": [
+                                                    
+                                                ],
+                                                "code": "FLEX",
+                                                "id": "AFb0",
+                                                "Identifier": {
+                                                    "authority": "Travelport",
+                                                    "value": "1405125"
+                                                },
+                                                "BrandAttribute": [
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "Refund",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "RF",
+                                                        "subCode": "056"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "SeatAssignment",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "SE",
+                                                        "subCode": "050"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "Rebooking",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "VC",
+                                                        "subCode": "059"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "Meals",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "ML",
+                                                        "subGroupCode": "SN",
+                                                        "subCode": "0AT"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "CheckedBag",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BG",
+                                                        "subCode": "0C3"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "CarryOn",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BG",
+                                                        "subGroupCode": "CY",
+                                                        "subCode": "0MR"
+                                                    }
+                                                ],
+                                                "AdditionalBrandAttribute": [
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "PO",
+                                                        "subCode": "03P",
+                                                        "Classification": "Priority CheckIn",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "FR",
+                                                        "subCode": "06D",
+                                                        "Classification": "Mileage Accrual",
+                                                        "Inclusion": "Included"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "LG",
+                                                        "subCode": "0BX",
+                                                        "Classification": "Lounge Access",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "PR",
+                                                        "subCode": "0G6",
+                                                        "Classification": "Priority Boarding",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "PY",
+                                                        "subCode": "0LF",
+                                                        "Classification": "Priority Baggage",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "SY",
+                                                        "subCode": "0LW",
+                                                        "Classification": "Priority Security",
+                                                        "Inclusion": "Not Offered"
+                                                    }
+                                                ],
+                                                "ImageURL": [
+                                                    "https://cdn.travelport.com/airfrance/AF_general_medium_1445.jpg"
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "PassengerFlight",
+                                    "passengerQuantity": 2,
+                                    "passengerTypeCode": "ADT",
+                                    "FlightProduct": [
+                                        {
+                                            "@type": "FlightProduct",
+                                            "segmentSequence": [
+                                                1,
+                                                2
+                                            ],
+                                            "classOfService": "Y",
+                                            "cabin": "Economy",
+                                            "fareBasisCode": "YGS0AFNN",
+                                            "fareType": "PublicFare",
+                                            "Brand": {
+                                                "@type": "Brand",
+                                                "name": "Economy Flex",
+                                                "shelfNumbers": [
+                                                    
+                                                ],
+                                                "code": "FLEX",
+                                                "id": "AFb0",
+                                                "Identifier": {
+                                                    "authority": "Travelport",
+                                                    "value": "1405125"
+                                                },
+                                                "BrandAttribute": [
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "Refund",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "RF",
+                                                        "subCode": "056"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "SeatAssignment",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "SE",
+                                                        "subCode": "050"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "Rebooking",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "VC",
+                                                        "subCode": "059"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "Meals",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "ML",
+                                                        "subGroupCode": "SN",
+                                                        "subCode": "0AT"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "CheckedBag",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BG",
+                                                        "subCode": "0C3"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "CarryOn",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BG",
+                                                        "subGroupCode": "CY",
+                                                        "subCode": "0MR"
+                                                    }
+                                                ],
+                                                "AdditionalBrandAttribute": [
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "PO",
+                                                        "subCode": "03P",
+                                                        "Classification": "Priority CheckIn",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "FR",
+                                                        "subCode": "06D",
+                                                        "Classification": "Mileage Accrual",
+                                                        "Inclusion": "Included"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "LG",
+                                                        "subCode": "0BX",
+                                                        "Classification": "Lounge Access",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "PR",
+                                                        "subCode": "0G6",
+                                                        "Classification": "Priority Boarding",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "PY",
+                                                        "subCode": "0LF",
+                                                        "Classification": "Priority Baggage",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "SY",
+                                                        "subCode": "0LW",
+                                                        "Classification": "Priority Security",
+                                                        "Inclusion": "Not Offered"
+                                                    }
+                                                ],
+                                                "ImageURL": [
+                                                    "https://cdn.travelport.com/airfrance/AF_general_medium_1445.jpg"
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "PassengerFlight",
+                                    "passengerQuantity": 1,
+                                    "passengerTypeCode": "CHD",
+                                    "FlightProduct": [
+                                        {
+                                            "@type": "FlightProduct",
+                                            "segmentSequence": [
+                                                1,
+                                                2
+                                            ],
+                                            "classOfService": "Y",
+                                            "cabin": "Economy",
+                                            "fareBasisCode": "YGS0AFNN",
+                                            "fareType": "PublicFare",
+                                            "Brand": {
+                                                "@type": "Brand",
+                                                "name": "Economy Flex",
+                                                "shelfNumbers": [
+                                                    
+                                                ],
+                                                "code": "FLEX",
+                                                "id": "AFb0",
+                                                "Identifier": {
+                                                    "authority": "Travelport",
+                                                    "value": "1405125"
+                                                },
+                                                "BrandAttribute": [
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "Refund",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "RF",
+                                                        "subCode": "056"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "SeatAssignment",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "SE",
+                                                        "subCode": "050"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "Rebooking",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "VC",
+                                                        "subCode": "059"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "Meals",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "ML",
+                                                        "subGroupCode": "SN",
+                                                        "subCode": "0AT"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "CheckedBag",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BG",
+                                                        "subCode": "0C3"
+                                                    },
+                                                    {
+                                                        "@type": "BrandAttribute",
+                                                        "classification": "CarryOn",
+                                                        "inclusion": "Included",
+                                                        "groupCode": "BG",
+                                                        "subGroupCode": "CY",
+                                                        "subCode": "0MR"
+                                                    }
+                                                ],
+                                                "AdditionalBrandAttribute": [
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "PO",
+                                                        "subCode": "03P",
+                                                        "Classification": "Priority CheckIn",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "BF",
+                                                        "subGroupCode": "FR",
+                                                        "subCode": "06D",
+                                                        "Classification": "Mileage Accrual",
+                                                        "Inclusion": "Included"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "LG",
+                                                        "subCode": "0BX",
+                                                        "Classification": "Lounge Access",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "PR",
+                                                        "subCode": "0G6",
+                                                        "Classification": "Priority Boarding",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "PY",
+                                                        "subCode": "0LF",
+                                                        "Classification": "Priority Baggage",
+                                                        "Inclusion": "Not Offered"
+                                                    },
+                                                    {
+                                                        "@type": "AdditionalBrandAttribute",
+                                                        "groupCode": "TS",
+                                                        "subGroupCode": "SY",
+                                                        "subCode": "0LW",
+                                                        "Classification": "Priority Security",
+                                                        "Inclusion": "Not Offered"
+                                                    }
+                                                ],
+                                                "ImageURL": [
+                                                    "https://cdn.travelport.com/airfrance/AF_general_medium_1445.jpg"
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Price": {
+                "@type": "PriceDetail",
+                "CurrencyCode": {
+                    "decimalPlace": 2,
+                    "value": "EUR"
+                },
+                "Base": 5279.0,
+                "TotalTaxes": 1114.86,
+                "TotalFees": 0.0,
+                "TotalPrice": 6393.86,
+                "PriceBreakdown": [
+                    {
+                        "@type": "PriceBreakdownAir",
+                        "quantity": 2,
+                        "requestedPassengerType": "ADT",
+                        "Amount": {
+                            "@type": "Amount",
+                            "CurrencyCode": {
+                                "decimalPlace": 2,
+                                "value": "EUR"
+                            },
+                            "Base": 1786.5,
+                            "Taxes": {
+                                "@type": "TaxesDetail",
+                                "TotalTaxes": 360.97
+                            },
+                            "Fees": {
+                                "@type": "FeesDetail",
+                                "TotalFees": 0.0
+                            },
+                            "Total": 2147.47
+                        }
+                    },
+                    {
+                        "@type": "PriceBreakdownAir",
+                        "quantity": 1,
+                        "requestedPassengerType": "CHD",
+                        "Amount": {
+                            "@type": "Amount",
+                            "CurrencyCode": {
+                                "decimalPlace": 2,
+                                "value": "EUR"
+                            },
+                            "Base": 1527.0,
+                            "Taxes": {
+                                "@type": "TaxesDetail",
+                                "TotalTaxes": 347.99
+                            },
+                            "Fees": {
+                                "@type": "FeesDetail",
+                                "TotalFees": 0.0
+                            },
+                            "Total": 1874.99
+                        }
+                    },
+                    {
+                        "@type": "PriceBreakdownAir",
+                        "quantity": 1,
+                        "requestedPassengerType": "INF",
+                        "Amount": {
+                            "@type": "Amount",
+                            "CurrencyCode": {
+                                "decimalPlace": 2,
+                                "value": "EUR"
+                            },
+                            "Base": 179.0,
+                            "Taxes": {
+                                "@type": "TaxesDetail",
+                                "TotalTaxes": 44.93
+                            },
+                            "Fees": {
+                                "@type": "FeesDetail",
+                                "TotalFees": 0.0
+                            },
+                            "Total": 223.93
+                        }
+                    }
+                ]
+            }
+        },
+        "OfferQueryBuildFromProducts": {
+            "returnBrandedFaresInd": true,
+            "BuildFromProductsRequest": {
+                "@type": "BuildFromProductsRequestAir",
+                "PassengerCriteria": [
+                    {
+                        "@type": "PassengerCriteria",
+                        "number": 1,
+                        "passengerTypeCode": "INF"
+                    },
+                    {
+                        "@type": "PassengerCriteria",
+                        "number": 1,
+                        "passengerTypeCode": "ADT"
+                    },
+                    {
+                        "@type": "PassengerCriteria",
+                        "number": 1,
+                        "passengerTypeCode": "CHD"
+                    }
+                ],
+                "CustomResponseModifiersAir": {
+                    "@type": "CustomResponseModifiersAir",
+                    "SearchRepresentation": "Journey"
+                }
+            },
+            "FareRuleType": "ShortText"
+        }
+    }
+}

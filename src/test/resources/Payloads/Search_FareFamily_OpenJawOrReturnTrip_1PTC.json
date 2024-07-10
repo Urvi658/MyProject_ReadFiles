@@ -1,0 +1,54 @@
+{
+  "CatalogProductOfferingsQueryRequest" : {
+    "@type" : "CatalogProductOfferingsQueryRequest",
+    "CatalogProductOfferingsRequest" : {
+      "@type" : "CatalogProductOfferingsRequestAir",
+      "maxNumberOfOffersToReturn": "",
+	  "maxNumberOfUpsellsToReturn": "",
+      "PassengerCriteria" : [ {
+        "@type" : "PassengerCriteria",
+        "number" : "",
+        "passengerTypeCode" : ""
+      } ],
+      "SearchCriteriaFlight" : [ {
+        "@type" : "SearchCriteriaFlight",
+        "departureDate" : "",
+        "From" : {
+          "cityOrAirport" : "Airport Only",
+          "value" : ""
+        },
+        "To" : {
+          "cityOrAirport" : "Airport Only",
+          "value" : ""
+        }
+      }, {
+        "@type" : "SearchCriteriaFlight",
+        "departureDate" : "",
+        "From" : {
+          "cityOrAirport" : "Airport Only",
+          "value" : ""
+        },
+        "To" : {
+          "cityOrAirport" : "Airport Only",
+          "value" : ""
+        }
+      } ],
+      "SearchModifiersAir" : {
+        "@type" : "SearchModifiersAir",
+        "CarrierPreference" : [ {
+          "@type" : "CarrierPreference",
+          "preferenceType" : "Permitted",
+          "carriers" : [ "" ]
+        } ]
+      },
+      "PricingModifiersAir" : {
+        "@type" : "PricingModifiersAir",
+        "currencyCode" : ""	
+      },
+      "CustomResponseModifiersAir" : {
+        "@type" : "CustomResponseModifiersAir",
+        "SearchRepresentation" : "Leg"
+      }
+    }
+  }
+}
