@@ -1,0 +1,71 @@
+{
+    "OfferQueryBuildFromProductsAtomic": {
+        "RuntimeAccessGroup": {
+            "@type": "RuntimeAccessGroupSummary",
+            "ConfigurationInfo": [
+                {
+                    "name": "PseudoCityCode",
+                    "value": "E9G"
+                },
+                {
+                    "name": "IATAnumber",
+                    "value": "7829999"
+                },
+                {
+                    "name": "GDSaffinity",
+                    "value": "1G"
+                },
+                {
+                    "name": "CustomerCountry",
+                    "value": "ES"
+                },
+                {
+                    "name": "TimeZone",
+                    "value": "SBR"
+                },
+                {
+                    "name": "AgencyCountry",
+                    "value": "ES"
+                }
+            ],
+            "ProductEntitlement":[
+                {
+                    "@type": "ProductEntitlement",
+                    "enableInd": true,
+                    "id": "F35DFA7B-4C3F-4486-A485-EB242E8F2E07",
+                    "Code": "AGPY_IB",
+                    "Name": "AGENCY_PAYS_IB"
+                }
+            ]
+        },
+        "CatalogOffering": {
+            "@type": "CatalogOffering",
+            "Identifier": {
+                "authority": "IB",
+                "value": "9d2c9380-23f7-4a87-849d-6e154c1462bc"
+            },
+            "ProductOptions": [
+                {
+                    "@type": "ProductOptions",
+                    "Identifier": {
+                        "authority": "IB",
+                        "value": "SUJkN2NlZjBhNjcxYjQ0ZjQzOGM0MGQ5OWVmOGIyYzc0N09DfFFtOXZhMmx1WjBCSFZ5MHhOekE1TnpNNU1ETXhPVGt3TFhRMlptdEd8MjAyNC0wMy0wNlQxNjowMDozM3xBRFQ6SUJkN2NlZjBhNjcxYjQ0ZjQzOGM0MGQ5OWVmOGIyYzc0N09DXzAxfElCfEFQSUpvdXJuZXlUeXBlOkpvdXJuZXk="
+                    },
+                    "sequence": 1
+                }
+            ]
+        },
+        "OfferQueryBuildFromProducts": {
+            "BuildFromProductsRequest": {
+                "@type": "BuildFromProductsRequestAir",
+                "PassengerCriteria": [
+                    {
+                        "@type": "PassengerCriteria",
+                        "number": 1,
+                        "passengerTypeCode": "ADT"
+                    }
+                ]
+            }
+        }
+    }
+}
