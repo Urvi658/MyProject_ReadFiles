@@ -3,38 +3,61 @@
         "@type": "CatalogProductOfferingsQueryRequest",
         "CatalogProductOfferingsRequest": {
             "@type": "CatalogProductOfferingsRequestAir",
+<<<<<<<< HEAD:Extents/NDC-EK-RETURN_1PTC_17_07_2024_155050/NDC-Search/ReqRes17_07_2024_155055490.json
             "maxNumberOfOffersToReturn": "500",
             "maxNumberOfUpsellsToReturn": "",
+========
+            "maxNumberOfOffersToReturn": "50",
+            "maxNumberOfUpsellsToReturn": "4",
+>>>>>>>> e1182942e2055461cb37986026479dc58f9051f6:Extents/NDC-AF-MULTICITY_3PTC_11_07_2024_102425/NDC-Search/ReqRes11_07_2024_102433496.json
             "PassengerCriteria": [
                 {
                     "@type": "PassengerCriteria",
                     "number": 1,
+                    "passengerTypeCode": "INF"
+                },
+                {
+                    "@type": "PassengerCriteria",
+                    "number": 1,
                     "passengerTypeCode": "ADT"
+                },
+                {
+                    "@type": "PassengerCriteria",
+                    "number": 1,
+                    "passengerTypeCode": "CHD"
                 }
             ],
             "SearchCriteriaFlight": [
                 {
                     "@type": "SearchCriteriaFlight",
+<<<<<<<< HEAD:Extents/NDC-EK-RETURN_1PTC_17_07_2024_155050/NDC-Search/ReqRes17_07_2024_155055490.json
                     "departureDate": "2024-08-16",
+========
+                    "departureDate": "2024-08-10",
+>>>>>>>> e1182942e2055461cb37986026479dc58f9051f6:Extents/NDC-AF-MULTICITY_3PTC_11_07_2024_102425/NDC-Search/ReqRes11_07_2024_102433496.json
                     "From": {
                         "cityOrAirport": "Airport Only",
-                        "value": "HKG"
+                        "value": "DEL"
                     },
                     "To": {
                         "cityOrAirport": "Airport Only",
-                        "value": "DXB"
+                        "value": "MEX"
                     }
                 },
                 {
                     "@type": "SearchCriteriaFlight",
+<<<<<<<< HEAD:Extents/NDC-EK-RETURN_1PTC_17_07_2024_155050/NDC-Search/ReqRes17_07_2024_155055490.json
                     "departureDate": "2024-08-21",
+========
+                    "departureDate": "2024-08-15",
+>>>>>>>> e1182942e2055461cb37986026479dc58f9051f6:Extents/NDC-AF-MULTICITY_3PTC_11_07_2024_102425/NDC-Search/ReqRes11_07_2024_102433496.json
                     "From": {
                         "cityOrAirport": "Airport Only",
-                        "value": "DXB"
+                        "value": "MEX"
                     },
                     "To": {
                         "cityOrAirport": "Airport Only",
-                        "value": "HKG"
+                        "value": "AMS"
                     }
                 }
             ],
@@ -45,14 +68,14 @@
                         "@type": "CarrierPreference",
                         "preferenceType": "Permitted",
                         "carriers": [
-                            "EK"
+                            "AF"
                         ]
                     }
                 ]
             },
             "PricingModifiersAir": {
                 "@type": "PricingModifiersAir",
-                "currencyCode": "USD"
+                "currencyCode": "EUR"
             },
             "CustomResponseModifiersAir": {
                 "@type": "CustomResponseModifiersAir",
