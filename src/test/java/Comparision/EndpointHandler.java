@@ -45,6 +45,7 @@ import io.restassured.specification.FilterableRequestSpecification;
 import io.restassured.specification.FilterableResponseSpecification;
 import io.restassured.specification.RequestSender;
 import io.restassured.specification.RequestSpecification;
+import Comparision.GlobalVariable;
 import io.restassured.response.ResponseBody;
 import io.restassured.response.ResponseBodyData;
 
@@ -54,7 +55,8 @@ public class EndpointHandler {
 //	public static String sFilePath = "C:\\Users\\uma.pal\\eclipse-workspace\\VersionComparision\\src\\test\\resources\\Payloads\\";
 	public static String sFilePath = GlobalVariable.sProjectPath + "\\src\\test\\resources\\Payloads\\";
 	public static String URL;
-
+	public static JsonSlurper GroovyParser = new JsonSlurper();
+	public static JSONParser parser = new JSONParser();
 	public static void main(String[] args) throws Exception {
 
 //		Scenario scenario = null;
@@ -420,14 +422,18 @@ public class EndpointHandler {
 		Object obj = jsonparser.parse(JSONFileString);
 		JSONObject jsonObject = (JSONObject) obj;
 		JSONArray jsonarray = new JSONArray();
-		String sProductOfferingsToken = GlobalVariable.sToken.toString().trim();
-		String sProductRefToken = GlobalVariable.sProductRef.toString().trim();
+		String sProductOfferingsToken = sToken.get("ProductOfferingsToken").trim();
+		String sProductRefToken = sToken.get("ProductRefToken").trim(); 		 
 		String sProductBrandOptionsToken = GlobalVariable.sProductBrandOptionsToken.toString().trim();
+		 
+		 
 		int i = 0;
 		String s1stPtcType;
 		String s1stPtcCnt = null;
 
 		try {
+			
+//			
 
 			ArrayList<Integer> iConfigurationInfo = new ArrayList<Integer>();
 			iConfigurationInfo = JsonPath.parse(JSONFileString)
@@ -507,23 +513,31 @@ public class EndpointHandler {
 				}
 
 			}
+			
+
+			String sCatalogIdenfierValue = GlobalVariable.sCatalogIdenfierValue;
 
 			JSONFileString = JsonPath.parse(JSONFileString)
-					.set("OfferQueryBuildFromProductsAtomic.CatalogOffering.Identifier.value", sProductOfferingsToken)
+					.set("OfferQueryBuildFromProductsAtomic.CatalogOffering.Identifier.value", sCatalogIdenfierValue)
 					.jsonString();
 
 			ArrayList<Integer> ProductOptions = new ArrayList<Integer>();
 			ProductOptions = JsonPath.parse(JSONFileString)
 					.read("OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions");
 
-			 
+		 
 			for (int k = 0; k < ProductOptions.size(); k++) {
 //			for (int k = 0; k < GlobalVariable.sProductBrandOptionsToken.size(); k++) {
 				
-				String sToken = GlobalVariable.sProductBrandOptionsToken.get(k); 
+//				String sToken = GlobalVariable.sProductBrandOptionsToken.get(k); 
+				String sCatalogProductOfferingTokens =  GlobalVariable.sCatalogProductOfferingTokens.get(k);
 				JSONFileString = JsonPath.parse(JSONFileString).set(
 						"OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions[" + k + "].Identifier.value",
-						sToken).jsonString();
+						sCatalogProductOfferingTokens).jsonString();
+				
+//				JSONFileString = JsonPath.parse(JSONFileString).set(
+//						"OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions[" + k + "].Identifier.value",
+//						sToken).jsonString();
 
 //			JSONFileString = JsonPath.parse(JSONFileString)
 //					.set("OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions[1].Identifier.value",sProductBrandOptionsToken).jsonString();
@@ -534,25 +548,57 @@ public class EndpointHandler {
 					.set("OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions[0].Identifier.authority",
 							GlobalVariable.Carrier.toString())
 					.jsonString();
+			
+//			public static JsonSlurper GroovyParser = new JsonSlurper();
+//			public static JSONParser parser = new JSONParser(); 
+			
+			JSONObject passengerCriteriaPayload = null;
+			Object passengerCriteriaPayloadTemplate = (JSONObject) parser
+					.parse(new FileReader(sFilePath.trim() + "\\PassengerCriteria.json"));
+			
+			passengerCriteriaPayload = (JSONObject) passengerCriteriaPayloadTemplate;
+			
 
 //			for (i = 0; i < sPassengerCountTag.size(); i++) {
 			for (String sPTC : scenario.sPtccnt.keySet()) {
 
 //			System.out.println("key: " + sPTC + " value: " + scenario.sPtccnt.get(sPTC));
+				
+				passengerCriteriaPayload.put("passengerTypeCode", sPTC);
+				passengerCriteriaPayload.put("number", scenario.sPtccnt.get(sPTC));
+				JSONFileString = JsonPath.parse(JSONFileString)
+						.add("OfferQueryBuildFromProductsAtomic.OfferQueryBuildFromProducts.BuildFromProductsRequest.PassengerCriteria",
+								passengerCriteriaPayload)
+						.jsonString();
+				
+//				x.OfferQueryBuildFromProductsAtomic.OfferQueryBuildFromProducts.BuildFromProductsRequest.PassengerCriteria
 
-				JSONFileString = JsonPath.parse(JSONFileString).set(
-						"OfferQueryBuildFromProductsAtomic.OfferQueryBuildFromProducts.BuildFromProductsRequest.PassengerCriteria["
-								+ i + "].passengerTypeCode",
-						sPTC).jsonString();
-
-				JSONFileString = JsonPath.parse(JSONFileString).set(
-						"OfferQueryBuildFromProductsAtomic.OfferQueryBuildFromProducts.BuildFromProductsRequest.PassengerCriteria["
-								+ i + "].number",
-						scenario.sPtccnt.get(sPTC)).jsonString();
+//				JSONFileString = JsonPath.parse(JSONFileString.toString()).set(
+//						"OfferQueryBuildFromProductsAtomic.OfferQueryBuildFromProducts.BuildFromProductsRequest.PassengerCriteria["
+//								+ i + "].passengerTypeCode",
+//						sPTC).jsonString();
+//
+//				JSONFileString = JsonPath.parse(JSONFileString).set(
+//						"OfferQueryBuildFromProductsAtomic.OfferQueryBuildFromProducts.BuildFromProductsRequest.PassengerCriteria["
+//								+ i + "].number",
+//						scenario.sPtccnt.get(sPTC)).jsonString();
 
 				i = i + 1;
 
 			}
+			
+		 
+//			GlobalVariable.Search_PayloadV11 = JsonPath.parse(GlobalVariable.Search_PayloadV11.toString())
+//					.add("CatalogProductOfferingsQueryRequest.CatalogProductOfferingsRequest.PassengerCriteria",
+//							passengerCriteriaPayload)
+//					.jsonString();
+			
+//			System.out.println(JsonOutput.prettyPrint(JSONFileString.toString()));
+//			System.out.println("JSONFileString"+JSONFileString);
+
+			
+			
+		
 
 		} catch (Exception ex) {
 
@@ -587,21 +633,28 @@ public class EndpointHandler {
 			JSONArray ja = new JSONArray();
 
 			RequestSpecification sPriceRequest = RestAssured.given().baseUri(URL).contentType(ContentType.JSON)
-					.body(sRequest).header("Content-Type", "application/json").header("Accept", "application/json")
-					.header("CityCode", GlobalVariable.CityCode)
+					.body(sRequest).header("Content-Type", "application/json")
+					.header("Accept", "application/json") 				
 					.header("domainlistenerchannelid", GlobalVariable.domainlistener)
 					.header("IATANumber", GlobalVariable.Iatanumber)
-					.header("E2ETrackingID", "E2ETrackingId")
-					.header("PseudoCityCode", GlobalVariable.PseudoCityCode)
-					.header("CurrencyCode", GlobalVariable.CurrencyCode)
-					.header("ReservationResource_Identifier", GlobalVariable.Resource_Identifier)
-					.header("DomainRegion", GlobalVariable.DomainRegion)
-					.header("CountryCode", GlobalVariable.CountryCode)
-					.header("CoreAffinity", GlobalVariable.CoreAffinity)
-					.header("OAUTH_RESOURCEOWNERINFO", GlobalVariable.oAuthResourceInfo)
-					.header("XAUTH_TRAVELPORT_ACCESSGROUP", GlobalVariable.Accessgroup).header("ChannelId", "1234")
-					.header("PCC", GlobalVariable.PCC).header("scc-rule-match-id", "test1234567")
-					.header("traceId", "srip_01").header("IDM_CARRIER_LIST", GlobalVariable.IDM_CARRIER_LIST)
+					.header("E2ETrackingID:", "d99e3588-9a02-4d89-a2c6-be40a4c1b89f")
+//					.header("PseudoCityCode", GlobalVariable.PseudoCityCode)
+//					.header("DomainRegion", GlobalVariable.DomainRegion)
+//					.header("CustomerCountry", GlobalVariable.CountryCode)
+//					.header("AgencyCountry", GlobalVariable.CountryCode)
+//					.header("GDSaffinity", GlobalVariable.CoreAffinity)					
+//					.header("TimeZone", "SBR")
+//					.header("OAUTH_RESOURCEOWNERINFO", GlobalVariable.oAuthResourceInfo)
+//					.header("XAUTH_TRAVELPORT_ACCESSGROUP", GlobalVariable.Accessgroup)
+//					.header("CurrencyCode", GlobalVariable.CurrencyCode)
+//					.header("ReservationResource_Identifier", GlobalVariable.Resource_Identifier)
+//					.header("ChannelId", "1234")
+//					.header("PCC", GlobalVariable.PCC)
+//					.header("scc-rule-match-id", "test1234567")
+//					.header("traceId", "srip_01")
+//					.header("IDM_CARRIER_LIST", GlobalVariable.IDM_CARRIER_LIST)
+//					.header("CityCode", GlobalVariable.CityCode)
+//					.header("domainlistenerchannelid", GlobalVariable.domainlistener)
 					;
 
 			FilterableRequestSpecification requestObject = (FilterableRequestSpecification) sPriceRequest;
@@ -659,13 +712,24 @@ public class EndpointHandler {
 		sToken.put("ProductOfferingsToken", sProductOfferingsToken);
 
 //		x.CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering[0].ProductBrandOptions[0].ProductBrandOffering[0].Product[0].productRef
-
+		 
+ 
+		String sCatalogIdenfierValue = JsonPath.read(sResponse,
+				"CatalogProductOfferingsResponse.CatalogProductOfferings.Identifier.value");
+		GlobalVariable.sCatalogIdenfierValue = sCatalogIdenfierValue;
+ 		   
+	
+//		x.CatalogProductOfferingsResponse.CatalogProductOfferings.Identifier.value
+		
+		
 		String sProductRefToken = JsonPath.read(sResponse,
 				"CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering[0].ProductBrandOptions[0].ProductBrandOffering[0].Product[0].productRef");
 //			   x.CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering[0].ProductBrandOptions[0].ProductBrandOffering[0].Product[0].productRef
 		sToken.put("ProductRefToken", sProductRefToken);
 
+		 
 		ArrayList<Integer> iProductBrandOptionsToken = new ArrayList<Integer>();
+		
 		iProductBrandOptionsToken = JsonPath.read(sResponse,
 				"CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering[0].ProductBrandOptions");
 
@@ -673,13 +737,37 @@ public class EndpointHandler {
 
 			sProductBrandOptionsToken = JsonPath.read(sResponse,
 					"CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering[0].ProductBrandOptions["+i+"].ProductBrandOffering[0].Identifier.value");
-			
+//		       x.CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering[0].ProductBrandOptions[0].ProductBrandOffering[0].Identifier.value	
+
 			GlobalVariable.sProductBrandOptionsToken.add(sProductBrandOptionsToken);
+//			System.out.println(GlobalVariable.sProductBrandOptionsToken);
 			
 		}
+		
+		ArrayList<Integer> iCatalogProductOfferingsize = new ArrayList<Integer>();
+		
+		 iCatalogProductOfferingsize = JsonPath.read(sResponse,
+				"CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering");
+//			x.CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering[0]
 
-//		       x.CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering[0].ProductBrandOptions[0].ProductBrandOffering[0].Identifier.value
-		System.out.println(GlobalVariable.sProductBrandOptionsToken);
+		for (int j = 0; j < iCatalogProductOfferingsize.size(); j++) {
+
+			String sCatalogProductOfferingTokens = JsonPath.read(sResponse,
+					"CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering["+j+"].ProductBrandOptions[0].ProductBrandOffering[0].Identifier.value");
+
+
+//			x.CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering[0].ProductBrandOptions[0].ProductBrandOffering[0].Identifier.value
+//			x.CatalogProductOfferingsResponse.CatalogProductOfferings.CatalogProductOffering[1].ProductBrandOptions[0].ProductBrandOffering[0].Identifier.value
+			
+			GlobalVariable.sCatalogProductOfferingTokens.add(sCatalogProductOfferingTokens);
+			
+			System.out.println(GlobalVariable.sCatalogProductOfferingTokens);
+			
+		}
+		
+		
+
+		
 
 //		System.out.println("sProductRefToken"+sProductRefToken);		
 //		System.out.println("sProductOfferingsToken"+sProductOfferingsToken);

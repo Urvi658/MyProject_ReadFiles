@@ -17,7 +17,7 @@ Feature: NDC-FareFamilyPrice-Return_ADT
     When Invoke the Search request 'Search_FareFamily_OpenJawOrReturnTrip_1PTC' with endpoint 'NDC-Search' Request for 'GEN-1' Version
     
     
-    When Invoke the Price request 'Price_MultiCity_EK_1PTC' with endpoint 'NDC-PRICE' for 'GEN-1' Version
+    When Invoke the Price request 'Price_MultiCity_EK_1PTC' with endpoint 'NDC-PRICE-EK' for 'GEN-1' Version
     When Invoke the Price request 'Price_MultiCity_EK_1PTC' with endpoint 'NDC-PRICE-EK' for 'GEN-3' Version
     Then Validate and Compare the responses for "Price" for both Versions
 

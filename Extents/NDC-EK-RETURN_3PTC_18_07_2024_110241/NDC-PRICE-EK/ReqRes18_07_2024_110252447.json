@@ -1,0 +1,13 @@
+{
+    "OfferListResponse": {
+        "Result": {
+            "@type": "Result",
+            "Error": [
+                {
+                    "@type": "Error",
+                    "Message": "Soap response error: Schema Compliance Error \nCode: 120000001 \nReason: Value cannot be empty.\nThe element '{http://www.iata.org/IATA/EDIST/2017.2}PassengerRefs' with value '' failed to parse.\n \n\n"
+                }
+            ]
+        }
+    }
+}

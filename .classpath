@@ -36,6 +36,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/TestData/NDC/xmlunit-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/uma.pal/eclipse-workspace/ComparisionJSONAndXML/src/test/resources/Jars/xmlunit-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/uma.pal/eclipse-workspace/NDC_VersionComparision_Repo/src/test/resources/Plugins/cucumber-eclipse-plugin-1.0.0-SNAPSHOT"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

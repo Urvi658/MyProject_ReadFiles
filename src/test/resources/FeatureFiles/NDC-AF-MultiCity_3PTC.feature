@@ -18,8 +18,6 @@ Feature: NDC-FareFamilyPrice-MultiCity_ADTCHDINF
     And with HCAProfileId 'ODTS_1G_680I_B58AEF' and BSPCode '016' and AgencyCountryCode '' 
     When Invoke the Search request 'Search_FareFamily_OpenJawOrReturnTrip_3PTC' with endpoint 'NDC-Search' Request for 'GEN-1' Version
     When Invoke the Price request 'Price_MultiCity_AF_3PTC' with endpoint 'NDC-PRICE' for 'GEN-1' Version
-    #When Invoke the Search request 'Search_FareFamily_OpenJawOrReturnTrip_3PTC' with endpoint 'NDC-Search' Request for 'GEN-1' Version
-   
     When Invoke the Price request 'Price_MultiCity_AF_3PTC' with endpoint 'NDC-PRICE' for 'GEN-3' Version
     Then Validate and Compare the responses for "Price" for both Versions
 

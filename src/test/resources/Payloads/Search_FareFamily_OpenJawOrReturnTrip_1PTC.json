@@ -47,7 +47,7 @@
       },
       "CustomResponseModifiersAir" : {
         "@type" : "CustomResponseModifiersAir",
-        "SearchRepresentation" : "Leg"
+        "SearchRepresentation" : "Journey"
       }
     }
   }

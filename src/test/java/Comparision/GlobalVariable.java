@@ -41,9 +41,15 @@ public class GlobalVariable {
     
     
     public static String Resource_Identifier;
-     
+    
     /**
      * <p>Profile default : (Manual&#47;Auto) The execution environment where the tests are going to run  Values &lt;DEV | INT | QAB | QAG | PF2 |PP&gt;  (Overrided value when isManualExec is set to false)</p>
+     */
+    
+    public static String sCatalogIdenfierValue;
+     
+    /**
+     * <p>sCatalogIdenfierValue to use in price as token</p>
      */
     public static Object testEnv;
      
@@ -127,6 +133,14 @@ public class GlobalVariable {
 //    public static Object sProductBrandOptionsToken;
     
     public static List<String> sProductBrandOptionsToken = new ArrayList<String>();
+    
+    /**
+     * <p>Profile default : sProductBrandOptionsToken Token required to in the web service object's requests</p>
+     */
+    
+    public static List<String> sCatalogProductOfferingTokens = new ArrayList<String>();
+    
+    
     
     /**
      * <p>Profile default : sProductBrandOptionsToken Token required to in the web service object's requests</p>

@@ -1,0 +1,70 @@
+{
+    "OfferQueryBuildFromProductsAtomic": {
+        "RuntimeAccessGroup": {
+            "@type": "RuntimeAccessGroupSummary",
+            "ConfigurationInfo": [
+                {
+                    "name": "PseudoCityCode",
+                    "value": "XB7"
+                },
+                {
+                    "name": "IATAnumber",
+                    "value": "02355662"
+                },
+                {
+                    "name": "GDSaffinity",
+                    "value": "1G"
+                },
+                {
+                    "name": "CustomerCountry",
+                    "value": "US"
+                },
+                {
+                    "name": "TimeZone",
+                    "value": "SBR"
+                },
+                {
+                    "name": "AgencyCountry",
+                    "value": "ES"
+                }
+            ]
+        },
+        "CatalogOffering": {
+            "@type": "CatalogOffering",
+            "Identifier": {
+                "authority": "EK",
+                "value": "9d2c9380-23f7-4a87-849d-6e154c1462bc"
+            },
+            "ProductOptions": [
+                {
+                    "@type": "ProductOptions",
+                    "sequence": 1,
+                    "Identifier": {
+                        "authority": "EK",
+                        "value": "WDREMEVFNTJGLUFDQTMtNEI4MC05NTlCLTF8WDREMEVFNTJGLUFDQTMtNEI4MC05NTlCfDIwMjQtMDctMTdUMjI6MTM6NDF8QURUOlg0RDBFRTUyRi1BQ0EzLTRCODAtOTU5Qi0xLTF8RUt8QVBJSm91cm5leVR5cGU6TGVnfEFQSUpvdXJuZXlUeXBlOkxlZ0ludGVybmF0aW9uYWw="
+                    }
+                },
+                {
+                    "@type": "ProductOptions",
+                    "sequence": 2,
+                    "Identifier": {
+                        "authority": "EK",
+                        "value": "WDREMEVFNTJGLUFDQTMtNEI4MC05NTlCLTE4fFg0RDBFRTUyRi1BQ0EzLTRCODAtOTU5QnwyMDI0LTA3LTE3VDIyOjEzOjQxfEFEVDpYNEQwRUU1MkYtQUNBMy00QjgwLTk1OUItMTgtMXxFS3xBUElKb3VybmV5VHlwZTpMZWd8QVBJSm91cm5leVR5cGU6TGVnSW50ZXJuYXRpb25hbA=="
+                    }
+                }
+            ]
+        },
+        "OfferQueryBuildFromProducts": {
+            "BuildFromProductsRequest": {
+                "@type": "BuildFromProductsRequestAir",
+                "PassengerCriteria": [
+                    {
+                        "@type": "PassengerCriteria",
+                        "number": 1,
+                        "passengerTypeCode": "ADT"
+                    }
+                ]
+            }
+        }
+    }
+}

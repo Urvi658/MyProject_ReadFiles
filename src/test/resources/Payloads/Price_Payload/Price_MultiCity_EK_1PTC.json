@@ -41,7 +41,7 @@
           "sequence": 1,
           "Identifier": {
             "authority": "EK",
-            "value": "WDJBRUZFNjg0LTVBMUMtNEVEQy1BMzZBLTF8WDJBRUZFNjg0LTVBMUMtNEVEQy1BMzZBfDIwMjQtMDctMDJUMDE6MzE6NDF8QURUOlgyQUVGRTY4NC01QTFDLTRFREMtQTM2QS0xLTF8RUt8QVBJSm91cm5leVR5cGU6TGVnfEFQSUpvdXJuZXlUeXBlOkxlZ0ludGVybmF0aW9uYWw="
+            "value": ""
           }
         },
         {
@@ -49,7 +49,7 @@
           "sequence": 2,
           "Identifier": {
             "authority": "EK",
-            "value": "WDJBRUZFNjg0LTVBMUMtNEVEQy1BMzZBLTI4fFgyQUVGRTY4NC01QTFDLTRFREMtQTM2QXwyMDI0LTA3LTAyVDAxOjMxOjQxfEFEVDpYMkFFRkU2ODQtNUExQy00RURDLUEzNkEtMjgtMXxFS3xBUElKb3VybmV5VHlwZTpMZWd8QVBJSm91cm5leVR5cGU6TGVnSW50ZXJuYXRpb25hbA=="
+            "value": ""
           }
         }
       ]
@@ -57,13 +57,7 @@
     "OfferQueryBuildFromProducts": {
       "BuildFromProductsRequest": {
         "@type": "BuildFromProductsRequestAir",
-        "PassengerCriteria": [
-          {
-            "@type": "PassengerCriteria",
-            "number": 1,
-            "passengerTypeCode": "ADT"
-          }
-        ]
+        "PassengerCriteria": []
       }
     }
   }
