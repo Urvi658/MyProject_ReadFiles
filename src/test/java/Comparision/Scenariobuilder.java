@@ -40,31 +40,43 @@ public class Scenariobuilder {
 //		System.out.println(GlobalVariable.DeptflightFrom);
 //		System.out.println(GlobalVariable.DeptflightTo);
 		GlobalVariable.DeptDate = ScenarioInvoker.ConvertDaystoDate(DeptDate, "yyyy-MM-dd");
+		
+		GlobalVariable.sOrigDest.add(DeptflightFrom);
+		GlobalVariable.sOrigDest.add(DeptflightTo);
+		GlobalVariable.sOrigDest.add(GlobalVariable.DeptDate.toString());
 //		System.out.println(GlobalVariable.DeptDate);
-
+		
 		String sTestStep = "<span style=color:white>" + Scenario.sTestStep.trim() + "</span>";
 		new ExtendReportCreation().createStepNodeInstance(sTestStep);
 	}
 
-	@And("^with onward flt from (.*) to (.*) with onward flt date (.*) days$")
-	public void DefineOnwrdFlight(String OnwrdflightFrom, String OnwrdflightTo, String fltDate) {
-		GlobalVariable.OnwrdflightFrom = OnwrdflightFrom;
-		GlobalVariable.OnwrdflightTo = OnwrdflightTo;
-		GlobalVariable.OnwrdDate = ScenarioInvoker.ConvertDaystoDate(fltDate, "yyyy-MM-dd");
-//		System.out.println(GlobalVariable.OnwrdDate);
-		String sTestStep = "<span style=color:white>" + Scenario.sTestStep.trim() + "</span>";
-		new ExtendReportCreation().createStepNodeInstance(sTestStep);
-	}
-
+	
 	@And("^with retn flight from (.*) to (.*) with retn date (.*) days$")
 	public void DefineRetnFlight(String RetnflightFrom, String RetnflightTo, String RetnDate) {
 		GlobalVariable.RetnflightFrom = RetnflightFrom;
 		GlobalVariable.RetnflightTo = RetnflightTo;
 		GlobalVariable.RetnDate = ScenarioInvoker.ConvertDaystoDate(RetnDate, "yyyy-MM-dd");
+		GlobalVariable.sOrigDest.add(RetnflightFrom);
+		GlobalVariable.sOrigDest.add(RetnflightTo);
+		GlobalVariable.sOrigDest.add(GlobalVariable.RetnDate.toString());
 //		System.out.println(GlobalVariable.RetnDate);
 		String sTestStep = "<span style=color:white>" + Scenario.sTestStep.trim() + "</span>";
 		new ExtendReportCreation().createStepNodeInstance(sTestStep);
 	}
+	
+	@And("^with onward flt from (.*) to (.*) with onward flt date (.*) days$")
+	public void DefineOnwrdFlight(String OnwrdflightFrom, String OnwrdflightTo, String fltDate) {
+		GlobalVariable.OnwrdflightFrom = OnwrdflightFrom;
+		GlobalVariable.OnwrdflightTo = OnwrdflightTo;
+		GlobalVariable.OnwrdDate = ScenarioInvoker.ConvertDaystoDate(fltDate, "yyyy-MM-dd");
+		GlobalVariable.sOrigDest.add(OnwrdflightFrom);
+		GlobalVariable.sOrigDest.add(OnwrdflightTo);
+		GlobalVariable.sOrigDest.add(GlobalVariable.OnwrdDate.toString());
+//		System.out.println(GlobalVariable.OnwrdDate);
+		String sTestStep = "<span style=color:white>" + Scenario.sTestStep.trim() + "</span>";
+		new ExtendReportCreation().createStepNodeInstance(sTestStep);
+	}
+
 
 	@And("^with carrier (.*) and idm_carrier_list (.*)$")
 	public void DefineCarrierAndIDMCarrierList(String Carrier, String IDM_CARRIER_LIST) {

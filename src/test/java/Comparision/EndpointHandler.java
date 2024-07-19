@@ -212,6 +212,45 @@ public class EndpointHandler {
 //				GlobalVariable.s1stPtcCnt).jsonString();
 
 //			System.out.println(scenario.sPtccnt.size());
+			
+			
+			
+			JSONObject OriginAndDestpayload = null;
+			Object OriginAndDestpayloadTemplate = (JSONObject) parser
+					.parse(new FileReader(sFilePath.trim() + "\\OriginAndDest.json"));
+			
+			OriginAndDestpayload = (JSONObject) OriginAndDestpayloadTemplate;
+			
+			
+//			
+			for (int iOrgDest = 0; iOrgDest < GlobalVariable.sOrigDest.size(); iOrgDest++) {
+//			
+				System.out.println(GlobalVariable.sOrigDest.get(iOrgDest));			
+
+
+				OriginAndDestpayload.put("departureDate", GlobalVariable.sOrigDest.get(iOrgDest));
+				OriginAndDestpayload.put("From", GlobalVariable.sOrigDest.get(iOrgDest));
+				OriginAndDestpayload.put("To", GlobalVariable.sOrigDest.get(iOrgDest));
+				
+//				OriginAndDestpayload = JsonPath.parse(OriginAndDestpayload).set("departureDate", GlobalVariable.sOrigDest.get(iOrgDest)).jsonString();
+//
+//				OriginAndDestpayload = JsonPath.parse(OriginAndDestpayload).set("From.value", GlobalVariable.sOrigDest.get(iOrgDest)).jsonString();
+//
+//				OriginAndDestpayload = JsonPath.parse(OriginAndDestpayload).set("To.value", GlobalVariable.sOrigDest.get(iOrgDest)).jsonString();
+
+////			    searchPayloadFormation = (JSONObject) parser.parse(JSONFileString);
+//			
+			}
+			
+			System.out.println(OriginAndDestpayloadTemplate);
+			
+//			JSONFileString = JsonPath.parse(JSONFileString)
+//					.add("CatalogProductOfferingsQueryRequest.CatalogProductOfferingsRequest.SearchCriteriaFlight",
+//							OriginAndDestpayloadTemplate)
+//					.jsonString();
+//			
+//			System.out.println(JsonOutput.prettyPrint(JSONFileString.toString()));
+			
 
 			ArrayList<Integer> sPassengerCountTag = new ArrayList<Integer>();
 			sPassengerCountTag = JsonPath.parse(JSONFileString)
@@ -221,21 +260,37 @@ public class EndpointHandler {
 			int i = 0;
 			String s1stPtcType;
 			String s1stPtcCnt = null;
+			
+			JSONObject passengerCriteriaPayload = null;
+			Object passengerCriteriaPayloadTemplate = (JSONObject) parser
+					.parse(new FileReader(sFilePath.trim() + "\\PassengerCriteria.json"));
+			
+				
+			passengerCriteriaPayload = (JSONObject) passengerCriteriaPayloadTemplate;
 
 //			for (i = 0; i < sPassengerCountTag.size(); i++) {
 			for (String sPTC : scenario.sPtccnt.keySet()) {
 
 //			System.out.println("key: " + sPTC + " value: " + scenario.sPtccnt.get(sPTC));
-
+				
+				passengerCriteriaPayload.put("passengerTypeCode", sPTC);
+				passengerCriteriaPayload.put("number", scenario.sPtccnt.get(sPTC));
 				JSONFileString = JsonPath.parse(JSONFileString)
-						.set("CatalogProductOfferingsQueryRequest.CatalogProductOfferingsRequest.PassengerCriteria[" + i
-								+ "].passengerTypeCode", sPTC)
+						.add("CatalogProductOfferingsQueryRequest.CatalogProductOfferingsRequest.PassengerCriteria",
+								passengerCriteriaPayload)
 						.jsonString();
+				
+				
 
-				JSONFileString = JsonPath.parse(JSONFileString)
-						.set("CatalogProductOfferingsQueryRequest.CatalogProductOfferingsRequest.PassengerCriteria[" + i
-								+ "].number", scenario.sPtccnt.get(sPTC))
-						.jsonString();
+//				JSONFileString = JsonPath.parse(JSONFileString)
+//						.set("CatalogProductOfferingsQueryRequest.CatalogProductOfferingsRequest.PassengerCriteria[" + i
+//								+ "].passengerTypeCode", sPTC)
+//						.jsonString();
+//
+//				JSONFileString = JsonPath.parse(JSONFileString)
+//						.set("CatalogProductOfferingsQueryRequest.CatalogProductOfferingsRequest.PassengerCriteria[" + i
+//								+ "].number", scenario.sPtccnt.get(sPTC))
+//						.jsonString();
 
 				i = i + 1;
 
@@ -761,7 +816,7 @@ public class EndpointHandler {
 			
 			GlobalVariable.sCatalogProductOfferingTokens.add(sCatalogProductOfferingTokens);
 			
-			System.out.println(GlobalVariable.sCatalogProductOfferingTokens);
+//			System.out.println(GlobalVariable.sCatalogProductOfferingTokens);
 			
 		}
 		

@@ -361,6 +361,14 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    
+    
+    public static List<String> sOrigDest = new ArrayList<String>();
+    /**
+     * <p></p>
+     */
+    
+    
     public static Object Carrier;
      
     /**

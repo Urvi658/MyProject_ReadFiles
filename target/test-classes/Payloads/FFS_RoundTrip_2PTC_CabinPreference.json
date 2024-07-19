@@ -1,0 +1,61 @@
+{
+  "CatalogProductOfferingsQueryRequest": {
+    "CatalogProductOfferingsRequest": {
+      "@type": "CatalogProductOfferingsRequestAir",
+      "PassengerCriteria": [
+        {
+          "@type": "PassengerCriteria",
+          "number": "",
+          "passengerTypeCode": ""
+        },
+        {
+          "@type": "PassengerCriteria",
+          "number": "",
+          "passengerTypeCode": ""
+        }
+      ],
+      "SearchCriteriaFlight": [
+        {
+          "departureDate": "{{departureDateSeg1}}",
+          "From": {
+            "cityOrAirport": "Airport Only",
+            "value": ""
+          },
+          "To": {
+            "cityOrAirport": "Airport Only",
+            "value": ""
+          }
+        },
+        {
+          "departureDate": "",
+          "From": {
+            "cityOrAirport": "Airport Only",
+            "value": ""
+          },
+          "To": {
+            "cityOrAirport": "Airport Only",
+            "value": ""
+          }
+        }
+      ],
+      "SearchModifiersAir": {
+        "CarrierPreference": [
+          {
+            "preferenceType": "Permitted",
+            "carriers": [ "" ]
+          }
+        ],
+        "CabinPreference": [
+          {
+            "@type": "CabinPreference",
+            "preferenceType": "",
+            "cabins": [ "" ]
+          }
+        ]
+      },
+      "PricingModifiersAir": {
+        "@type": "PricingModifiersAir"
+      }
+    }
+  }
+}
