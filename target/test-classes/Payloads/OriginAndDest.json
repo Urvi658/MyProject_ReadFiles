@@ -3,7 +3,7 @@
   "departureDate": "",
   "From": {
     "cityOrAirport": "Airport Only",
-    "value": ""
+    "value": "hello"
   },
   "To": {
     "cityOrAirport": "Airport Only",

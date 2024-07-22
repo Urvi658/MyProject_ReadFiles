@@ -12,7 +12,7 @@ Feature: NDC-FareFamilyPrice-RoundTrip_1ADT
     And with domainlistenerchannelid '11588c82-d48c-43e0-88c3-9b1dba2f7ad5' and environment 'Test'
     And with ReservationResource_Identifier '11588c82-d48c-43e0-88c3-9b1dba2f7ad5' and PCC '682J'
     And with 1 and 'ADT' passenger
-    And with CoreAffinity as '1G' and upsells value ''
+    And with CoreAffinity as '1G' and upsells value '' and OffersToReturn '' 
     And Ignore below keywords or values while comparing Gen-1 and Gen-3 responses
     #| IgnoreDecimalZero |
     | BrandRef |

@@ -1,5 +1,6 @@
 package Comparision;
 
+import java.util.ArrayList;
 import java.util.List;
 import org.junit.Assert;
 import com.aventstack.extentreports.Status;
@@ -15,6 +16,7 @@ import Comparision.ScenarioInvoker;
 public class Scenariobuilder {
 
 	CustomReport customReport = CustomReport.getInstance();
+	int iIterator = 0;
 
 	@Given("^a countrycode (.*) with citycode (.*) and iata (.*)$")
 	public void a_countrycode_us_with_citycode_bos_and_iata(String CountryCode, String CityCode, String Iatanumber) {
@@ -35,48 +37,57 @@ public class Scenariobuilder {
 
 	@And("^with dept flt from (.*) to (.*) with dept date (.*) days$")
 	public void DefineDepFlight(String DeptflightFrom, String DeptflightTo, String DeptDate) {
+		iIterator = iIterator + 1;
+		List<String> sOrigDest = new ArrayList<String>();
 		GlobalVariable.DeptflightFrom = DeptflightFrom;
 		GlobalVariable.DeptflightTo = DeptflightTo;
 //		System.out.println(GlobalVariable.DeptflightFrom);
 //		System.out.println(GlobalVariable.DeptflightTo);
 		GlobalVariable.DeptDate = ScenarioInvoker.ConvertDaystoDate(DeptDate, "yyyy-MM-dd");
-		
-		GlobalVariable.sOrigDest.add(DeptflightFrom);
-		GlobalVariable.sOrigDest.add(DeptflightTo);
-		GlobalVariable.sOrigDest.add(GlobalVariable.DeptDate.toString());
+
+		sOrigDest.add(DeptflightFrom);
+		sOrigDest.add(DeptflightTo);
+		sOrigDest.add(GlobalVariable.DeptDate.toString());
+		GlobalVariable.sOrigDestMap.put(iIterator, sOrigDest);
 //		System.out.println(GlobalVariable.DeptDate);
-		
+
 		String sTestStep = "<span style=color:white>" + Scenario.sTestStep.trim() + "</span>";
 		new ExtendReportCreation().createStepNodeInstance(sTestStep);
 	}
 
-	
 	@And("^with retn flight from (.*) to (.*) with retn date (.*) days$")
 	public void DefineRetnFlight(String RetnflightFrom, String RetnflightTo, String RetnDate) {
+
+		iIterator = iIterator + 1;
+		List<String> sOrigDest = new ArrayList<String>();
 		GlobalVariable.RetnflightFrom = RetnflightFrom;
 		GlobalVariable.RetnflightTo = RetnflightTo;
 		GlobalVariable.RetnDate = ScenarioInvoker.ConvertDaystoDate(RetnDate, "yyyy-MM-dd");
-		GlobalVariable.sOrigDest.add(RetnflightFrom);
-		GlobalVariable.sOrigDest.add(RetnflightTo);
-		GlobalVariable.sOrigDest.add(GlobalVariable.RetnDate.toString());
+		sOrigDest.add(RetnflightFrom);
+		sOrigDest.add(RetnflightTo);
+		sOrigDest.add(GlobalVariable.RetnDate.toString());
+		GlobalVariable.sOrigDestMap.put(iIterator, sOrigDest);
 //		System.out.println(GlobalVariable.RetnDate);
 		String sTestStep = "<span style=color:white>" + Scenario.sTestStep.trim() + "</span>";
 		new ExtendReportCreation().createStepNodeInstance(sTestStep);
 	}
-	
+
 	@And("^with onward flt from (.*) to (.*) with onward flt date (.*) days$")
 	public void DefineOnwrdFlight(String OnwrdflightFrom, String OnwrdflightTo, String fltDate) {
+
+		iIterator = iIterator + 1;
+		List<String> sOrigDest = new ArrayList<String>();
 		GlobalVariable.OnwrdflightFrom = OnwrdflightFrom;
 		GlobalVariable.OnwrdflightTo = OnwrdflightTo;
 		GlobalVariable.OnwrdDate = ScenarioInvoker.ConvertDaystoDate(fltDate, "yyyy-MM-dd");
-		GlobalVariable.sOrigDest.add(OnwrdflightFrom);
-		GlobalVariable.sOrigDest.add(OnwrdflightTo);
-		GlobalVariable.sOrigDest.add(GlobalVariable.OnwrdDate.toString());
+		sOrigDest.add(OnwrdflightFrom);
+		sOrigDest.add(OnwrdflightTo);
+		sOrigDest.add(GlobalVariable.OnwrdDate.toString());
+		GlobalVariable.sOrigDestMap.put(iIterator, sOrigDest);
 //		System.out.println(GlobalVariable.OnwrdDate);
 		String sTestStep = "<span style=color:white>" + Scenario.sTestStep.trim() + "</span>";
 		new ExtendReportCreation().createStepNodeInstance(sTestStep);
 	}
-
 
 	@And("^with carrier (.*) and idm_carrier_list (.*)$")
 	public void DefineCarrierAndIDMCarrierList(String Carrier, String IDM_CARRIER_LIST) {
@@ -237,7 +248,7 @@ public class Scenariobuilder {
 		new ExtendReportCreation().createStepNodeInstance(sTestStep);
 
 	}
-	
+
 	@And("^with HCAProfileId (.*) and BSPCode (.*) and AgencyCountryCode (.*)$")
 	public void defineHCAProfileID(String HCAprofileId, String BSPCode, String AgencyCountryCode) {
 
@@ -270,8 +281,7 @@ public class Scenariobuilder {
 			}
 
 		}
-		
-		
+
 		if (AgencyCountryCode.length() > 2) {
 
 			if (AgencyCountryCode.contains("'")) {
@@ -339,8 +349,7 @@ public class Scenariobuilder {
 			}
 
 		}
-		
-		
+
 		if (offertoreturn.length() > 2) {
 
 			if (offertoreturn.contains("'")) {
@@ -361,10 +370,6 @@ public class Scenariobuilder {
 			}
 
 		}
-		
-		
-		
-		
 
 		String sTestStep = "<span style=color:white>" + Scenario.sTestStep.trim() + "</span>";
 //		String infoMsg =  "Test";		

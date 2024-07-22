@@ -17,9 +17,9 @@ Feature: NDC-FareFamilyPrice-Return_3PTC
     And with CoreAffinity as '1G' and upsells value '' and OffersToReturn '500'      
     And with HCAProfileId '' and BSPCode '' and AgencyCountryCode 'ES'
     When Invoke the Search request 'Search_FareFamily_OpenJawOrReturnTrip' with endpoint 'NDC-Search' Request for 'GEN-1' Version    
-    #When Invoke the Price request 'Price_MultiCity_EK_1PTC' with endpoint 'NDC-PRICE-EK' for 'GEN-1' Version
-    #When Invoke the Price request 'Price_MultiCity_EK_1PTC' with endpoint 'NDC-PRICE-EK' for 'GEN-3' Version
-    #Then Validate and Compare the responses for "Price" for both Versions
+    When Invoke the Price request 'Price_MultiCity_EK_1PTC' with endpoint 'NDC-PRICE-EK' for 'GEN-1' Version
+    When Invoke the Price request 'Price_MultiCity_EK_1PTC' with endpoint 'NDC-PRICE-EK' for 'GEN-3' Version
+    Then Validate and Compare the responses for "Price" for both Versions
 
 	 Examples: 
       | countrycode | citycode | iata     | deptfltfrom | deptfltto | deptdays | retnfltfrom | retnfltto | retndays | carrieropt | idm_carrier_list | currencycode | pseudocitycode | domainregion |

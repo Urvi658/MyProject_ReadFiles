@@ -6,29 +6,7 @@
       "maxNumberOfOffersToReturn": "",
 	  "maxNumberOfUpsellsToReturn": "",
       "PassengerCriteria" : [],
-      "SearchCriteriaFlight" : [ {
-        "@type" : "SearchCriteriaFlight",
-        "departureDate" : "",
-        "From" : {
-          "cityOrAirport" : "Airport Only",
-          "value" : ""
-        },
-        "To" : {
-          "cityOrAirport" : "Airport Only",
-          "value" : ""
-        }
-      }, {
-        "@type" : "SearchCriteriaFlight",
-        "departureDate" : "",
-        "From" : {
-          "cityOrAirport" : "Airport Only",
-          "value" : ""
-        },
-        "To" : {
-          "cityOrAirport" : "Airport Only",
-          "value" : ""
-        }
-      } ],
+      "SearchCriteriaFlight" : [],
       "SearchModifiersAir" : {
         "@type" : "SearchModifiersAir",
         "CarrierPreference" : [ {

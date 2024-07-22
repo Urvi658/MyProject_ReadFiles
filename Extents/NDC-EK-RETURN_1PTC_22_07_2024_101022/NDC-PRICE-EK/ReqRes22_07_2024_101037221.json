@@ -1,0 +1,399 @@
+{
+    "OfferListResponse": {
+        "OfferID": [
+            {
+                "@type": "Offer",
+                "id": "o0",
+                "Identifier": {
+                    "authority": "EK",
+                    "value": "UDEwNUIyMTEtQzk5Ri00ODRCLTk2RTkyaDZiZGN1c2ZoeGxnLTF8UDEwNUIyMTEtQzk5Ri00ODRCLTk2RTl8MjAyNC0wNy0yMlQxNjozMDozNnxBRFQ6UDEwNUIyMTEtQzk5Ri00ODRCLTk2RTkyaDZiZGN1c2ZoeGxnLTEtMTpUMXxFSw=="
+                },
+                "Product": [
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT8H10M",
+                        "id": "p0",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "s1",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "Flight",
+                                    "duration": "PT8H10M",
+                                    "carrier": "EK",
+                                    "number": "383",
+                                    "operatingCarrier": "EK",
+                                    "operatingCarrierName": "Emirates",
+                                    "equipment": "77W",
+                                    "id": "f1",
+                                    "Identifier": {
+                                        "value": "Isgm0100c1c9e8473"
+                                    },
+                                    "Departure": {
+                                        "@type": "DepartureDetail",
+                                        "terminal": "1",
+                                        "location": "HKG",
+                                        "date": "2024-08-21",
+                                        "time": "19:00:00"
+                                    },
+                                    "Arrival": {
+                                        "@type": "ArrivalDetail",
+                                        "terminal": "3",
+                                        "location": "DXB",
+                                        "date": "2024-08-21",
+                                        "time": "23:10:00"
+                                    }
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1
+                                        ],
+                                        "classOfService": "L",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "L1EFPHK1",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "Brand",
+                                            "name": "Economy Saver"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT7H55M",
+                        "id": "p1",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "s2",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "Flight",
+                                    "duration": "PT7H55M",
+                                    "carrier": "EK",
+                                    "number": "380",
+                                    "operatingCarrier": "EK",
+                                    "operatingCarrierName": "Emirates",
+                                    "equipment": "388",
+                                    "id": "f2",
+                                    "Identifier": {
+                                        "value": "Isgm5300c1c9e8473"
+                                    },
+                                    "Departure": {
+                                        "@type": "DepartureDetail",
+                                        "terminal": "3",
+                                        "location": "DXB",
+                                        "date": "2024-08-26",
+                                        "time": "10:05:00"
+                                    },
+                                    "Arrival": {
+                                        "@type": "ArrivalDetail",
+                                        "terminal": "1",
+                                        "location": "HKG",
+                                        "date": "2024-08-26",
+                                        "time": "22:00:00"
+                                    }
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1
+                                        ],
+                                        "classOfService": "L",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "L1EFPHK1",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "Brand",
+                                            "name": "Economy Saver"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "Price": {
+                    "@type": "PriceDetail",
+                    "CurrencyCode": {
+                        "decimalPlace": 2,
+                        "value": "EUR"
+                    },
+                    "Base": 398.00,
+                    "TotalTaxes": 245.32,
+                    "TotalFees": 0.00,
+                    "TotalPrice": 643.32,
+                    "PriceBreakdown": [
+                        {
+                            "@type": "PriceBreakdownAir",
+                            "quantity": 1,
+                            "requestedPassengerType": "ADT",
+                            "Amount": {
+                                "@type": "Amount",
+                                "CurrencyCode": {
+                                    "value": "EUR"
+                                },
+                                "Base": 398.00,
+                                "Taxes": {
+                                    "@type": "TaxesDetail",
+                                    "TotalTaxes": 245.32,
+                                    "Tax": [
+                                        {
+                                            "taxCode": "HK",
+                                            "description": "Hong Kong Air Passenger Departure Tax",
+                                            "value": 14.08
+                                        },
+                                        {
+                                            "taxCode": "I5",
+                                            "description": "Hong Kong Airport Passenger Security Charge",
+                                            "value": 6.45
+                                        },
+                                        {
+                                            "taxCode": "G3",
+                                            "description": "Hong Kong Airport Construction Fee",
+                                            "value": 18.77
+                                        },
+                                        {
+                                            "taxCode": "ZR",
+                                            "description": "Intl Advanced Psgr Information Fee",
+                                            "value": 1.25
+                                        },
+                                        {
+                                            "taxCode": "YQ",
+                                            "description": "Fuel Surcharge",
+                                            "value": 86.79
+                                        },
+                                        {
+                                            "taxCode": "TP",
+                                            "description": "Psgr Security and Safety Fee",
+                                            "value": 1.25
+                                        },
+                                        {
+                                            "taxCode": "ZR",
+                                            "description": "Intl Advanced Psgr Information Fee",
+                                            "value": 1.25
+                                        },
+                                        {
+                                            "taxCode": "F6",
+                                            "description": "Passenger Facilities Charge",
+                                            "value": 9.98
+                                        },
+                                        {
+                                            "taxCode": "AE",
+                                            "description": "UAE Passenger Service Charge",
+                                            "value": 18.71
+                                        },
+                                        {
+                                            "taxCode": "YQ",
+                                            "description": "Fuel Surcharge",
+                                            "value": 86.79
+                                        }
+                                    ]
+                                },
+                                "Fees": {
+                                    "@type": "FeesDetail",
+                                    "TotalFees": 0.00
+                                },
+                                "Total": 643.32
+                            }
+                        }
+                    ]
+                },
+                "TermsAndConditionsFull": [
+                    {
+                        "@type": "TermsAndConditionsFullAir",
+                        "ExpiryDate": "2024-07-22T16:30:36Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "p1"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "Measurement": [
+                                            {
+                                                "measurementType": "Weight",
+                                                "unit": "Kilograms",
+                                                "value": 25
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "25K",
+                                    "CHECKED ALLOWANCE"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "CarryOn",
+                                "ProductRef": [
+                                    "p1"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "1PC",
+                                    "CARRY7KG 15LB UPTO45LI 115LCM"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "p0"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "Measurement": [
+                                            {
+                                                "measurementType": "Weight",
+                                                "unit": "Kilograms",
+                                                "value": 25
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "25K",
+                                    "CHECKED ALLOWANCE"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "CarryOn",
+                                "ProductRef": [
+                                    "p0"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "1PC",
+                                    "CARRY7KG 15LB UPTO45LI 115LCM"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "s1",
+                                    "s2"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Cancel",
+                                        "value": "ADT:Allowed"
+                                    },
+                                    {
+                                        "name": "Change",
+                                        "value": "ADT:Allowed"
+                                    },
+                                    {
+                                        "name": "Ticketing",
+                                        "value": "ADT:NON-END/SAVER"
+                                    },
+                                    {
+                                        "name": "Ticketing",
+                                        "value": "ADT:REWARD UPGDS  ALLOWED"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "EK"
+                            }
+                        ],
+                        "PaymentTimeLimit": "2024-08-21T13:00:00Z",
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "p0",
+                                            "p1"
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "p0",
+                                            "p1"
+                                        ]
+                                    }
+                                ],
+                                "PassengerTypeCodes": [
+                                    "ADT"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

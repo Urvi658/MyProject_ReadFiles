@@ -86,8 +86,11 @@ public class ScenarioInvocation {
 
 		if (scenario.version.contains("GEN-1") && (!scenario.RequestType.contains("NextLeg"))) {
 
-//			System.out.println("hellogen2");
+ 
+//			String sRequest = EndpointHandler.ParameterizeSearchRequest(scenario);
 			scenario.Response_Gen2 = EndpointHandler.SearchRequest(scenario);
+			
+			
 
 		} else if (scenario.version.contains("GEN-3") && (!scenario.RequestType.contains("NextLeg"))) {
 

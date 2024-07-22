@@ -1,6 +1,7 @@
 package Comparision;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class GlobalVariable {
@@ -367,7 +368,10 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    
+    public static HashMap<Integer,List> sOrigDestMap = new HashMap<Integer,List>();
+    /**
+     * <p></p>
+     */
     
     public static Object Carrier;
      

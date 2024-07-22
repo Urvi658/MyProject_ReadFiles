@@ -14,7 +14,7 @@ Feature: NDC-FareFamilySearch-ReturnTrip_2PTC
     And with ReservationResource_Identifier '11588c82-d48c-43e0-88c3-9b1dba2f7ad5' and PCC '795E'
     And with 1 and 'ADT' passenger
     And with 1 and 'CHD' passenger
-    And with CoreAffinity as '1G' and upsells value ''
+    And with CoreAffinity as '1G' and upsells value '4' and OffersToReturn '50' 
     #And Ignore below keywords or values while comparing Gen-1 and Gen-3 responses
     #| IgnoreDecimalZero |
     When Invoke the Search request 'Search_FareFamily_OpenJawOrReturnTrip_2PTC' with endpoint 'NDC-Search' Request for 'GEN-1' Version

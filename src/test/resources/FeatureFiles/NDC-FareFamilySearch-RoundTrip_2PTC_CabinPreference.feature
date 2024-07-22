@@ -13,7 +13,7 @@ Feature: FFS-RoundTrip_2PTC_CabinPreference
     And with ReservationResource_Identifier '11588c82-d48c-43e0-88c3-9b1dba2f7ad5' and PCC '795E'
     And with 2 and 'ADT' passenger
     And with 1 and 'CHD' passenger
-    And with CoreAffinity as '1G' and upsells value ''
+    And with CoreAffinity as '1G' and upsells value '4' and OffersToReturn '50' 
     And with cabinPreference 'Preferred' and cabinType 'Economy'
    
      
