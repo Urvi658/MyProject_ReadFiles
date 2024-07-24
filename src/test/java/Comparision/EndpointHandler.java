@@ -45,6 +45,7 @@ import io.restassured.specification.FilterableRequestSpecification;
 import io.restassured.specification.FilterableResponseSpecification;
 import io.restassured.specification.RequestSender;
 import io.restassured.specification.RequestSpecification;
+import Comparision.CommonOrchestration;
 import Comparision.GlobalVariable;
 import io.restassured.response.ResponseBody;
 import io.restassured.response.ResponseBodyData;
@@ -468,7 +469,6 @@ public class EndpointHandler {
 		File jsonDataInFile = new File(sRequestType);
 		Object jsonResp = newparser.parse(new FileReader(jsonDataInFile));
 		String JSONFileString = new JsonBuilder(jsonResp).toString();
-		JSONFileString = new JsonBuilder(jsonResp).toString();
 		JSONParser jsonparser = new JSONParser();
 		Object obj = jsonparser.parse(JSONFileString);
 		JSONObject jsonObject = (JSONObject) obj;
@@ -566,22 +566,60 @@ public class EndpointHandler {
 
 			String sCatalogIdenfierValue = GlobalVariable.sCatalogIdenfierValue;
 
-			JSONFileString = JsonPath.parse(JSONFileString)
-					.set("OfferQueryBuildFromProductsAtomic.CatalogOffering.Identifier.value", sCatalogIdenfierValue)
-					.jsonString();
+//			JSONFileString = JsonPath.parse(JSONFileString)
+//					.set("OfferQueryBuildFromProductsAtomic.CatalogOffering.Identifier.value", sCatalogIdenfierValue)
+//					.jsonString();
 
-			ArrayList<Integer> ProductOptions = new ArrayList<Integer>();
-			ProductOptions = JsonPath.parse(JSONFileString)
-					.read("OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions");
+//			ArrayList<Integer> ProductOptions = new ArrayList<Integer>();
+//			ProductOptions = JsonPath.parse(JSONFileString)
+//					.read("OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions");
+			
+			JSONArray jsonArray = new JSONArray();  
+			JSONObject ProductOptionPayload = null;
 
-			for (int k = 0; k < ProductOptions.size(); k++) {
+//			Object ProductOptionPayloadTemplate = GroovyParser.parse(new FileReader(sFilePath.trim() + "\\Price_Payload\\ProductOptions.json"));
+//			ProductOptionPayloadTemplate = new JsonBuilder(ProductOptionPayloadTemplate);
+//			System.out.println(ProductOptionPayloadTemplate);
+			Object ProductOptionPayloadTemplate = (JSONObject) parser.parse(new FileReader(sFilePath.trim() + "\\Price_Payload\\ProductOptions.json"));
+			
+			ProductOptionPayload = (JSONObject) ProductOptionPayloadTemplate;
+			JSONObject oAuthority = (JSONObject) ProductOptionPayload.get("Identifier");
+//			System.out.println(ProductOptionPayloadTemplate);
+			
+//			x[0]["@type"]
+//			x[0].sequence
+//			x[0].Identifier.authority
+//			x[0].Identifier.value
+			
+			
+
+//			for (int k = 0; k < ProductOptions.size(); k++) {
 //			for (int k = 0; k < GlobalVariable.sProductBrandOptionsToken.size(); k++) {
-
-//				String sToken = GlobalVariable.sProductBrandOptionsToken.get(k); 
+			for (int k = 0; k <GlobalVariable.sCatalogProductOfferingTokens.size();	k++) {	
+				
+				 
 				String sCatalogProductOfferingTokens = GlobalVariable.sCatalogProductOfferingTokens.get(k);
-				JSONFileString = JsonPath.parse(JSONFileString).set(
-						"OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions[" + k + "].Identifier.value",
-						sCatalogProductOfferingTokens).jsonString();
+//				ProductOptionPayload.put("@type", "ProductOptions");
+				ProductOptionPayload.put("sequence", k+1);
+				oAuthority.put("authority", GlobalVariable.Carrier.toString());
+				oAuthority.put("value", sCatalogProductOfferingTokens);
+				jsonArray.add(ProductOptionPayload);
+//				System.out.println(ProductOptionPayload);
+			
+//				ProductOptionPayloadTemplate = new JsonBuilder(ProductOptionPayloadTemplate);
+//				ProductOptionPayload.put("value",sCatalogProductOfferingTokens);
+//				
+				
+//				JSONFileString = JsonPath.parse(JSONFileString).set(
+//						"OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions[" + k + "].Identifier.value",
+//						sCatalogProductOfferingTokens).jsonString();			
+				
+				 
+				JSONFileString = JsonPath.parse(JSONFileString).add(
+						"OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions",
+						ProductOptionPayload).jsonString();
+				
+//				x.OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions
 
 //				JSONFileString = JsonPath.parse(JSONFileString).set(
 //						"OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions[" + k + "].Identifier.value",
@@ -592,13 +630,15 @@ public class EndpointHandler {
 
 			}
 
-			JSONFileString = JsonPath.parse(JSONFileString)
-					.set("OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions[0].Identifier.authority",
-							GlobalVariable.Carrier.toString())
-					.jsonString();
+//			JSONFileString = JsonPath.parse(JSONFileString)
+//					.set("OfferQueryBuildFromProductsAtomic.CatalogOffering.ProductOptions[0].Identifier.authority",
+//							GlobalVariable.Carrier.toString())
+//					.jsonString();
 
 //			public static JsonSlurper GroovyParser = new JsonSlurper();
 //			public static JSONParser parser = new JSONParser(); 
+			
+			System.out.println(JSONFileString);
 
 			JSONObject passengerCriteriaPayload = null;
 			Object passengerCriteriaPayloadTemplate = (JSONObject) parser

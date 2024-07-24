@@ -1,0 +1,19 @@
+{
+    "OfferListResponse": {
+        "@type": "OfferListResponse",
+        "Result": {
+            "@type": "Result",
+            "Error": [
+                {
+                    "@type": "ErrorDetail",
+                    "category": "UNKNOWN",
+                    "StatusCode": 200,
+                    "Message": "Passenger count mismatch, the offer has a different passenger count",
+                    "SourceID": "AF",
+                    "SourceCode": "2999",
+                    "SourceDescription": "Passenger count mismatch, the offer has a different passenger count"
+                }
+            ]
+        }
+    }
+}

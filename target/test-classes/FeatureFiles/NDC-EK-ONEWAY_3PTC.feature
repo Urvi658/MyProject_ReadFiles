@@ -5,7 +5,6 @@ Feature: NDC-FareFamilyPrice-Return_ADT
   Scenario Outline: Pricing Comparision Return 1-ADT for Gen-1 and Gen-3
     Given a countrycode <countrycode> with citycode <citycode> and iata <iata>
     And with dept flt from <deptfltfrom> to <deptfltto> with dept date <deptdays> days
-    And with retn flight from <retnfltfrom> to <retnfltto> with retn date <retndays> days
     And with carrier <carrieropt> and idm_carrier_list <idm_carrier_list>
     And with currencycode <currencycode> and pseudocitycode <pseudocitycode> and domainregion <domainregion>
     And with oAuthResourceInfo 'CD87751C-AD46-4EDB-9F53-7B0DE72D751E' and Accessgroup 'CD87751C-AD46-4EDB-9F53-7B0DE72D751E'
