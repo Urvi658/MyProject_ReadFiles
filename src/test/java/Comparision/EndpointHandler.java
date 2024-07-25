@@ -3,8 +3,12 @@ package Comparision;
 import static io.restassured.RestAssured.given;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -219,6 +223,7 @@ public class EndpointHandler {
 			Object OriginAndDestpayloadTemplate = (JSONObject) parser
 					.parse(new FileReader(sFilePath.trim() + "\\OriginAndDest.json"));
 
+//			System.out.println(OriginAndDestpayloadTemplate);
 			OriginAndDestpayload = (JSONObject) OriginAndDestpayloadTemplate;
 			JSONArray jsonArray = new JSONArray();
 
@@ -566,9 +571,7 @@ public class EndpointHandler {
 
 			String sCatalogIdenfierValue = GlobalVariable.sCatalogIdenfierValue;
 
-//			JSONFileString = JsonPath.parse(JSONFileString)
-//					.set("OfferQueryBuildFromProductsAtomic.CatalogOffering.Identifier.value", sCatalogIdenfierValue)
-//					.jsonString();
+
 
 //			ArrayList<Integer> ProductOptions = new ArrayList<Integer>();
 //			ProductOptions = JsonPath.parse(JSONFileString)
@@ -580,11 +583,15 @@ public class EndpointHandler {
 //			Object ProductOptionPayloadTemplate = GroovyParser.parse(new FileReader(sFilePath.trim() + "\\Price_Payload\\ProductOptions.json"));
 //			ProductOptionPayloadTemplate = new JsonBuilder(ProductOptionPayloadTemplate);
 //			System.out.println(ProductOptionPayloadTemplate);
-			Object ProductOptionPayloadTemplate = (JSONObject) parser.parse(new FileReader(sFilePath.trim() + "\\Price_Payload\\ProductOptions.json"));
 			
-			ProductOptionPayload = (JSONObject) ProductOptionPayloadTemplate;
+			
+			JSONFileString = JsonPath.parse(JSONFileString)
+					.set("OfferQueryBuildFromProductsAtomic.CatalogOffering.Identifier.value", sCatalogIdenfierValue)
+					.jsonString();
+			Object ProductOptionPayloadTemplate = (JSONObject) parser.parse(new FileReader(sFilePath.trim() + "\\Price_Payload\\ProductOptions.json"));
+			ProductOptionPayload = (JSONObject) ProductOptionPayloadTemplate;			
 			JSONObject oAuthority = (JSONObject) ProductOptionPayload.get("Identifier");
-//			System.out.println(ProductOptionPayloadTemplate);
+			System.out.println(ProductOptionPayloadTemplate);
 			
 //			x[0]["@type"]
 //			x[0].sequence
