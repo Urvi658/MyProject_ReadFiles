@@ -1,0 +1,80 @@
+{
+    "OfferQueryBuildFromProductsAtomic": {
+        "RuntimeAccessGroup": {
+            "@type": "RuntimeAccessGroupSummary",
+            "ConfigurationInfo": [
+                {
+                    "name": "PseudoCityCode",
+                    "value": "XB7"
+                },
+                {
+                    "name": "IATAnumber",
+                    "value": "02345243"
+                },
+                {
+                    "name": "GDSaffinity",
+                    "value": "1G"
+                },
+                {
+                    "name": "CustomerCountry",
+                    "value": "AU"
+                },
+                {
+                    "name": "TimeZone",
+                    "value": "SBR"
+                },
+                {
+                    "name": "AgencyCountry",
+                    "value": ""
+                }
+            ]
+        },
+        "CatalogOffering": {
+            "@type": "CatalogOffering",
+            "Identifier": {
+                "authority": "EK",
+                "value": "11588c82-d48c-43e0-88c3-9b1dba2f7ad5"
+            },
+            "ProductOptions": [
+                {
+                    "sequence": 1,
+                    "Identifier": {
+                        "authority": "QF",
+                        "value": "WDU5NDQ2QzE0LThGNi00NjcyLThGNjktMXxYNTk0NDZDMTQtOEY2LTQ2NzItOEY2OXwyMDI0LTA3LTI1VDE4OjU1OjE3fElORjpYNTk0NDZDMTQtOEY2LTQ2NzItOEY2OS0xLTMsQURUOlg1OTQ0NkMxNC04RjYtNDY3Mi04RjY5LTEtMSxDSEQ6WDU5NDQ2QzE0LThGNi00NjcyLThGNjktMS0yfFFGfEFQSUpvdXJuZXlUeXBlOkxlZ3xDdXJyZW5jeUNvZGU6VVNEfEFQSUpvdXJuZXlUeXBlOkxlZ0ludGVybmF0aW9uYWw="
+                    },
+                    "@type": "ProductOptions"
+                },
+                {
+                    "sequence": 2,
+                    "Identifier": {
+                        "authority": "QF",
+                        "value": "WDU5NDQ2QzE0LThGNi00NjcyLThGNjktMTl8WDU5NDQ2QzE0LThGNi00NjcyLThGNjl8MjAyNC0wNy0yNVQxODo1NToxN3xJTkY6WDU5NDQ2QzE0LThGNi00NjcyLThGNjktMTktMyxBRFQ6WDU5NDQ2QzE0LThGNi00NjcyLThGNjktMTktMSxDSEQ6WDU5NDQ2QzE0LThGNi00NjcyLThGNjktMTktMnxRRnxBUElKb3VybmV5VHlwZTpMZWd8Q3VycmVuY3lDb2RlOlVTRHxBUElKb3VybmV5VHlwZTpMZWdJbnRlcm5hdGlvbmFs"
+                    },
+                    "@type": "ProductOptions"
+                }
+            ]
+        },
+        "OfferQueryBuildFromProducts": {
+            "BuildFromProductsRequest": {
+                "@type": "BuildFromProductsRequestAir",
+                "PassengerCriteria": [
+                    {
+                        "number": 1,
+                        "@type": "PassengerCriteria",
+                        "passengerTypeCode": "INF"
+                    },
+                    {
+                        "number": 1,
+                        "@type": "PassengerCriteria",
+                        "passengerTypeCode": "ADT"
+                    },
+                    {
+                        "number": 1,
+                        "@type": "PassengerCriteria",
+                        "passengerTypeCode": "CHD"
+                    }
+                ]
+            }
+        }
+    }
+}

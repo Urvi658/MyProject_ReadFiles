@@ -1,14 +1,14 @@
 @TestCase
-Feature: NDC-Price-MultiCity_ADT
+Feature: NDC-Price-Return_1ADT
 
   @ScenarioCreation1G
-  Scenario Outline: Pricing Comparision MultiCity 1-ADT for Gen-1 and Gen-3
+  Scenario Outline: Pricing Comparision Return 1-PTC for Gen-1 and Gen-3
     Given a countrycode <countrycode> with citycode <citycode> and iata <iata>
     And with dept flt from <deptfltfrom> to <deptfltto> with dept date <deptdays> days
     And with retn flight from <retnfltfrom> to <retnfltto> with retn date <retndays> days
     And with carrier <carrieropt> and idm_carrier_list <idm_carrier_list>
     And with currencycode <currencycode> and pseudocitycode <pseudocitycode> and domainregion <domainregion>
-    And with oAuthResourceInfo '76F0ABA9-9516-4E4D-B3D2-3DAA918B8618' and Accessgroup '76F0ABA9-9516-4E4D-B3D2-3DAA918B8618'
+    And with oAuthResourceInfo 'CD87751C-AD46-4EDB-9F53-7B0DE72D751E' and Accessgroup 'CD87751C-AD46-4EDB-9F53-7B0DE72D751E'
     And with domainlistenerchannelid '11588c82-d48c-43e0-88c3-9b1dba2f7ad5' and environment 'Test'
     And with ReservationResource_Identifier '11588c82-d48c-43e0-88c3-9b1dba2f7ad5' and PCC '682J'
     And with 1 and 'ADT' passenger
@@ -21,7 +21,7 @@ Feature: NDC-Price-MultiCity_ADT
 
 	 Examples: 
       | countrycode | citycode | iata     | deptfltfrom | deptfltto | deptdays | retnfltfrom | retnfltto | retndays | carrieropt | idm_carrier_list | currencycode | pseudocitycode | domainregion |
-      | FR          | PAR      | 2026159  | DEL         | MEX       |       30 | MEX         | AMS       |       35 | AF         | AF               | EUR          | 680I           | zu2-dv       |
+      | AU          | PAR      | 2026159  | SYD         | SIN       |       30 | SIN         | SYD       |       35 | QF         | QF               | EUR          | XB7           | zu2-dv       |
      
-
+ 
   

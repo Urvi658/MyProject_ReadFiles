@@ -591,7 +591,7 @@ public class EndpointHandler {
 			Object ProductOptionPayloadTemplate = (JSONObject) parser.parse(new FileReader(sFilePath.trim() + "\\Price_Payload\\ProductOptions.json"));
 			ProductOptionPayload = (JSONObject) ProductOptionPayloadTemplate;			
 			JSONObject oAuthority = (JSONObject) ProductOptionPayload.get("Identifier");
-			System.out.println(ProductOptionPayloadTemplate);
+//			System.out.println(ProductOptionPayloadTemplate);
 			
 //			x[0]["@type"]
 //			x[0].sequence

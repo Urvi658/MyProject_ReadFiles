@@ -1,0 +1,62 @@
+{
+    "OfferQueryBuildFromProductsAtomic": {
+        "RuntimeAccessGroup": {
+            "@type": "RuntimeAccessGroupSummary",
+            "ConfigurationInfo": [
+                {
+                    "name": "PseudoCityCode",
+                    "value": "XB7"
+                },
+                {
+                    "name": "IATAnumber",
+                    "value": "02355662"
+                },
+                {
+                    "name": "GDSaffinity",
+                    "value": "1G"
+                },
+                {
+                    "name": "CustomerCountry",
+                    "value": "US"
+                },
+                {
+                    "name": "TimeZone",
+                    "value": "SBR"
+                },
+                {
+                    "name": "AgencyCountry",
+                    "value": "ES"
+                }
+            ]
+        },
+        "CatalogOffering": {
+            "@type": "CatalogOffering",
+            "Identifier": {
+                "authority": "EK",
+                "value": "9d2c9380-23f7-4a87-849d-6e154c1462bc"
+            },
+            "ProductOptions": [
+                {
+                    "sequence": 1,
+                    "Identifier": {
+                        "authority": "EK",
+                        "value": "WDNFMUEzQzUzLTZBMEUtNDVGOS05MkVCLTF8WDNFMUEzQzUzLTZBMEUtNDVGOS05MkVCfDIwMjQtMDctMjlUMTk6MzM6MzR8QURUOlgzRTFBM0M1My02QTBFLTQ1RjktOTJFQi0xLTF8RUt8QVBJSm91cm5leVR5cGU6Sm91cm5leQ=="
+                    },
+                    "@type": "ProductOptions"
+                }
+            ]
+        },
+        "OfferQueryBuildFromProducts": {
+            "BuildFromProductsRequest": {
+                "@type": "BuildFromProductsRequestAir",
+                "PassengerCriteria": [
+                    {
+                        "number": 1,
+                        "@type": "PassengerCriteria",
+                        "passengerTypeCode": "ADT"
+                    }
+                ]
+            }
+        }
+    }
+}

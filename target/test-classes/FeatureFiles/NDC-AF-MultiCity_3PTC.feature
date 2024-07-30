@@ -1,8 +1,8 @@
 @TestCase
-Feature: NDC-FareFamilyPrice-MultiCity_ADTCHDINF
+Feature: NDC-Price-MultiCity_ADTCHDINF
 
   @ScenarioCreation1G
-  Scenario Outline: Pricing Comparision MultiCity 2-ADT And 2-CHD And 2-INF for Gen-1 and Gen-3
+  Scenario Outline: Pricing Comparision MultiCity 1-ADT And 1-CHD And 1-INF for Gen-1 and Gen-3
     Given a countrycode <countrycode> with citycode <citycode> and iata <iata>
     And with dept flt from <deptfltfrom> to <deptfltto> with dept date <deptdays> days
     And with retn flight from <retnfltfrom> to <retnfltto> with retn date <retndays> days

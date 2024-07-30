@@ -1,5 +1,5 @@
 @TestCase
-Feature: NDC-FareFamilyPrice-Return_ADT
+Feature: NDC-Price-Return_ADT
 
   @ScenarioCreation1G
   Scenario Outline: Pricing Comparision Return 1-ADT for Gen-1 and Gen-3
@@ -15,8 +15,6 @@ Feature: NDC-FareFamilyPrice-Return_ADT
     And with CoreAffinity as '1G' and upsells value '' and OffersToReturn '500'      
     And with HCAProfileId '' and BSPCode '' and AgencyCountryCode 'ES'
     When Invoke the Search request 'Search_FareFamily_OpenJawOrReturnTrip' with endpoint 'NDC-Search' Request for 'GEN-1' Version
-    
-    
     When Invoke the Price request 'Price_MultiCity_EK' with endpoint 'NDC-PRICE-EK' for 'GEN-1' Version
     When Invoke the Price request 'Price_MultiCity_EK' with endpoint 'NDC-PRICE-EK' for 'GEN-3' Version
     Then Validate and Compare the responses for "Price" for both Versions
