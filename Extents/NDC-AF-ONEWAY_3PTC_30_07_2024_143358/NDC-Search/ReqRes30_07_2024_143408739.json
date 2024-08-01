@@ -1,0 +1,61 @@
+{
+    "CatalogProductOfferingsQueryRequest": {
+        "@type": "CatalogProductOfferingsQueryRequest",
+        "CatalogProductOfferingsRequest": {
+            "@type": "CatalogProductOfferingsRequestAir",
+            "maxNumberOfOffersToReturn": "50",
+            "maxNumberOfUpsellsToReturn": "4",
+            "PassengerCriteria": [
+                {
+                    "number": 1,
+                    "@type": "PassengerCriteria",
+                    "passengerTypeCode": "INF"
+                },
+                {
+                    "number": 2,
+                    "@type": "PassengerCriteria",
+                    "passengerTypeCode": "ADT"
+                },
+                {
+                    "number": 2,
+                    "@type": "PassengerCriteria",
+                    "passengerTypeCode": "CHD"
+                }
+            ],
+            "SearchCriteriaFlight": [
+                {
+                    "@type": "SearchCriteriaFlight",
+                    "departureDate": "2024-08-29",
+                    "From": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "CDG"
+                    },
+                    "To": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "JFK"
+                    }
+                }
+            ],
+            "SearchModifiersAir": {
+                "@type": "SearchModifiersAir",
+                "CarrierPreference": [
+                    {
+                        "@type": "CarrierPreference",
+                        "preferenceType": "Permitted",
+                        "carriers": [
+                            "AF"
+                        ]
+                    }
+                ]
+            },
+            "PricingModifiersAir": {
+                "@type": "PricingModifiersAir",
+                "currencyCode": "EUR"
+            },
+            "CustomResponseModifiersAir": {
+                "@type": "CustomResponseModifiersAir",
+                "SearchRepresentation": "Journey"
+            }
+        }
+    }
+}

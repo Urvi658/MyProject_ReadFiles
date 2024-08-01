@@ -1,5 +1,6 @@
 package Comparision;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Assert;
@@ -7,6 +8,7 @@ import com.aventstack.extentreports.Status;
 import groovyjarjarpicocli.CommandLine.Model.Messages;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+ 
 import Comparision.CustomReport;
 import Comparision.ExtendReportCreation;
 import Comparision.GlobalVariable;
@@ -18,6 +20,7 @@ public class Scenariobuilder {
 	CustomReport customReport = CustomReport.getInstance();
 	int iIterator = 0;
 
+	 
 	@Given("^a countrycode (.*) with citycode (.*) and iata (.*)$")
 	public void a_countrycode_us_with_citycode_bos_and_iata(String CountryCode, String CityCode, String Iatanumber) {
 
@@ -98,11 +101,11 @@ public class Scenariobuilder {
 	}
 
 	@And("^with currencycode (.*) and pseudocitycode (.*) and domainregion (.*)$")
-	public void DefineCurrencyPseudoAndDomain(String CurrencyCode, String PseudoCityCode, String DomainRegion) {
+	public void DefineCurrencyPseudoAndDomain(String CurrencyCode, String PseudoCityCode, String DomainRegion) throws IOException {
 		GlobalVariable.CurrencyCode = CurrencyCode;
 		GlobalVariable.PseudoCityCode = PseudoCityCode;
 		GlobalVariable.DomainRegion = DomainRegion;
-
+		GenUtils.RetrievePCCDetails("C:\\Users\\uma.pal\\eclipse-workspace\\ComparisionJSONAndXML\\TestData\\PCC.xlsx","");
 		String sTestStep = "<span style=color:white>" + Scenario.sTestStep.trim() + "</span>";
 		new ExtendReportCreation().createStepNodeInstance(sTestStep);
 	}

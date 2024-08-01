@@ -2,6 +2,7 @@ package Comparision;
 import java.io.FileInputStream;
 import java.io.FileOutputStream; 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.io.File;
 import org.apache.poi.ss.usermodel.Cell;
@@ -16,7 +17,7 @@ public class GenUtils {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
-		RetrievePCCDetails("C:\\Users\\uma.pal\\eclipse-workspace\\ComparisionJSONAndXML\\TestData\\PCC.xlsx","E9G");
+//		RetrievePCCDetails("C:\\Users\\uma.pal\\eclipse-workspace\\ComparisionJSONAndXML\\TestData\\PCC.xlsx","E9G");
 
 	}
 	
@@ -26,6 +27,8 @@ public class GenUtils {
 		// Try block to check for exceptions 
 		
 		int iPCC = 0;
+		int iAccessgrp = 0;
+		 
 		
         try { 
 		 // Reading file from local directory 	
@@ -38,20 +41,38 @@ public class GenUtils {
         // Creating a blank Excel sheet 
         XSSFSheet sheet = workbook.getSheet("Sheet1"); 
         
+//        System.out.println(sheet.getRow(1).getCell(iPCC));
+//        System.out.println(sheet.getRow(0).getLastCellNum());
+//        System.out.println(sheet.getRow(0).getPhysicalNumberOfCells());
+          int iRowCnt = sheet.getLastRowNum();
+          
+          for(int i = 0 ; i< iRowCnt; i++) {
+        	  
+        	  
+        	  GlobalVariable.sPCCAndAccessGroupMap.put(sheet.getRow(i+1).getCell(0).toString(),sheet.getRow(i+1).getCell(2).toString());
+        	  
+        	  
+          }
+          
+          
         
         // Iterate through each rows one by one 
         Iterator<Row> rowIterator = sheet.iterator(); 
         
         while (rowIterator.hasNext()) { 
         	
+        	
         	Row row = rowIterator.next(); 
+        	Row row2 = rowIterator.next(); 
         	
         	Iterator<Cell> cellIterator = row.cellIterator(); 
         	
 //        	System.out.print(workbook.getSheet("Sheet1").getRow(0).getCell(iPCC)+ "\t");
         	
-        	row.setRowNum(iPCC);
-        	System.out.print(row.getCell(0));
+//        	row.setRowNum(iPCC);
+//        	System.out.print(row.getCell(0));
+//        	row2.setRowNum(iAccessgrp);
+//        	System.out.print(row2.getCell(0));
         	
         	 while (cellIterator.hasNext()) { 
         		  
@@ -68,7 +89,7 @@ public class GenUtils {
                  
                  // Case 1 
                  case "NUMERIC": 
-                     System.out.print(Math.round(cell.getNumericCellValue())); 
+//                     System.out.print(Math.round(cell.getNumericCellValue())); 
                      
                      break; 
 
@@ -85,6 +106,7 @@ public class GenUtils {
              } 
         	 
         	 iPCC++;
+        	 iAccessgrp++;
         	
         	 System.out.println(""); 
         	
@@ -92,6 +114,8 @@ public class GenUtils {
 		
         // Closing file output streams 
         file.close(); 
+        
+//        System.out.println(GlobalVariable.sPCCAndAccessGroupMap);
 		
 	 // Catch block to handle exceptions 
         }  catch (Exception e) { 

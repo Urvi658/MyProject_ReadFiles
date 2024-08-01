@@ -7,7 +7,7 @@ Feature: NDC-Price-Return_ADT
     And with dept flt from <deptfltfrom> to <deptfltto> with dept date <deptdays> days
     And with carrier <carrieropt> and idm_carrier_list <idm_carrier_list>
     And with currencycode <currencycode> and pseudocitycode <pseudocitycode> and domainregion <domainregion>
-    And with oAuthResourceInfo 'CD87751C-AD46-4EDB-9F53-7B0DE72D751E' and Accessgroup 'CD87751C-AD46-4EDB-9F53-7B0DE72D751E'
+    #And with oAuthResourceInfo 'CD87751C-AD46-4EDB-9F53-7B0DE72D751E' and Accessgroup 'CD87751C-AD46-4EDB-9F53-7B0DE72D751E'
     And with domainlistenerchannelid '9d2c9380-23f7-4a87-849d-6e154c1462bc' and environment 'Test'
     And with ReservationResource_Identifier '1c878f0a-81d8-4fd2-873d-40e77feab8a1' and PCC 'XB7'
     And with 1 and 'ADT' passenger

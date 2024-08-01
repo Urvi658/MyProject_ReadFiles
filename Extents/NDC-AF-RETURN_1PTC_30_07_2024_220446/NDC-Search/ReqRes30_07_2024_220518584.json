@@ -1,0 +1,63 @@
+{
+    "CatalogProductOfferingsQueryRequest": {
+        "@type": "CatalogProductOfferingsQueryRequest",
+        "CatalogProductOfferingsRequest": {
+            "@type": "CatalogProductOfferingsRequestAir",
+            "maxNumberOfOffersToReturn": "50",
+            "maxNumberOfUpsellsToReturn": "4",
+            "PassengerCriteria": [
+                {
+                    "number": 2,
+                    "@type": "PassengerCriteria",
+                    "passengerTypeCode": "ADT"
+                }
+            ],
+            "SearchCriteriaFlight": [
+                {
+                    "@type": "SearchCriteriaFlight",
+                    "departureDate": "2024-08-29",
+                    "From": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "CDG"
+                    },
+                    "To": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "BCN"
+                    }
+                },
+                {
+                    "@type": "SearchCriteriaFlight",
+                    "departureDate": "2024-09-03",
+                    "From": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "BCN"
+                    },
+                    "To": {
+                        "cityOrAirport": "Airport Only",
+                        "value": "CDG"
+                    }
+                }
+            ],
+            "SearchModifiersAir": {
+                "@type": "SearchModifiersAir",
+                "CarrierPreference": [
+                    {
+                        "@type": "CarrierPreference",
+                        "preferenceType": "Permitted",
+                        "carriers": [
+                            "AF"
+                        ]
+                    }
+                ]
+            },
+            "PricingModifiersAir": {
+                "@type": "PricingModifiersAir",
+                "currencyCode": "EUR"
+            },
+            "CustomResponseModifiersAir": {
+                "@type": "CustomResponseModifiersAir",
+                "SearchRepresentation": "Journey"
+            }
+        }
+    }
+}

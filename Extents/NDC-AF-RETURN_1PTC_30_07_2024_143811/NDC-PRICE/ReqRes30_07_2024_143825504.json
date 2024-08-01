@@ -1,0 +1,200 @@
+{
+    "OfferQueryBuildFromProductsAtomic": {
+        "@type": "OfferQueryBuildFromProductsAtomic",
+        "RuntimeAccessGroup": {
+            "@type": "RuntimeAccessGroupSummary",
+            "id": "76F0ABA9-9516-4E4D-B3D2-3DAA918B8618",
+            "AccessGroupInternalName": "AF29541C-54F2-4DC0-BA04-08B438290562.680I.1G",
+            "AccessGroupCustomerName": "Please Change Me! (680I 1G)",
+            "GlobalCustomerId": "AF29541C-54F2-4DC0-BA04-08B438290562",
+            "ConfigurationInfo": [
+                {
+                    "name": "AgencyPFARActivationIndicator",
+                    "value": "1"
+                },
+                {
+                    "name": "AgencyPFARPseudoCityCode"
+                },
+                {
+                    "name": "AgencyRegion",
+                    "value": "PAR"
+                },
+                {
+                    "name": "BSPCode",
+                    "value": "016"
+                },
+                {
+                    "name": "CustomerTypeCode",
+                    "value": "TRV"
+                },
+                {
+                    "name": "IATAnumber",
+                    "value": "2026159"
+                },
+                {
+                    "name": "NDCCode",
+                    "value": "PAR"
+                },
+                {
+                    "name": "PriceTierInd",
+                    "value": "1"
+                },
+                {
+                    "name": "TimeZone",
+                    "value": "PAR"
+                },
+                {
+                    "name": "AgencyName",
+                    "value": "MARCO ET VASCO"
+                },
+                {
+                    "name": "AgencyCountry",
+                    "value": ""
+                },
+                {
+                    "name": "AgencyClock",
+                    "value": "24"
+                },
+                {
+                    "name": "WHPS",
+                    "value": "51Y"
+                },
+                {
+                    "name": "TicketingAgency"
+                },
+                {
+                    "name": "PseudoCityCode",
+                    "value": "680I"
+                },
+                {
+                    "name": "PrinterAddress"
+                },
+                {
+                    "name": "PostalCode",
+                    "value": "75017"
+                },
+                {
+                    "name": "MasterGTID",
+                    "value": "B58AEF"
+                },
+                {
+                    "name": "HospitalityAggregators"
+                },
+                {
+                    "name": "HCAprofileId",
+                    "value": "ODTS_1G_680I_B58AEF"
+                },
+                {
+                    "name": "GDSaffinity",
+                    "value": "1G"
+                },
+                {
+                    "name": "CustomerSegmentCode",
+                    "value": "SBR"
+                },
+                {
+                    "name": "CustomerName",
+                    "value": "Marco et Vasco.fr"
+                },
+                {
+                    "name": "CustomerCountry",
+                    "value": "FR"
+                },
+                {
+                    "name": "CurrencyCode",
+                    "value": "EUR"
+                },
+                {
+                    "name": "CIDB",
+                    "value": "0000439202"
+                },
+                {
+                    "name": "AuthorizedCarriers",
+                    "value": "AA-AC-AD-AF-AH-AI-AM-AP-AR-AS-AT-AV-AY-AZ-BA-BE-BF-BG-BI-BJ-BM-BP-BR-BT-BV-BW-CA-CE-CI-CM-CU-CX-CZ-DE-DL-DT-DY-EB-EI-EK-EQ-ET-EY-FB-FI-GA-GF-GL-GP-GQ-HA-HC-HM-HR-HX-HY-IB-IE-IG-IZ-JD-JJ-JL-JP-JU-KC-KE-KF-KK-KM-KP-KQ-KU-LA-LH-LI-LO-LQ-LX-MD-ME-MF-MH-MK-MS-MU-NH-NP-NT-NX-NZ-OA-OB-OK-OM-OS-OU-OY-OZ-PC-PG-PR-PS-PU-PW-PX-PY-QF-QR-QV-RC-RJ-RO-SA-SB-SC-SE-SF-SK-SN-SQ-SS-ST-SU-SW-SZ-TB-TF-TG-TK-TM-TN-TP-TS-TU-TX-UA-UG-UL-UP-UT-UU-UX-VA-VN-VR-VS-VT-VW-VY-WB-WM-WS-WX-WY-XK-XQ-YE-YM-ZH-ZI-A3-A9-G3-J2-K6-L6-O6-P9-S4-T7-U6-V7-W2-W4-Y7-Z8-2I-2J-2L-3O-3S-4B-4O-4Z-5F-5O-6H-7V-8M-8Q-9B-9U-9W-B0-0B-"
+                },
+                {
+                    "name": "APIAuthCarriers",
+                    "value": "SQ-AF-KL-LH-LX-OS-SN"
+                },
+                {
+                    "name": "AgencyTypeCode",
+                    "value": "A"
+                },
+                {
+                    "name": "AgencyPFARGDSaffinity"
+                },
+                {
+                    "name": "AgencyGroup",
+                    "value": "00000044570"
+                },
+                {
+                    "name": "HospitalityCredentials"
+                }
+            ],
+            "CustomerName": "Marco et Vasco.fr",
+            "ProductEntitlement": [
+                {
+                    "@type": "ProductEntitlement",
+                    "id": "07F864CB-F42E-44F8-ADE3-144745D63AD2",
+                    "Code": "AGPY_KL",
+                    "Name": "AGENCY_PAYS_KL"
+                },
+                {
+                    "@type": "ProductEntitlement",
+                    "id": "7A0AD73F-CE4D-4A7C-9235-287618E5D4E9",
+                    "Code": "AIRK11",
+                    "Name": "AirKit_V11"
+                },
+                {
+                    "@type": "ProductEntitlement",
+                    "id": "D0903704-2BBA-4215-8F90-C0C03FEE83C7",
+                    "Code": "AGPY_AF",
+                    "Name": "AGENCY_PAYS_AF"
+                }
+            ]
+        },
+        "CatalogOffering": {
+            "@type": "CatalogOffering",
+            "Identifier": {
+                "authority": "AF",
+                "value": "11588c82-d48c-43e0-88c3-9b1dba2f7ad5"
+            },
+            "ProductOptions": [
+                {
+                    "sequence": 1,
+                    "Identifier": {
+                        "authority": "AF",
+                        "value": "YTNkYzdlYjAtNjhkMC00YTZhLTljN2UtYjA2OGQwNWEwMDAxfGNiODM3MTE5LTFkYjctNGZiZS04MzcxLTE5MWRiN2ZmYmVlMDpQQVgxLUFEVCxQQVgyLUFEVHwyMDI0LTA3LTMwVDIxOjA4OjE4fEFGfEFQSUpvdXJuZXlUeXBlOkpvdXJuZXk="
+                    },
+                    "@type": "ProductOptions"
+                },
+                {
+                    "sequence": 2,
+                    "Identifier": {
+                        "authority": "AF",
+                        "value": "YTNkYzdlYjAtNjhkMC00YTZhLTljN2UtYjA2OGQwNWEwMDAxfGNiODM3MTE5LTFkYjctNGZiZS04MzcxLTE5MWRiN2ZmYmVlMDpQQVgxLUFEVCxQQVgyLUFEVHwyMDI0LTA3LTMwVDIxOjA4OjE4fEFGfEFQSUpvdXJuZXlUeXBlOkpvdXJuZXk="
+                    },
+                    "@type": "ProductOptions"
+                }
+            ]
+        },
+        "OfferQueryBuildFromProducts": {
+            "returnBrandedFaresInd": true,
+            "BuildFromProductsRequest": {
+                "@type": "BuildFromProductsRequestAir",
+                "PassengerCriteria": [
+                    {
+                        "number": 2,
+                        "@type": "PassengerCriteria",
+                        "passengerTypeCode": "ADT"
+                    }
+                ],
+                "CustomResponseModifiersAir": {
+                    "@type": "CustomResponseModifiersAir",
+                    "SearchRepresentation": "Journey"
+                }
+            },
+            "FareRuleType": "ShortText"
+        }
+    }
+}

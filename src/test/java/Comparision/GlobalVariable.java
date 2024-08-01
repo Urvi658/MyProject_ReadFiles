@@ -373,6 +373,16 @@ public class GlobalVariable {
      * <p></p>
      */
     
+    public static HashMap<String,String> sPCCAndAccessGroupMap = new HashMap<String, String>();
+    /**
+     * <p></p>
+     */
+        
+    public static HashMap<String,String> sPCCAndIATACode = new HashMap<String, String>();
+    /**
+     * <p></p>
+     */
+    
     public static Object Carrier;
      
     /**

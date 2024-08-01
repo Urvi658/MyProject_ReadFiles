@@ -1,0 +1,1490 @@
+{
+    "CatalogProductOfferingsResponse": {
+        "CatalogProductOfferings": {
+            "@type": "CatalogProductOfferings",
+            "id": "AF_CPOS1",
+            "Identifier": {
+                "authority": "AF",
+                "value": "11588c82-d48c-43e0-88c3-9b1dba2f7ad5"
+            },
+            "CatalogProductOffering": [
+                {
+                    "@type": "CatalogProductOffering",
+                    "sequence": 1,
+                    "id": "AF_CPO0",
+                    "Identifier": {
+                        "authority": "AF",
+                        "value": "d420c2ac-5535-4cdf-9f08-4715e0a2f5de"
+                    },
+                    "Departure": "DEL",
+                    "Arrival": "MEX",
+                    "Brand": [
+                        {
+                            "@type": "BrandID",
+                            "BrandRef": "AFb0"
+                        }
+                    ],
+                    "ProductBrandOptions": [
+                        {
+                            "@type": "ProductBrandOptions",
+                            "ProductBrandOffering": [
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "AF",
+                                        "value": "YjYyOTViOTktN2JiMS00M2EzLWE5NWItOTk3YmIxZjMwMDAxfGUwYWZkZDcwLTZiY2YtNDI4My1hZmRkLTcwNmJjZjIyODMxZjpQQVgxLUFEVHwyMDI0LTA3LTMxVDIxOjUwOjAxfEFGfEFQSUpvdXJuZXlUeXBlOkpvdXJuZXk="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "EUR"
+                                        },
+                                        "Base": 1775.00,
+                                        "TotalTaxes": 372.83,
+                                        "TotalFees": 2.14,
+                                        "TotalPrice": 2149.97,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "EUR"
+                                                    },
+                                                    "Base": 1775.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 372.83
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 2.14,
+                                                        "Fee": [
+                                                            {
+                                                                "@type": "Fee",
+                                                                "description": "AggregatorFee",
+                                                                "FeeAmountOrPercent": {
+                                                                    "@type": "FeeAmountOrPercentAmount",
+                                                                    "Amount": {
+                                                                        "code": "EUR",
+                                                                        "value": 2.14
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Total": 2149.97
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "AFb0"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "AFp0"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "AFt0"
+                                    },
+                                    "CombinabilityCode": [
+                                        "AF_CC001"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "EUR"
+                                        },
+                                        "Base": 3550.00,
+                                        "TotalTaxes": 745.66,
+                                        "TotalFees": 4.29,
+                                        "TotalPrice": 4299.95,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "EUR"
+                                                    },
+                                                    "Base": 3550.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 745.66
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 4.29,
+                                                        "Fee": [
+                                                            {
+                                                                "@type": "Fee",
+                                                                "description": "AggregatorFee",
+                                                                "FeeAmountOrPercent": {
+                                                                    "@type": "FeeAmountOrPercentAmount",
+                                                                    "Amount": {
+                                                                        "code": "EUR",
+                                                                        "minorUnit": 0,
+                                                                        "value": 4.29
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Total": 4299.95
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "1fa342e5-2f77-4d47-8e49-405a2203ffb9"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "ProductBrandOptions",
+                            "ProductBrandOffering": [
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "AF",
+                                        "value": "YjYyOTViOTktN2JiMS00M2EzLWE5NWItOTk3YmIxZjMwMDAzfGM0M2Q0ODA2LWU2NjUtNDA4Yy1iZDQ4LTA2ZTY2NTAwOGNhNTpQQVgxLUFEVHwyMDI0LTA3LTMxVDIxOjUwOjAxfEFGfEFQSUpvdXJuZXlUeXBlOkpvdXJuZXk="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "EUR"
+                                        },
+                                        "Base": 1779.00,
+                                        "TotalTaxes": 384.37,
+                                        "TotalFees": 2.86,
+                                        "TotalPrice": 2166.23,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "EUR"
+                                                    },
+                                                    "Base": 1779.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 384.37
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 2.86,
+                                                        "Fee": [
+                                                            {
+                                                                "@type": "Fee",
+                                                                "description": "AggregatorFee",
+                                                                "FeeAmountOrPercent": {
+                                                                    "@type": "FeeAmountOrPercentAmount",
+                                                                    "Amount": {
+                                                                        "code": "EUR",
+                                                                        "value": 2.86
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Total": 2166.23
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "AFb0"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "AFp2"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "AFt1"
+                                    },
+                                    "CombinabilityCode": [
+                                        "AF_CC003"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "EUR"
+                                        },
+                                        "Base": 3558.00,
+                                        "TotalTaxes": 768.75,
+                                        "TotalFees": 5.72,
+                                        "TotalPrice": 4332.47,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "EUR"
+                                                    },
+                                                    "Base": 3558.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 768.75
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 5.72,
+                                                        "Fee": [
+                                                            {
+                                                                "@type": "Fee",
+                                                                "description": "AggregatorFee",
+                                                                "FeeAmountOrPercent": {
+                                                                    "@type": "FeeAmountOrPercentAmount",
+                                                                    "Amount": {
+                                                                        "code": "EUR",
+                                                                        "minorUnit": 0,
+                                                                        "value": 5.72
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Total": 4332.47
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "1fa342e5-2f77-4d47-8e49-405a2203ffb9"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "ProductBrandOptions",
+                            "ProductBrandOffering": [
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "AF",
+                                        "value": "YjYyOTViOTktN2JiMS00M2EzLWE5NWItOTk3YmIxZjMwMDA0fGM4ZjQ3Mjg4LWExMzAtNDEyMC1iNDcyLTg4YTEzMDYxMjBiMDpQQVgxLUFEVHwyMDI0LTA3LTMxVDIxOjUwOjAxfEFGfEFQSUpvdXJuZXlUeXBlOkpvdXJuZXk="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "EUR"
+                                        },
+                                        "Base": 1779.00,
+                                        "TotalTaxes": 384.37,
+                                        "TotalFees": 2.86,
+                                        "TotalPrice": 2166.23,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "EUR"
+                                                    },
+                                                    "Base": 1779.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 384.37
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 2.86,
+                                                        "Fee": [
+                                                            {
+                                                                "@type": "Fee",
+                                                                "description": "AggregatorFee",
+                                                                "FeeAmountOrPercent": {
+                                                                    "@type": "FeeAmountOrPercentAmount",
+                                                                    "Amount": {
+                                                                        "code": "EUR",
+                                                                        "value": 2.86
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Total": 2166.23
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "AFb0"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "AFp4"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "AFt2"
+                                    },
+                                    "CombinabilityCode": [
+                                        "AF_CC004"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "EUR"
+                                        },
+                                        "Base": 3558.00,
+                                        "TotalTaxes": 768.75,
+                                        "TotalFees": 5.72,
+                                        "TotalPrice": 4332.47,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "EUR"
+                                                    },
+                                                    "Base": 3558.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 768.75
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 5.72,
+                                                        "Fee": [
+                                                            {
+                                                                "@type": "Fee",
+                                                                "description": "AggregatorFee",
+                                                                "FeeAmountOrPercent": {
+                                                                    "@type": "FeeAmountOrPercentAmount",
+                                                                    "Amount": {
+                                                                        "code": "EUR",
+                                                                        "minorUnit": 0,
+                                                                        "value": 5.72
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Total": 4332.47
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "1fa342e5-2f77-4d47-8e49-405a2203ffb9"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "CatalogProductOffering",
+                    "sequence": 2,
+                    "id": "AF_CPO1",
+                    "Identifier": {
+                        "authority": "AF",
+                        "value": "e8081c22-2a33-47fc-860a-225cb33883ed"
+                    },
+                    "Departure": "MEX",
+                    "Arrival": "AMS",
+                    "Brand": [
+                        {
+                            "@type": "BrandID",
+                            "BrandRef": "AFb0"
+                        }
+                    ],
+                    "ProductBrandOptions": [
+                        {
+                            "@type": "ProductBrandOptions",
+                            "ProductBrandOffering": [
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "AF",
+                                        "value": "YjYyOTViOTktN2JiMS00M2EzLWE5NWItOTk3YmIxZjMwMDAxfGUwYWZkZDcwLTZiY2YtNDI4My1hZmRkLTcwNmJjZjIyODMxZjpQQVgxLUFEVHwyMDI0LTA3LTMxVDIxOjUwOjAxfEFGfEFQSUpvdXJuZXlUeXBlOkpvdXJuZXk="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "EUR"
+                                        },
+                                        "Base": 1775.00,
+                                        "TotalTaxes": 372.83,
+                                        "TotalFees": 2.14,
+                                        "TotalPrice": 2149.97,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "EUR"
+                                                    },
+                                                    "Base": 1775.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 372.83
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 2.14,
+                                                        "Fee": [
+                                                            {
+                                                                "@type": "Fee",
+                                                                "description": "AggregatorFee",
+                                                                "FeeAmountOrPercent": {
+                                                                    "@type": "FeeAmountOrPercentAmount",
+                                                                    "Amount": {
+                                                                        "code": "EUR",
+                                                                        "value": 2.14
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Total": 2149.97
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "AFb0"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "AFp6"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "AFt3"
+                                    },
+                                    "CombinabilityCode": [
+                                        "AF_CC001"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "EUR"
+                                        },
+                                        "Base": 3550.00,
+                                        "TotalTaxes": 745.66,
+                                        "TotalFees": 4.29,
+                                        "TotalPrice": 4299.95,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "EUR"
+                                                    },
+                                                    "Base": 3550.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 745.66
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 4.29,
+                                                        "Fee": [
+                                                            {
+                                                                "@type": "Fee",
+                                                                "description": "AggregatorFee",
+                                                                "FeeAmountOrPercent": {
+                                                                    "@type": "FeeAmountOrPercentAmount",
+                                                                    "Amount": {
+                                                                        "code": "EUR",
+                                                                        "minorUnit": 0,
+                                                                        "value": 4.29
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Total": 4299.95
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "1fa342e5-2f77-4d47-8e49-405a2203ffb9"
+                                },
+                                {
+                                    "@type": "ProductBrandOfferingHost",
+                                    "Identifier": {
+                                        "authority": "AF",
+                                        "value": "YjYyOTViOTktN2JiMS00M2EzLWE5NWItOTk3YmIxZjMwMDAzfGM0M2Q0ODA2LWU2NjUtNDA4Yy1iZDQ4LTA2ZTY2NTAwOGNhNTpQQVgxLUFEVHwyMDI0LTA3LTMxVDIxOjUwOjAxfEFGfEFQSUpvdXJuZXlUeXBlOkpvdXJuZXk="
+                                    },
+                                    "Price": {
+                                        "@type": "PriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "EUR"
+                                        },
+                                        "Base": 1779.00,
+                                        "TotalTaxes": 384.37,
+                                        "TotalFees": 2.86,
+                                        "TotalPrice": 2166.23,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "EUR"
+                                                    },
+                                                    "Base": 1779.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 384.37
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 2.86,
+                                                        "Fee": [
+                                                            {
+                                                                "@type": "Fee",
+                                                                "description": "AggregatorFee",
+                                                                "FeeAmountOrPercent": {
+                                                                    "@type": "FeeAmountOrPercentAmount",
+                                                                    "Amount": {
+                                                                        "code": "EUR",
+                                                                        "value": 2.86
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Total": 2166.23
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "Brand": {
+                                        "@type": "BrandID",
+                                        "BrandRef": "AFb0"
+                                    },
+                                    "Product": [
+                                        {
+                                            "@type": "ProductID",
+                                            "productRef": "AFp7"
+                                        }
+                                    ],
+                                    "TermsAndConditions": {
+                                        "@type": "TermsAndConditionsID",
+                                        "termsAndConditionsRef": "AFt3"
+                                    },
+                                    "CombinabilityCode": [
+                                        "AF_CC003",
+                                        "AF_CC004"
+                                    ],
+                                    "BestCombinablePrice": {
+                                        "@type": "BestCombinablePriceDetail",
+                                        "CurrencyCode": {
+                                            "decimalPlace": 2,
+                                            "value": "EUR"
+                                        },
+                                        "Base": 3558.00,
+                                        "TotalTaxes": 768.75,
+                                        "TotalFees": 5.72,
+                                        "TotalPrice": 4332.47,
+                                        "PriceBreakdown": [
+                                            {
+                                                "@type": "PriceBreakdownAir",
+                                                "quantity": 1,
+                                                "requestedPassengerType": "ADT",
+                                                "Amount": {
+                                                    "@type": "Amount",
+                                                    "CurrencyCode": {
+                                                        "decimalPlace": 2,
+                                                        "value": "EUR"
+                                                    },
+                                                    "Base": 3558.00,
+                                                    "Taxes": {
+                                                        "@type": "TaxesDetail",
+                                                        "TotalTaxes": 768.75
+                                                    },
+                                                    "Fees": {
+                                                        "@type": "FeesDetail",
+                                                        "TotalFees": 5.72,
+                                                        "Fee": [
+                                                            {
+                                                                "@type": "Fee",
+                                                                "description": "AggregatorFee",
+                                                                "FeeAmountOrPercent": {
+                                                                    "@type": "FeeAmountOrPercentAmount",
+                                                                    "Amount": {
+                                                                        "code": "EUR",
+                                                                        "minorUnit": 0,
+                                                                        "value": 5.72
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "Total": 4332.47
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "HostToken": "1fa342e5-2f77-4d47-8e49-405a2203ffb9"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "NextSteps": {
+            "@type": "NextSteps",
+            "NextStep": [
+                {
+                    "description": "0083RTSM000F0001T4N  4405ON   1   1     0  4216     0                              "
+                }
+            ]
+        },
+        "ReferenceList": [
+            {
+                "@type": "ReferenceListProduct",
+                "Product": [
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "P1DT5H55M",
+                        "id": "AFp0",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "AFs1"
+                                }
+                            },
+                            {
+                                "@type": "FlightSegment",
+                                "id": "2",
+                                "sequence": 2,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "AFs2"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1,
+                                            2
+                                        ],
+                                        "classOfService": "Y",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "YGS0AFNN",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "AFb0"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "P1DT2H35M",
+                        "id": "AFp2",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "AFs6"
+                                }
+                            },
+                            {
+                                "@type": "FlightSegment",
+                                "id": "2",
+                                "sequence": 2,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "AFs7"
+                                }
+                            },
+                            {
+                                "@type": "FlightSegment",
+                                "id": "3",
+                                "sequence": 3,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "AFs2"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1,
+                                            2,
+                                            3
+                                        ],
+                                        "classOfService": "Y",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "YGS0AFNN",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "AFb0"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "P1DT2H35M",
+                        "id": "AFp4",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "AFs6"
+                                }
+                            },
+                            {
+                                "@type": "FlightSegment",
+                                "id": "2",
+                                "sequence": 2,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "AFs8"
+                                }
+                            },
+                            {
+                                "@type": "FlightSegment",
+                                "id": "3",
+                                "sequence": 3,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "AFs2"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1,
+                                            2,
+                                            3
+                                        ],
+                                        "classOfService": "Y",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "YGS0AFNN",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "AFb0"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT10H40M",
+                        "id": "AFp6",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "AFs3"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1
+                                        ],
+                                        "classOfService": "Y",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "YFFMX",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "AFb0"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT10H40M",
+                        "id": "AFp7",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "1",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "FlightID",
+                                    "FlightRef": "AFs3"
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1
+                                        ],
+                                        "classOfService": "Y",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "YFFMX",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "BrandID",
+                                            "BrandRef": "AFb0"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "ReferenceListFlight",
+                "Flight": [
+                    {
+                        "@type": "FlightDetail",
+                        "stops": 0,
+                        "carrier": "AF",
+                        "number": "225",
+                        "operatingCarrier": "AF",
+                        "equipment": "772",
+                        "id": "AFs1",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "location": "DEL",
+                            "date": "2024-08-30",
+                            "time": "00:35:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "location": "CDG",
+                            "date": "2024-08-30",
+                            "time": "06:35:00"
+                        }
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "stops": 0,
+                        "carrier": "AF",
+                        "number": "6060",
+                        "operatingCarrier": "AM",
+                        "equipment": "788",
+                        "id": "AFs2",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "location": "CDG",
+                            "date": "2024-08-30",
+                            "time": "14:55:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "location": "MEX",
+                            "date": "2024-08-30",
+                            "time": "19:00:00"
+                        }
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "stops": 0,
+                        "carrier": "AF",
+                        "number": "8440",
+                        "operatingCarrier": "KL",
+                        "equipment": "781",
+                        "id": "AFs6",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "terminal": "3",
+                            "location": "DEL",
+                            "date": "2024-08-30",
+                            "time": "03:55:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "location": "AMS",
+                            "date": "2024-08-30",
+                            "time": "09:40:00"
+                        }
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "stops": 0,
+                        "carrier": "AF",
+                        "number": "1445",
+                        "operatingCarrier": "AF",
+                        "equipment": "321",
+                        "id": "AFs7",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "location": "AMS",
+                            "date": "2024-08-30",
+                            "time": "11:35:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "terminal": "2F",
+                            "location": "CDG",
+                            "date": "2024-08-30",
+                            "time": "12:55:00"
+                        }
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "stops": 0,
+                        "carrier": "AF",
+                        "number": "1341",
+                        "operatingCarrier": "AF",
+                        "equipment": "223",
+                        "id": "AFs8",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "location": "AMS",
+                            "date": "2024-08-30",
+                            "time": "10:35:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "terminal": "2F",
+                            "location": "CDG",
+                            "date": "2024-08-30",
+                            "time": "11:55:00"
+                        }
+                    },
+                    {
+                        "@type": "FlightDetail",
+                        "stops": 0,
+                        "carrier": "KL",
+                        "number": "686",
+                        "operatingCarrier": "KL",
+                        "equipment": "772",
+                        "id": "AFs3",
+                        "Departure": {
+                            "@type": "DepartureDetail",
+                            "terminal": "1",
+                            "location": "MEX",
+                            "date": "2024-09-04",
+                            "time": "20:05:00"
+                        },
+                        "Arrival": {
+                            "@type": "ArrivalDetail",
+                            "location": "AMS",
+                            "date": "2024-09-05",
+                            "time": "14:45:00"
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "ReferenceListBrand",
+                "Brand": [
+                    {
+                        "@type": "Brand",
+                        "name": "Flex",
+                        "id": "AFb0",
+                        "Identifier": {
+                            "authority": "Travelport",
+                            "value": "1405125"
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "ReferenceListTermsAndConditions",
+                "TermsAndConditions": [
+                    {
+                        "@type": "TermsAndConditionsAir",
+                        "id": "AFt0",
+                        "ExpiryDate": "2024-07-31T21:50:01Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "SecondCheckedBag",
+                                "ProductRef": [
+                                    "AFp0"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 2
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2
+                                ],
+                                "Text": [
+                                    "Checked"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "AFs1",
+                                    "AFs2"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Change",
+                                        "value": "Allowed"
+                                    },
+                                    {
+                                        "name": "Cancel",
+                                        "value": "Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "AF"
+                            }
+                        ],
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "AFp0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "EUR",
+                                                    "minorUnit": 2,
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "AFp0"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "EUR",
+                                                    "minorUnit": 2,
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "TermsAndConditionsAir",
+                        "id": "AFt1",
+                        "ExpiryDate": "2024-07-31T21:50:01Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "SecondCheckedBag",
+                                "ProductRef": [
+                                    "AFp2"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 2
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2,
+                                    3
+                                ],
+                                "Text": [
+                                    "Checked"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "AFs6",
+                                    "AFs7",
+                                    "AFs2"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Change",
+                                        "value": "Allowed"
+                                    },
+                                    {
+                                        "name": "Cancel",
+                                        "value": "Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "AF"
+                            }
+                        ],
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "AFp2"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "EUR",
+                                                    "minorUnit": 2,
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "AFp2"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "EUR",
+                                                    "minorUnit": 2,
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "TermsAndConditionsAir",
+                        "id": "AFt2",
+                        "ExpiryDate": "2024-07-31T21:50:01Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "SecondCheckedBag",
+                                "ProductRef": [
+                                    "AFp4"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 2
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2,
+                                    3
+                                ],
+                                "Text": [
+                                    "Checked"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "AFs6",
+                                    "AFs8",
+                                    "AFs2"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Change",
+                                        "value": "Allowed"
+                                    },
+                                    {
+                                        "name": "Cancel",
+                                        "value": "Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "AF"
+                            }
+                        ],
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "AFp4"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "EUR",
+                                                    "minorUnit": 2,
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "AFp4"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "EUR",
+                                                    "minorUnit": 2,
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "TermsAndConditionsAir",
+                        "id": "AFt3",
+                        "ExpiryDate": "2024-07-31T21:50:01Z",
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "SecondCheckedBag",
+                                "ProductRef": [
+                                    "AFp6",
+                                    "AFp7"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 2
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "Checked"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "AFs3"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Change",
+                                        "value": "Allowed"
+                                    },
+                                    {
+                                        "name": "Cancel",
+                                        "value": "Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "AF"
+                            }
+                        ],
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "ProductRefs": [
+                                            "AFp6",
+                                            "AFp7"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "EUR",
+                                                    "minorUnit": 2,
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "ProductRefs": [
+                                            "AFp6",
+                                            "AFp7"
+                                        ],
+                                        "Penalty": [
+                                            {
+                                                "@type": "PenaltyAmount",
+                                                "Amount": {
+                                                    "code": "EUR",
+                                                    "minorUnit": 2,
+                                                    "value": 0.00
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

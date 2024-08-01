@@ -1,0 +1,549 @@
+{
+    "OfferListResponse": {
+        "OfferID": [
+            {
+                "@type": "Offer",
+                "id": "o0",
+                "Identifier": {
+                    "authority": "AF",
+                    "value": "YjYyOTViOTktN2JiMS00M2EzLWE5NWItOTk3YmIxZjMwMDAxfGUwYWZkZDcwLTZiY2YtNDI4My1hZmRkLTcwNmJjZjIyODMxZjpQQVgxLUFEVHwyMDI0LTA3LTMxVDIxOjUwOjAxLjc5Mlp8QUY="
+                },
+                "Product": [
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "P1DT5H55M",
+                        "id": "p0",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "s1",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "Flight",
+                                    "carrier": "AF",
+                                    "number": "225",
+                                    "operatingCarrier": "AF",
+                                    "equipment": "772",
+                                    "id": "seg_1",
+                                    "Identifier": {
+                                        "value": "U0VHMQ=="
+                                    },
+                                    "Departure": {
+                                        "@type": "DepartureDetail",
+                                        "location": "DEL",
+                                        "date": "2024-08-30",
+                                        "time": "00:35:00"
+                                    },
+                                    "Arrival": {
+                                        "@type": "ArrivalDetail",
+                                        "location": "CDG",
+                                        "date": "2024-08-30",
+                                        "time": "06:35:00"
+                                    }
+                                }
+                            },
+                            {
+                                "@type": "FlightSegment",
+                                "id": "s2",
+                                "sequence": 2,
+                                "Flight": {
+                                    "@type": "Flight",
+                                    "carrier": "AF",
+                                    "number": "6060",
+                                    "operatingCarrier": "AM",
+                                    "equipment": "788",
+                                    "id": "seg_2",
+                                    "Identifier": {
+                                        "value": "U0VHMg=="
+                                    },
+                                    "Departure": {
+                                        "@type": "DepartureDetail",
+                                        "location": "CDG",
+                                        "date": "2024-08-30",
+                                        "time": "14:55:00"
+                                    },
+                                    "Arrival": {
+                                        "@type": "ArrivalDetail",
+                                        "location": "MEX",
+                                        "date": "2024-08-30",
+                                        "time": "19:00:00"
+                                    }
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1,
+                                            2
+                                        ],
+                                        "classOfService": "Y",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "YGS0AFNN",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "Brand",
+                                            "name": "Flex",
+                                            "Identifier": {
+                                                "authority": "Travelport",
+                                                "value": "1405125"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ProductAir",
+                        "totalDuration": "PT10H40M",
+                        "id": "p1",
+                        "FlightSegment": [
+                            {
+                                "@type": "FlightSegment",
+                                "id": "s3",
+                                "sequence": 1,
+                                "Flight": {
+                                    "@type": "Flight",
+                                    "carrier": "KL",
+                                    "number": "686",
+                                    "operatingCarrier": "KL",
+                                    "equipment": "772",
+                                    "id": "seg_3",
+                                    "Identifier": {
+                                        "value": "U0VHMw=="
+                                    },
+                                    "Departure": {
+                                        "@type": "DepartureDetail",
+                                        "terminal": "1",
+                                        "location": "MEX",
+                                        "date": "2024-09-04",
+                                        "time": "20:05:00"
+                                    },
+                                    "Arrival": {
+                                        "@type": "ArrivalDetail",
+                                        "location": "AMS",
+                                        "date": "2024-09-05",
+                                        "time": "14:45:00"
+                                    }
+                                }
+                            }
+                        ],
+                        "PassengerFlight": [
+                            {
+                                "@type": "PassengerFlight",
+                                "passengerQuantity": 1,
+                                "passengerTypeCode": "ADT",
+                                "FlightProduct": [
+                                    {
+                                        "@type": "FlightProduct",
+                                        "segmentSequence": [
+                                            1
+                                        ],
+                                        "classOfService": "Y",
+                                        "cabin": "Economy",
+                                        "fareBasisCode": "YFFMX",
+                                        "fareType": "PublicFare",
+                                        "Brand": {
+                                            "@type": "Brand",
+                                            "name": "Flex",
+                                            "Identifier": {
+                                                "authority": "Travelport",
+                                                "value": "1402881"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "Price": {
+                    "@type": "PriceDetail",
+                    "CurrencyCode": {
+                        "value": "EUR"
+                    },
+                    "Base": 3550.00,
+                    "TotalTaxes": 745.66,
+                    "TotalFees": 4.29,
+                    "TotalPrice": 4299.95,
+                    "PriceBreakdown": [
+                        {
+                            "@type": "PriceBreakdownAir",
+                            "quantity": 1,
+                            "requestedPassengerType": "ADT",
+                            "Amount": {
+                                "@type": "Amount",
+                                "CurrencyCode": {
+                                    "value": "EUR"
+                                },
+                                "Base": 3550.00,
+                                "Taxes": {
+                                    "@type": "TaxesDetail",
+                                    "TotalTaxes": 745.66,
+                                    "Tax": [
+                                        {
+                                            "taxCode": "YR",
+                                            "value": 7.38
+                                        },
+                                        {
+                                            "taxCode": "YR",
+                                            "value": 395.04
+                                        },
+                                        {
+                                            "taxCode": "FR",
+                                            "value": 3.30
+                                        },
+                                        {
+                                            "taxCode": "QX",
+                                            "value": 21.58
+                                        },
+                                        {
+                                            "taxCode": "IN",
+                                            "value": 0.69
+                                        },
+                                        {
+                                            "taxCode": "K3",
+                                            "value": 197.63
+                                        },
+                                        {
+                                            "taxCode": "P2",
+                                            "value": 13.06
+                                        },
+                                        {
+                                            "taxCode": "WO",
+                                            "value": 2.11
+                                        },
+                                        {
+                                            "taxCode": "S1",
+                                            "value": 9.45
+                                        },
+                                        {
+                                            "taxCode": "UK",
+                                            "value": 36.64
+                                        },
+                                        {
+                                            "taxCode": "XD",
+                                            "value": 58.78
+                                        }
+                                    ]
+                                },
+                                "Fees": {
+                                    "@type": "FeesDetail",
+                                    "TotalFees": 4.29,
+                                    "Fee": [
+                                        {
+                                            "@type": "Fee",
+                                            "description": "AggregatorFee",
+                                            "FeeAmountOrPercent": {
+                                                "@type": "FeeAmountOrPercentAmount",
+                                                "Amount": {
+                                                    "code": "EUR",
+                                                    "value": 4.29
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "Total": 4299.95
+                            }
+                        }
+                    ]
+                },
+                "TermsAndConditionsFull": [
+                    {
+                        "@type": "TermsAndConditionsFullAir",
+                        "ExpiryDate": "2024-07-31T21:50:01Z",
+                        "TextBlock": [
+                            {
+                                "@type": "TextBlockDetail",
+                                "description": "CCFEES",
+                                "title": "Consumer",
+                                "TextFormatted": [
+                                    {
+                                        "value": "vendor='AX' Type='Credit Card' name='American Express' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='DC' Type='Credit Card' name='Diners Club' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='JC' Type='Credit Card' name='JCB' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='TP' Type='Credit Card' name='UATP / AirPlus' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='CA' Type='Credit Card' name='Mastercard' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='VI' Type='Credit Card' name='Visa' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='EP' Type='Credit Card' name='EASYPAY' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='VI' Type='Debit Card' name='Visa Debit' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='CA' Type='Debit Card' name='Debit MasterCard' fee='0.00' currency='EUR'"
+                                    }
+                                ]
+                            },
+                            {
+                                "@type": "TextBlockDetail",
+                                "description": "CCFEES",
+                                "title": "Corporate",
+                                "TextFormatted": [
+                                    {
+                                        "value": "vendor='AX' Type='Credit Card' name='American Express' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='DC' Type='Credit Card' name='Diners Club' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='JC' Type='Credit Card' name='JCB' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='TP' Type='Credit Card' name='UATP / AirPlus' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='CA' Type='Credit Card' name='Mastercard' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='VI' Type='Credit Card' name='Visa' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='EP' Type='Credit Card' name='EASYPAY' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='VI' Type='Debit Card' name='Visa Debit' fee='0.00' currency='EUR'"
+                                    },
+                                    {
+                                        "value": "vendor='CA' Type='Debit Card' name='Debit MasterCard' fee='0.00' currency='EUR'"
+                                    }
+                                ]
+                            }
+                        ],
+                        "BaggageAllowance": [
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "p0"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2
+                                ],
+                                "Text": [
+                                    "2PC"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "SecondCheckedBag",
+                                "ProductRef": [
+                                    "p0"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1,
+                                    2
+                                ],
+                                "Text": [
+                                    "2PC"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "FirstCheckedBag",
+                                "ProductRef": [
+                                    "p1"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "2PC"
+                                ]
+                            },
+                            {
+                                "@type": "BaggageAllowanceDetail",
+                                "passengerTypeCodes": [
+                                    "ADT"
+                                ],
+                                "baggageType": "SecondCheckedBag",
+                                "ProductRef": [
+                                    "p1"
+                                ],
+                                "BaggageItem": [
+                                    {
+                                        "@type": "BaggageItem",
+                                        "quantity": 1
+                                    }
+                                ],
+                                "SegmentSequenceList": [
+                                    1
+                                ],
+                                "Text": [
+                                    "2PC"
+                                ]
+                            }
+                        ],
+                        "FareRuleInfo": [
+                            {
+                                "@type": "FareRuleInfoText",
+                                "flightsRefs": [
+                                    "s1",
+                                    "s2",
+                                    "s3"
+                                ],
+                                "ruleNumber": "70J",
+                                "TextFareRule": [
+                                    {
+                                        "name": "Cancel",
+                                        "value": "NoShow:Allowed"
+                                    },
+                                    {
+                                        "name": "Cancel",
+                                        "value": "BeforeDeparture:Allowed"
+                                    },
+                                    {
+                                        "name": "Cancel",
+                                        "value": "AfterDeparture:Allowed"
+                                    },
+                                    {
+                                        "name": "Change",
+                                        "value": "BeforeDeparture:Allowed"
+                                    },
+                                    {
+                                        "name": "Change",
+                                        "value": "AfterDeparture:Allowed"
+                                    }
+                                ]
+                            }
+                        ],
+                        "ValidatingAirline": [
+                            {
+                                "@type": "ValidatingAirline",
+                                "ValidatingAirline": "AF"
+                            }
+                        ],
+                        "Penalties": [
+                            {
+                                "@type": "Penalties",
+                                "Change": [
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0",
+                                            "p1"
+                                        ]
+                                    },
+                                    {
+                                        "@type": "ChangePermitted",
+                                        "penaltyTypes": [
+                                            "AfterDeparture"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0",
+                                            "p1"
+                                        ]
+                                    }
+                                ],
+                                "Cancel": [
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "penaltyTypes": [
+                                            "NoShow"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0",
+                                            "p1"
+                                        ]
+                                    },
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "penaltyTypes": [
+                                            "BeforeDeparture"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0",
+                                            "p1"
+                                        ]
+                                    },
+                                    {
+                                        "@type": "CancelPermitted",
+                                        "penaltyTypes": [
+                                            "AfterDeparture"
+                                        ],
+                                        "ProductRefs": [
+                                            "p0",
+                                            "p1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Result": {
+            "@type": "Result",
+            "Warning": [
+                {
+                    "@type": "Warning",
+                    "Message": "AF : Carry-on baggage allowance could not be retrieved for every connection"
+                },
+                {
+                    "@type": "Warning",
+                    "Message": "AF : TTL Missing - Retry Later"
+                },
+                {
+                    "@type": "Warning",
+                    "Message": "AF : Baggage allowance could not be retrieved for every connection"
+                },
+                {
+                    "@type": "Warning",
+                    "Message": "AF : Missing fare conditions"
+                }
+            ]
+        }
+    }
+}

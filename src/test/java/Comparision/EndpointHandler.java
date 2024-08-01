@@ -109,11 +109,13 @@ public class EndpointHandler {
 					.header("DomainRegion", GlobalVariable.DomainRegion)
 					.header("CountryCode", GlobalVariable.CountryCode)
 					.header("CoreAffinity", GlobalVariable.CoreAffinity)
-					.header("OAUTH_RESOURCEOWNERINFO", GlobalVariable.oAuthResourceInfo)
-					.header("XAUTH_TRAVELPORT_ACCESSGROUP", GlobalVariable.Accessgroup).header("ChannelId", "1234")
+//					.header("OAUTH_RESOURCEOWNERINFO", GlobalVariable.oAuthResourceInfo)
+					.header("OAUTH_RESOURCEOWNERINFO",GlobalVariable.sPCCAndAccessGroupMap.get(GlobalVariable.PseudoCityCode))
+//					.header("XAUTH_TRAVELPORT_ACCESSGROUP", GlobalVariable.Accessgroup).header("ChannelId", "1234")
+					.header("XAUTH_TRAVELPORT_ACCESSGROUP",GlobalVariable.sPCCAndAccessGroupMap.get(GlobalVariable.PseudoCityCode)).header("ChannelId", "1234")
 					.header("PCC", GlobalVariable.PCC).header("scc-rule-match-id", "test1234567")
 					.header("traceId", "srip_01").header("IDM_CARRIER_LIST", GlobalVariable.IDM_CARRIER_LIST);
-
+			
 ////		 if(sSearchRequest instanceof FilterableRequestSpecification){
 
 			FilterableRequestSpecification requestObject = (FilterableRequestSpecification) sSearchRequest;
@@ -237,10 +239,11 @@ public class EndpointHandler {
 
 //				for (int iOrgDest = 0; iOrgDest < ListOrgDests.size(); iOrgDest++) {
 
-				System.out.println(GlobalVariable.sOrigDestMap);
-				System.out.println(ListOrgDests.get(0));
-				System.out.println(ListOrgDests.get(1));
-				System.out.println(ListOrgDests.get(2));
+//				System.out.println(GlobalVariable.sOrigDestMap);
+//				System.out.println(ListOrgDests.get(0));
+//				System.out.println(ListOrgDests.get(1));
+//				System.out.println(ListOrgDests.get(2));
+				
 				oFrm.put("value", ListOrgDests.get(0));
 				jsonArray.add(oFrm);
 				oTo.put("value", ListOrgDests.get(1));
@@ -450,10 +453,10 @@ public class EndpointHandler {
 						GlobalVariable.offertoreturn.trim()).jsonString();
 			}
 
-//		JsonNode jsonnode = mapper.readTree(sRequestBody);
-//		System.out.println(jsonnode.toPrettyString());
+//		    JsonNode jsonnode = mapper.readTree(sRequestBody);
+//		    System.out.println(jsonnode.toPrettyString());
 
-			System.out.println(JsonOutput.prettyPrint(JSONFileString.toString()));
+//			System.out.println(JsonOutput.prettyPrint(JSONFileString.toString()));
 
 		} catch (Exception ex) {
 
