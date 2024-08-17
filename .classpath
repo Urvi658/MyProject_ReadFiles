@@ -20,5 +20,7 @@
 	<classpathentry kind="lib" path="C:/Users/Pratibha/eclipse-workspace/MyProject_ReadFiles/Jars/jackson-core-2.16.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Pratibha/eclipse-workspace/MyProject_ReadFiles/Jars/jackson-databind-2.16.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Pratibha/Downloads/gson-2.10.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pratibha/Downloads/aspose-cells-23.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pratibha/Downloads/json-20240303.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

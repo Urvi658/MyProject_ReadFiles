@@ -38,6 +38,7 @@ public class Excel_ReadFile_HashMap {
 	            	sPCC = sheet.getRow(r).getCell(0).toString();
 		            sAccess = sheet.getRow(r).getCell(2).toString();
 		            mPCCAccessmap.put(sPCC, sAccess);
+		            
 	                
 //	                if (cPCCType.toString() == "STRING" && cAccessType.toString() == "STRING") {
 //	                	
